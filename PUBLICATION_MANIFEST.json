@@ -9,8 +9,8 @@
       "bytes": 158
     },
     ".github/workflows/cpu-tests.yml": {
-      "sha256": "791156c1cf817da461cd978b839ae5777d4b062a022a91c8fdc90a1715a5fc27",
-      "bytes": 543
+      "sha256": "c89d77d005c6be5e6f445b214a63a4dd09e9cbe0d2804f3fcb1144fa8be44f13",
+      "bytes": 691
     },
     ".gitignore": {
       "sha256": "1bb91962d90420f602a7b7652c5fae4dfe29306114faa4502d97ecf498b51aed",

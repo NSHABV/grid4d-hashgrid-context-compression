@@ -13,7 +13,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12.14'
+          # Last available Windows 3.12 binary in actions/python-versions.
+          # Local historical measurements used 3.12.14; this is CI only.
+          python-version: '3.12.10'
           cache: pip
           cache-dependency-path: requirements-public.txt
       - run: python -m pip install -r requirements-public.txt
