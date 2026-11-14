@@ -1,0 +1,4 @@
+mode,total_bytes,pool_rows,fine_payload_bytes,pmf_bytes,mapping_bytes,threshold_bytes,header_bytes,outer_metadata_bytes,coarse_bytes,accepted_merges,candidates
+C0,152327,20,97304,5720,20,112,22,2308,46841,0,0
+C1,151908,18,97304,5301,20,112,22,2308,46841,0,0
+C2,148986,12,97376,2307,20,112,22,2308,46841,6,258

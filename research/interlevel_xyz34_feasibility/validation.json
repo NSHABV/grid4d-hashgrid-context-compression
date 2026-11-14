@@ -1,0 +1,355 @@
+{
+  "status": "PASS",
+  "unit_tests": {
+    "tests": 8,
+    "failures": 0,
+    "errors": 0
+  },
+  "checks": [
+    {
+      "test": "all fine rows, target uint8, CSV/NPZ/source SHA integrity",
+      "status": "PASS",
+      "input": "input-validation.json",
+      "log": "validation.log"
+    },
+    {
+      "test": "decoder-available context + official OOB flag/zero, no raw embeddings",
+      "status": "PASS",
+      "input": "previous audited replay + saved pairs",
+      "log": "validation.log"
+    },
+    {
+      "test": "slot split coverage/disjointness/determinism, spatial groups disjoint",
+      "status": "PASS",
+      "input": "split-validation.json + splits.npz",
+      "log": "validation.log"
+    },
+    {
+      "test": "class bins fit training only, held-out perturbation invariant",
+      "status": "PASS",
+      "input": "fitted_histograms.npz",
+      "log": "validation.log"
+    },
+    {
+      "test": "probabilities normalized/strictly positive, empty classes uniform",
+      "status": "PASS",
+      "input": "fitted_histograms.npz",
+      "log": "validation.log"
+    },
+    {
+      "test": "all candidates score exactly same held-out uint8 targets",
+      "status": "PASS",
+      "input": "per-split-results.csv",
+      "log": "validation.log"
+    },
+    {
+      "test": "total bits = bits/symbol * N, overhead estimates distinct from actual",
+      "status": "PASS",
+      "input": "per-split-results.csv + overhead-sensitivity.csv",
+      "log": "validation.log"
+    },
+    {
+      "test": "validation-only selection; no final-test selection",
+      "status": "PASS",
+      "input": "model-selection.json",
+      "log": "validation.log"
+    },
+    {
+      "test": "input artifacts unchanged after analysis",
+      "status": "PASS",
+      "input": "input-validation.json",
+      "log": "validation.log"
+    }
+  ],
+  "reproducibility": "PASS",
+  "GPU_indexing": "NOT RUN; reused prior exhaustive PASS",
+  "figure_checks": [
+    {
+      "test": "figures/distributions/IID-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "631afca8418484c9066f8068f28a4c36881c448fc7d967536e974b1f99dc5539",
+      "svg_sha256": "333843f7293c85e2a736a2743e5dfbbcf18a82dcde8b9fa9925c89d8dd9b75d3"
+    },
+    {
+      "test": "figures/probabilities/IID-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "b4f00246d5e9407c71d68c5b134fc5e108578927d3c7a32f329b01c02ceba373",
+      "svg_sha256": "871ccce7ca04ea4778247603253f97b61003d9a25ec7ec3eaa9996e3cf685992"
+    },
+    {
+      "test": "figures/distributions/IID-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "415d12167716e87dab3eea6be5c8de9277f6b633543d15db59fd87aac8d7e0d5",
+      "svg_sha256": "d8caea8a6a27f8595eafb62e0bb0e42e97632a1f4837e92a9a269a378e649f42"
+    },
+    {
+      "test": "figures/probabilities/IID-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "252c2677afd19b3afed1b89dea12d886e324d26c4b41aaad8f11a3f5b77eb9f3",
+      "svg_sha256": "86751ed930770d03b7262f5c7245c349bcf426eebd263b79d4a0b481e54b77e0"
+    },
+    {
+      "test": "figures/distributions/Boundary-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "89325662efe20d11591b2ba4839810ff54502954ea017fa386d1ea2d80b6e22c",
+      "svg_sha256": "1e008eb492c2bf2a5e7e84c03f5b9d6bdbbfadbd8ce62cba8c720413eefb50f6"
+    },
+    {
+      "test": "figures/probabilities/Boundary-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "a703c510da3e3a14c52c43dce4b3e3f85afeb8b6d248b4d907c208fae8f4a009",
+      "svg_sha256": "400dc604c1500d237b419487639b2f8b2756fb244584f9171b17ad830e2c9faa"
+    },
+    {
+      "test": "figures/distributions/Boundary-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "f0862509ed4a4d356126daf2e79fbb3561414803e704122af0419915e3a934ae",
+      "svg_sha256": "2f7361108f40e84f1f9c16fd131b7008550f397201e0aac12de969502325f576"
+    },
+    {
+      "test": "figures/probabilities/Boundary-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "ce69110ede678c020bc1571b205d23c485ffe742ed81b5d52920b2780e060fd4",
+      "svg_sha256": "232f6ecad2a0351aadf8a4e3dc65cb50fb3b1d9cd0d01b45d07ada3c18b24a22"
+    },
+    {
+      "test": "figures/distributions/uniform-Spatial-4-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "d28ecf57adbad94709c3dceb76525ec7bb8dc256a0699dfa3155155ea44fd2f1",
+      "svg_sha256": "0bc81724e27c4cce533cc5fd5755a6aa7d091ed51469b21712dcd26b1839511d"
+    },
+    {
+      "test": "figures/probabilities/uniform-Spatial-4-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "52a36f3d65169d7e5f59993770d076fb7338817a6da3e626e4e71b9c4fd049b7",
+      "svg_sha256": "9323b84adbe385b1da9e690829e7cc04394e94df1a230da01eaadef5c51903b4"
+    },
+    {
+      "test": "figures/distributions/uniform-Spatial-4-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "7fd296c72c86e3cdc447331a5e8ab984fffde88232e9a1e57707c6b2c1217c29",
+      "svg_sha256": "87676c8641ac2e5b9dfc8e78cd947697db37f2c1d9fa04d566a2b5461ae47adf"
+    },
+    {
+      "test": "figures/probabilities/uniform-Spatial-4-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "0c14a413e33fff25ebbc9db58ee0e1ddcd38f286a2085bae095946b38db271b0",
+      "svg_sha256": "caeedc6adedf67aa5b91ef2456e76df16c5ba4fa346a3c6c9434110c1d46c416"
+    },
+    {
+      "test": "figures/distributions/uniform-Spatial-8-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "c2b274e29470f1b73ce8f2fa0aa5cca6de56c855cd5a634d2424263cf7ea3fbc",
+      "svg_sha256": "66ea4698ccc382257a2531bf21a3f474a42b146312e69ae9476eb44d293eacc8"
+    },
+    {
+      "test": "figures/probabilities/uniform-Spatial-8-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "928844c45698d92b456ee4d287f3933c6b87ac4d05d30e9e3b314e3e16647ab9",
+      "svg_sha256": "1d60990251b7c0310b7fc44c2b487e408caf95cb1f3b16f48bc48bfc92cc4bd7"
+    },
+    {
+      "test": "figures/distributions/uniform-Spatial-8-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "9a1b349a6cae3081fcc9f1f3ed2747e9cc118a55c8af1f679d3e2a6f4c2d6928",
+      "svg_sha256": "5f8080a1560f593362a1bb49dffdd56e17fe4a60a13843cc8b6bff549cef6444"
+    },
+    {
+      "test": "figures/probabilities/uniform-Spatial-8-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "d35e506eafe417ddf05d817cd5d89de13851fc4b17ff48507236bc33465b87f1",
+      "svg_sha256": "b819db3e07cfe95de5fcd08a7a63d2b1727f55eed2c1906cf57ac87d31ee112a"
+    },
+    {
+      "test": "figures/distributions/uniform-Spatial-16-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "57e3bb08a3d0fc0a5b822c1ee64561f8413e022b44ab9d442ff8d16a58ef82b2",
+      "svg_sha256": "2b6b49dc8fa7771ad090275e0bb721716a21cb326db56c025c027c20699e73e4"
+    },
+    {
+      "test": "figures/probabilities/uniform-Spatial-16-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "c6b105cf836c882cd733fad736c331f6027c52c401966c9fa4ee4a18313eae49",
+      "svg_sha256": "7372fa6545089c1fb2194d435532959bfb3697a9dfa3a1991dda3e70da9ae03d"
+    },
+    {
+      "test": "figures/distributions/uniform-Spatial-16-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "8639e8ec29dcc352adb9e61531bc7a3c1d9f3b7ab493793f5b2077358e8b3dc5",
+      "svg_sha256": "1b39aacbc12f1283bedca95438552121ae8cefaee73d97b306bf8d7a4d0e4b1d"
+    },
+    {
+      "test": "figures/probabilities/uniform-Spatial-16-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "e82d2f3c431d13b4c20178203fc2507226866a17608715753b903f346516efe6",
+      "svg_sha256": "4fdd6aa07866a39f5a19b0d4d934a3cb1a4833d8f470070b11e7e7d1f5b6c16c"
+    },
+    {
+      "test": "figures/distributions/quantile-Spatial-4-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "769c9d7fd74d98543adf7275fefed1cc7507b6d85d5dfd14a6f4bfb2c56700da",
+      "svg_sha256": "f25d7e3a81d88ed3bfe817c7a5383805c42c0de7297ae795048326156e35b80e"
+    },
+    {
+      "test": "figures/probabilities/quantile-Spatial-4-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "d71b31bb5f89f9ff2c3b501c0221af0fb05a35e65dfe9f5fbfcdd312ab0396d7",
+      "svg_sha256": "4a3b3d04581589d63784fd662ef60e8ea1c237830d2459fbaba0a71beb85628b"
+    },
+    {
+      "test": "figures/distributions/quantile-Spatial-4-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "1d32f7eea97c3209227bec3ff6be4cb8bc6b0519b9b2c429985a5825914cbd5d",
+      "svg_sha256": "ff8ea2c665a8980238243e7797b40bf76ed4b568668ca60b7b7aeb505f8467ac"
+    },
+    {
+      "test": "figures/probabilities/quantile-Spatial-4-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "60e86e529bd980b32612b3ee47b13852372b6e00d3829a191df615a49b24a6aa",
+      "svg_sha256": "62a64ab58fa095918f11d314dc3308dbbc438828991626a1bf47c0cc64bb4e24"
+    },
+    {
+      "test": "figures/distributions/quantile-Spatial-8-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "2b9ea3833f8601f448dc724c0c9fe85c48ae8168bea52dc115d1864fc0027fcb",
+      "svg_sha256": "497d0bb32ad30683c6145c9110d7c9b6fc07536f66147bc899e5c7403253ba25"
+    },
+    {
+      "test": "figures/probabilities/quantile-Spatial-8-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "574459135bdc3003eed1bc8b48f83a5ed2050c2d2f6ecdcb8aff0b120173bcae",
+      "svg_sha256": "89bc7a5730036d7e1d58d52bae94b697a6f70f0feda18705dc0f7f4f89b62281"
+    },
+    {
+      "test": "figures/distributions/quantile-Spatial-8-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "c195d76010c342543e52c85dbc5a7ea9e2bfe6db0f4a4fbbe90318ca3e547adc",
+      "svg_sha256": "96bd9297e15aa7faf605f633067819827679d7fa159523ff54a550b810dbc429"
+    },
+    {
+      "test": "figures/probabilities/quantile-Spatial-8-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "beff0a2a2bb0e29c7860ab521089ec642fb5dede1e533eb67e45e73e8f646f20",
+      "svg_sha256": "99ff76f8ef7edbe822d95e56c5b9ce1ad0f7b46d4a69f2794f61e52da5dd9bfc"
+    },
+    {
+      "test": "figures/distributions/quantile-Spatial-16-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "ea693d29996646e4c4c9d254fe8b1eea4f560994a286a429e987621f4c1f6038",
+      "svg_sha256": "4f0d49922d36ba7ceb37056481aaaf0ad055e2d888171453c233f5c72efcae9a"
+    },
+    {
+      "test": "figures/probabilities/quantile-Spatial-16-ch0.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "e196278eb3e4a43fbfcd1423c61847557bad746e24f0f835e70fa0dc4ce9e418",
+      "svg_sha256": "2a4d711d580f1a5383ad5f0a727fa1e7bd564deb5a1ec10203133d899b37475b"
+    },
+    {
+      "test": "figures/distributions/quantile-Spatial-16-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "855dfce75db531161325908d070cf62f156b8bd5931a80da9ea60716d7900912",
+      "svg_sha256": "5951c3418152d3d0775f910cdae95a3e1152738fb22548f91a21e73e0a5bb9d0"
+    },
+    {
+      "test": "figures/probabilities/quantile-Spatial-16-ch1.png",
+      "status": "PASS",
+      "source": "representative-distributions.json",
+      "png_sha256": "1ff3cbff9a65f9ee57f89d74f9537071126e309ccca5c2ca1021da9eb8f3ff3e",
+      "svg_sha256": "1bce98c6979f8b84a39a8f33a3805595584bd2645da39950c881dac3972efa79"
+    },
+    {
+      "test": "figures/crossentropy-uniform.png",
+      "status": "PASS",
+      "source": "results.json",
+      "png_sha256": "c04a1a463b062b4881a2ec5595ad149a4eb2a9fd73420dd174b6ac1faeaca141",
+      "svg_sha256": "c82ef00443cbb3731a7317d8d8d529f8ac9d5b0e3d25e059ec9bf05eeab0ae0f"
+    },
+    {
+      "test": "figures/net-saving-uniform.png",
+      "status": "PASS",
+      "source": "results.json",
+      "png_sha256": "e328104afb671b886bf7a981173207b271b0c6bbfd090415bf693f46e2492c53",
+      "svg_sha256": "b3dbddf74f83debe64186868b186bbf9b46417acdd79b8840ab7a0f4df69bc8b"
+    },
+    {
+      "test": "figures/occupancy-uniform.png",
+      "status": "PASS",
+      "source": "class-occupancy.csv",
+      "png_sha256": "ad2790849d8d1d57224a358a675a0eb4416faae118fb95c1a77c2598c970b5ca",
+      "svg_sha256": "f6dccbcbe631ee46d500da2b35f982e6d4a1d032d35a2ddd89de16f905938b76"
+    },
+    {
+      "test": "figures/stability-uniform.png",
+      "status": "PASS",
+      "source": "results.json",
+      "png_sha256": "62bc44d2b70997c452c557163fb2fcc63bb8ea75653b010eee98437e39b8ab00",
+      "svg_sha256": "0ee29137df2fd57888a9f0b224eb9193c378fee7658138ea86d62472f67f0c4f"
+    },
+    {
+      "test": "figures/crossentropy-quantile.png",
+      "status": "PASS",
+      "source": "results.json",
+      "png_sha256": "384e205e37d8787213ddd2c4c62f09fa5020a73f2cfb79f4975bcef2c75c5a70",
+      "svg_sha256": "069aaffc2dc85bcbd592e1f08444ab39af2ad77e69bb2ef6b4b8fc08e5cf462f"
+    },
+    {
+      "test": "figures/net-saving-quantile.png",
+      "status": "PASS",
+      "source": "results.json",
+      "png_sha256": "21941d4b93630f2047c82ece86f55bff2ccee5db2c351d76c30d3b5fe31a3a48",
+      "svg_sha256": "1689f8037b7f34b23081f5b92f32f9a2406d78bb0ad853636f19350a149d8bd2"
+    },
+    {
+      "test": "figures/occupancy-quantile.png",
+      "status": "PASS",
+      "source": "class-occupancy.csv",
+      "png_sha256": "86f907eff9cf821cd7df755e9869359436ab7ae319452a115f8e42d761290174",
+      "svg_sha256": "5ba2dd419671a79f6f071bdbe790898f9aa7fa28106905ebbbd4ad6e08eb40e9"
+    },
+    {
+      "test": "figures/stability-quantile.png",
+      "status": "PASS",
+      "source": "results.json",
+      "png_sha256": "27e83b38f3097f64ee911adfe93ae8fd6b6bc4e1c7e8ff309b0b14343613de96",
+      "svg_sha256": "19c3b86f2308b79679dda65002ee6ea30dd4367e0bd52ed6cc2f45d45f03641e"
+    },
+    {
+      "test": "figures/overhead-sensitivity.png",
+      "status": "PASS",
+      "source": "results.json",
+      "png_sha256": "e40c066b5895755f969c0b999be1c89001566f8aad849d28f2e3933f8d57bb3e",
+      "svg_sha256": "00a0b91446017be64b6ce16fa2771f0ec6a5e18928d854a4e0327dea57b08351"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS_COMPLETED",
+  "EXISTING_GATE_STATUS": "WEAK_SIGNAL",
+  "SELECTED_FAMILY": "PREVIOUS8",
+  "ACTUAL_CONTEXTUAL_CODEC": "NOT_IMPLEMENTED",
+  "PROTOTYPE_AUTHORIZED": false,
+  "preserved_files": 42809,
+  "preservation_sha256": "28d739597f0b4dc8464d35a91d60e9fbe50c268d3d5dcd05b0d47bc01b977e1b",
+  "report_sha256": "d2d8c917b07f2dfe2ba2911371f83bcbeacba48a59d577a585f15bb53b13dd08",
+  "missing_data": [],
+  "next": "STOP"
+}

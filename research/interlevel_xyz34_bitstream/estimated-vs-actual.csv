@@ -1,0 +1,4 @@
+storage,estimated_net_vs_boundary_bytes,actual_net_vs_same_boundary_bytes,actual_net_vs_best_boundary_bytes
+dense_u32,-4679.2014245300015,-4599,-7637
+packed_u16,2488.7985754699985,2570,1579
+sparse_default_u16,8175.7985754699985,6292,6292

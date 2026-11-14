@@ -1,0 +1,111 @@
+{
+  "status": "FROZEN_BEFORE_HELLWARRIOR_L6_EVALUATION",
+  "date": "2026-10-22",
+  "run_id": "mean8_l56_cross_scene_20261022_01",
+  "grid": "xyz",
+  "pair": [
+    5,
+    6
+  ],
+  "channels": 2,
+  "models": [
+    "IID",
+    "Geometry4",
+    "Canonical8",
+    "Mean8"
+  ],
+  "scenes": [
+    "bouncingballs",
+    "hellwarrior"
+  ],
+  "scene_labels": {
+    "bouncingballs": "replication on previously studied checkpoint",
+    "hellwarrior": "fixed-method cross-level validation on independent second scene"
+  },
+  "checkpoints": {
+    "bouncingballs": {
+      "path": "outputs/grid4d/bouncingballs-reference-50000/deform/iteration_50000/deform.pth",
+      "sha256": "3306dabf8057728abfa7cda87d78c723b27a357f968fd7d721ea727ebd043090"
+    },
+    "hellwarrior": {
+      "path": "research/mean8_cross_scene_20261018_02/full/model/deform/iteration_50000/deform.pth",
+      "sha256": "4526ff7fe18a8570e97139dfa8d98882ab394ce49433113a4e29c36839ca6dc6"
+    }
+  },
+  "quantization": {
+    "bits": 8,
+    "scope": "whole xyz table",
+    "method": "reuse existing frozen scene-specific symbols; no requantization",
+    "rounding": "float64 affine nearest-even; dequantize float64 affine then float32"
+  },
+  "arithmetic": "cpu-f32-separate-ufunc-corner0to7-anchor-f64-addat-xfast-popstd-v1",
+  "numpy": "1.26.4",
+  "context": {
+    "eligible": "nominal v<R; point v<=floor(actual_scale); normalized u=f32(v)/f32(scale)",
+    "representative": "minimum eligible x-fast ordinal",
+    "aggregation": "unchanged anchored float64 mean of coarse interpolated float32 features",
+    "lookup": "official Grid4D uint32 stride-or-XOR; primes1,2654435761,805459861; modulo allocated rows; smoothstep corners0..7",
+    "fine_values_used": false,
+    "Mean8_bins_per_channel": 8,
+    "allocated_classes": {
+      "IID": 1,
+      "Geometry4": 4,
+      "Canonical8": 10,
+      "Mean8": 10
+    },
+    "fallback": "separate G0/G1; previous deterministic zero features",
+    "quantile": "linear float64, duplicate edges retained, searchsorted right"
+  },
+  "heldout": {
+    "split": [
+      64,
+      16,
+      20
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "unit": "fine slot; both channels and all correspondences together",
+    "fit": "train-only thresholds and histogram counts",
+    "freeze_before_test": true,
+    "primary": "Mean8 vs Geometry4; Canonical8 secondary",
+    "no_tuning_on_validation_or_test": true
+  },
+  "smoothing": "Laplace1, strictly positive16 masses, stable largest remainder",
+  "mass_sum": 65536,
+  "engine": "existing constriction0.4.2 indexed range; Categorical(perfect=False); finite16/coder24",
+  "actual": {
+    "fit": "all-scene thresholds and masses permitted, fully transmitted and paid",
+    "coarse": "IID L5 same bytes for all four models, no L4 dependency",
+    "order": "channel-major-slot-ascending-v1",
+    "transports": [
+      "dense_u32",
+      "packed_u16",
+      "sparse_default_u16"
+    ],
+    "choice": "minimum physical standalone size per model independently"
+  },
+  "success": "Per scene all exact fresh decodes and Mean8 physical total below min(IID,Geometry4,Canonical8); actual coding mandatory even if forecast negative",
+  "runtime": "12 transports/scene; one warmup plus3 measured byte-identical encode/decode repetitions per best model; sequential uncontented timings",
+  "known_prior_L6_bouncingballs": "Mean8 CE1.901429 vs Geometry4 1.904874; predicted net approximately -4086B; not independent evidence",
+  "new_hellwarrior_L6_results_seen": false,
+  "resources": {
+    "primary": "canonical CPU",
+    "pilot_vertices": 65536,
+    "context_projection_guard_seconds": 1800,
+    "context_memory_guard_mib": 1024,
+    "GPU": "only if required with exactclasses; no training"
+  },
+  "scope_limits": [
+    "no training/datasets",
+    "no quantizer design",
+    "no Mean8 change",
+    "no neural models",
+    "no temporal grids",
+    "no L7-L15",
+    "no new collision-aware model"
+  ],
+  "preservation": "new unique run; old reports/checkpoints/streams immutable; stage continuations and source snapshots"
+}

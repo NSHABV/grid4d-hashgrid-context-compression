@@ -1,0 +1,7 @@
+scene,split,comparison,candidate,baseline,delta_B,delta_size_percent,delta_PSNR,delta_SSIM,delta_LPIPS_STANDARD_VGG,PSNR_strictly_better,SSIM_not_worse,LPIPS_not_worse,PSNR_worse_views,SSIM_worse_views,LPIPS_worse_views
+standup,val,D_vs_G8,G8,G8,0,0.0,0.0,0.0,0.0,False,True,True,0,0,0
+standup,val,E_vs_G8,G8,G8,0,0.0,0.0,0.0,0.0,False,True,True,0,0,0
+standup,val,E_vs_D_best,G8,G8,0,0.0,0.0,0.0,0.0,False,True,True,0,0,0
+standup,test,D_vs_G8,G8,G8,0,0.0,0.0,0.0,0.0,False,True,True,0,0,0
+standup,test,E_vs_G8,G8,G8,0,0.0,0.0,0.0,0.0,False,True,True,0,0,0
+standup,test,E_vs_D_best,G8,G8,0,0.0,0.0,0.0,0.0,False,True,True,0,0,0

@@ -1,0 +1,11 @@
+scene,effect,from,to,from_actual_B,to_actual_B,saving_B,saving_percent,contextual_gain,measurement
+bouncingballs,layout_DEFLATE,DEFLATE6_slot-major,DEFLATE6_channel-major,2077434,2094411,-16977,-0.8172100774320629,False,ACTUAL
+bouncingballs,layout_XZ,XZ6_slot-major,XZ6_channel-major,1750275,1798450,-48175,-2.7524246189884445,False,ACTUAL
+bouncingballs,compressor_slot,DEFLATE6_slot-major,XZ6_slot-major,2077434,1750275,327159,15.74822593641964,False,ACTUAL
+bouncingballs,compressor_channel,DEFLATE6_channel-major,XZ6_channel-major,2094411,1798450,295961,14.13098957176982,False,ACTUAL
+bouncingballs,wrapper_NPY_vs_raw,HISTORICAL_NPZ_DEFLATE6,DEFLATE6_slot-major,2079708,2077434,2274,0.10934227304987046,False,ACTUAL
+hellwarrior,layout_DEFLATE,DEFLATE6_slot-major,DEFLATE6_channel-major,1764798,1820135,-55337,-3.1355996550313407,False,ACTUAL
+hellwarrior,layout_XZ,XZ6_slot-major,XZ6_channel-major,1504834,1558485,-53651,-3.5652437411701223,False,ACTUAL
+hellwarrior,compressor_slot,DEFLATE6_slot-major,XZ6_slot-major,1764798,1504834,259964,14.730524399959656,False,ACTUAL
+hellwarrior,compressor_channel,DEFLATE6_channel-major,XZ6_channel-major,1820135,1558485,261650,14.375307326104931,False,ACTUAL
+hellwarrior,wrapper_NPY_vs_raw,HISTORICAL_NPZ_DEFLATE6,DEFLATE6_slot-major,1766604,1764798,1806,0.10223004136750512,False,ACTUAL

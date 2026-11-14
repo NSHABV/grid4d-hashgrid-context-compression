@@ -1,0 +1,13 @@
+{
+  "status": "PASS_COMPLETED",
+  "TECHNICAL_COMPLETE": true,
+  "archives": 12,
+  "OLD_AUDIT_GATE_STATUS": "WEAK_SIGNAL unchanged",
+  "CONTEXT_TRANSFER_SUMMARY": "ALL_FOUR_POSITIVE",
+  "NOVELTY": "NOT_ESTABLISHED",
+  "preserved_files": 42913,
+  "coverage": "PROTECTED_FILES.json",
+  "report_sha256": "71bc4bb795e67c2b58d48a7b873bfeecc405b36d06c56ac15bdf927baa12442f",
+  "next": "STOP",
+  "closure": "FROZEN_PREVIOUS8_VALIDATION_BATCH_CLOSED"
+}

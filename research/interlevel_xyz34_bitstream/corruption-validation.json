@@ -1,0 +1,330 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "file": "bitstreams/iid-dense_u32.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/iid-dense_u32.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/iid-dense_u32.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/iid-dense_u32.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/iid-dense_u32.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/iid-dense_u32.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    },
+    {
+      "file": "bitstreams/iid-packed_u16.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/iid-packed_u16.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/iid-packed_u16.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/iid-packed_u16.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/iid-packed_u16.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/iid-packed_u16.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    },
+    {
+      "file": "bitstreams/iid-sparse_default_u16.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/iid-sparse_default_u16.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/iid-sparse_default_u16.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/iid-sparse_default_u16.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/iid-sparse_default_u16.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/iid-sparse_default_u16.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    },
+    {
+      "file": "bitstreams/boundary-dense_u32.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/boundary-dense_u32.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/boundary-dense_u32.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/boundary-dense_u32.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/boundary-dense_u32.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/boundary-dense_u32.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    },
+    {
+      "file": "bitstreams/boundary-packed_u16.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/boundary-packed_u16.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/boundary-packed_u16.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/boundary-packed_u16.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/boundary-packed_u16.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/boundary-packed_u16.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    },
+    {
+      "file": "bitstreams/boundary-sparse_default_u16.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/boundary-sparse_default_u16.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/boundary-sparse_default_u16.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/boundary-sparse_default_u16.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/boundary-sparse_default_u16.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/boundary-sparse_default_u16.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    },
+    {
+      "file": "bitstreams/spatial8-dense_u32.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/spatial8-dense_u32.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/spatial8-dense_u32.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/spatial8-dense_u32.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/spatial8-dense_u32.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/spatial8-dense_u32.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    },
+    {
+      "file": "bitstreams/spatial8-packed_u16.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/spatial8-packed_u16.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/spatial8-packed_u16.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/spatial8-packed_u16.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/spatial8-packed_u16.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/spatial8-packed_u16.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    },
+    {
+      "file": "bitstreams/spatial8-sparse_default_u16.bin",
+      "case": "truncation",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/spatial8-sparse_default_u16.bin",
+      "case": "extra_bytes",
+      "status": "PASS",
+      "error": "Truncation or extra bytes"
+    },
+    {
+      "file": "bitstreams/spatial8-sparse_default_u16.bin",
+      "case": "magic",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/spatial8-sparse_default_u16.bin",
+      "case": "corrupt_payload_integrity",
+      "status": "PASS",
+      "error": "Integrity mismatch"
+    },
+    {
+      "file": "bitstreams/spatial8-sparse_default_u16.bin",
+      "case": "version",
+      "status": "PASS",
+      "error": "Invalid header/version/length"
+    },
+    {
+      "file": "bitstreams/spatial8-sparse_default_u16.bin",
+      "case": "rehashed_wrong_context_digest",
+      "status": "PASS",
+      "error": "Context classes integrity"
+    }
+  ],
+  "real_stream_cases": 54
+}

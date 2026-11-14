@@ -1,0 +1,56 @@
+{
+  "scene_order": [
+    "hook",
+    "jumpingjacks",
+    "mutant",
+    "standup"
+  ],
+  "modes": [
+    "X",
+    "I",
+    "P"
+  ],
+  "levels": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "fit": "one full-scene fit per mode; thresholds use eligible=all_indices[indices%4096!=0], q[eligible-1]; start masses full marginal; alpha1 exact old frequencies",
+  "quantile": "linear, eight bins, duplicate thresholds retained, searchsorted right",
+  "serializer": [
+    "dense_u32",
+    "packed_u16",
+    "sparse_default_u16"
+  ],
+  "stream_contract": {
+    "version": 1,
+    "coder": "constriction-0.4.2-range",
+    "categorical_perfect": true,
+    "CDF": "uint16-mass cumulative *256 at precision24",
+    "stream_order": "channel0 then channel1, each ascending slots",
+    "streams_per_range_level": 2,
+    "block_slots": 4096,
+    "context_reset": "start PMF every4096; no entropy-stream reset",
+    "thresholds": "searchsorted right; duplicates retained",
+    "envelope_order": "container channel-major overrides legacy descriptive code_order only",
+    "mode_levels": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "XZ": "preset6 CRC64 slot-major; no tuning",
+  "regression": "one fitting replay on two development scenes before new fitting",
+  "e2e": "each mode reads frozen uint8 file, fits its required models once, actually compresses required XZ sections, range encodes, assembles and writes; no cached XZ time substituted",
+  "pure_benchmark": "one warmup and3 measured repeats, prepared transmitted models fixed; hashes checked outside timed section; no strict reencode in pure benchmark",
+  "stop": "exactly4 reserve scenes then close; all failures retained; no fallback or candidate selection",
+  "limits": {
+    "case_seconds": 1800,
+    "peak_bytes": 2147483648
+  },
+  "OLD_AUDIT_GATE_STATUS": "WEAK_SIGNAL unchanged"
+}

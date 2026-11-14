@@ -1,0 +1,446 @@
+{
+  "status": "PASS",
+  "unit_tests": {
+    "tests": 22,
+    "failures": 0,
+    "errors": 0
+  },
+  "context_gate": "PASS",
+  "independent_decodes": [
+    {
+      "file": "boundary-dense_u32",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.006583310000001674,
+          "model_deserialize_seconds": 0.00014433800000013264,
+          "context_restore_seconds": 0.02871022600000117,
+          "entropy_decode_l4_seconds": 0.17474924999999963,
+          "decode_total_seconds": 0.21425862099999904
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/boundary-dense_u32.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 516,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "47971f517c9ed84b27e3755cdfa2dc6657815a6c7630706df035d789bf00a5ee",
+        "standalone": true,
+        "model_masses_sha256": "48c3e8b1e28fe0b414ea252e15f67e6c4d31f5ca985ec8eac457e752c29199c7"
+      },
+      "sha256": "7812d593063c721a45050dc7e2a4f1abfb18117522def21e19bd406b03939e4a"
+    },
+    {
+      "file": "boundary-packed_u16",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.004761045000000408,
+          "model_deserialize_seconds": 7.556000000086271e-05,
+          "context_restore_seconds": 0.015510252000000335,
+          "entropy_decode_l4_seconds": 0.1523426850000007,
+          "decode_total_seconds": 0.1747992380000003
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/boundary-packed_u16.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 569,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "47971f517c9ed84b27e3755cdfa2dc6657815a6c7630706df035d789bf00a5ee",
+        "standalone": true,
+        "model_masses_sha256": "48c3e8b1e28fe0b414ea252e15f67e6c4d31f5ca985ec8eac457e752c29199c7"
+      },
+      "sha256": "bbfdd25cc063de14b9efa5c52a9baa7c3cde1e60a043802cad459c6e0317e81f"
+    },
+    {
+      "file": "boundary-sparse_default_u16",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.00469793299999921,
+          "model_deserialize_seconds": 0.00017235999999876128,
+          "context_restore_seconds": 0.019787222000001492,
+          "entropy_decode_l4_seconds": 0.15408819800000018,
+          "decode_total_seconds": 0.1808829290000009
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/boundary-sparse_default_u16.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 601,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "47971f517c9ed84b27e3755cdfa2dc6657815a6c7630706df035d789bf00a5ee",
+        "standalone": true,
+        "model_masses_sha256": "48c3e8b1e28fe0b414ea252e15f67e6c4d31f5ca985ec8eac457e752c29199c7"
+      },
+      "sha256": "39d1e9756a436369e5bd40f7007aadc73755f1a360024e17bbf730d804a7dc9b"
+    },
+    {
+      "file": "iid-dense_u32",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.004374058999999875,
+          "model_deserialize_seconds": 0.0001033819999989305,
+          "context_restore_seconds": 0.015420775999999137,
+          "entropy_decode_l4_seconds": 0.13612695499999816,
+          "decode_total_seconds": 0.15822613799999985
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/iid-dense_u32.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 633,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "ed7c12a7d0b664dcdde44b683069c96ffab046bc348a385076831e8bffb51a2e",
+        "standalone": true,
+        "model_masses_sha256": "ca4a1b437ad9925f0bde2ead66d20ae4057f6229d0461082d1c0ec56f1c30b10"
+      },
+      "sha256": "cab886abbcaea4b6ad56b41743d3043d6d4e191dad4e969eb88f5637e2dc2e82"
+    },
+    {
+      "file": "iid-packed_u16",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.004269915999998375,
+          "model_deserialize_seconds": 6.767600000046059e-05,
+          "context_restore_seconds": 0.018048074999999386,
+          "entropy_decode_l4_seconds": 0.13963508199999808,
+          "decode_total_seconds": 0.16415238100000096
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/iid-packed_u16.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 658,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "ed7c12a7d0b664dcdde44b683069c96ffab046bc348a385076831e8bffb51a2e",
+        "standalone": true,
+        "model_masses_sha256": "ca4a1b437ad9925f0bde2ead66d20ae4057f6229d0461082d1c0ec56f1c30b10"
+      },
+      "sha256": "3c3f5ac58db22a81432495fcf7105d4677ac5c728e4b26040a6eafcbe0b3c4e9"
+    },
+    {
+      "file": "iid-sparse_default_u16",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.0050294389999976374,
+          "model_deserialize_seconds": 0.00012099499999962404,
+          "context_restore_seconds": 0.014445981999998025,
+          "entropy_decode_l4_seconds": 0.1333986419999995,
+          "decode_total_seconds": 0.15554985200000004
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/iid-sparse_default_u16.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 676,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "ed7c12a7d0b664dcdde44b683069c96ffab046bc348a385076831e8bffb51a2e",
+        "standalone": true,
+        "model_masses_sha256": "ca4a1b437ad9925f0bde2ead66d20ae4057f6229d0461082d1c0ec56f1c30b10"
+      },
+      "sha256": "071f7bcfa9bdfca2ff0709097374e38948b8a98b4da9048bf8e86120cf98f850"
+    },
+    {
+      "file": "spatial8-dense_u32",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.0042490870000015946,
+          "model_deserialize_seconds": 8.418699999879209e-05,
+          "context_restore_seconds": 0.0839020700000006,
+          "entropy_decode_l4_seconds": 0.13627714300000093,
+          "decode_total_seconds": 0.22662518899999995
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/spatial8-dense_u32.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 692,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "329adcd0084a93d818d2541bb40cf2cd5c012289b0c4b3a80e6662de193db6d0",
+        "standalone": true,
+        "model_masses_sha256": "1e028e9174c29f7df731154a48e518354b00728a533be23d70df7b3e70e1143c"
+      },
+      "sha256": "f63740fdd60ac44c699175a3ed5e40c83ee50c23a286ff6e850d01d83f10593f"
+    },
+    {
+      "file": "spatial8-packed_u16",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.005022723999999812,
+          "model_deserialize_seconds": 9.345199999799547e-05,
+          "context_restore_seconds": 0.08951527900000045,
+          "entropy_decode_l4_seconds": 0.1295729420000029,
+          "decode_total_seconds": 0.22679806300000038
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/spatial8-packed_u16.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 712,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "329adcd0084a93d818d2541bb40cf2cd5c012289b0c4b3a80e6662de193db6d0",
+        "standalone": true,
+        "model_masses_sha256": "1e028e9174c29f7df731154a48e518354b00728a533be23d70df7b3e70e1143c"
+      },
+      "sha256": "08b6f4cc19e3f55fc248a13d3d89ca3060ac0d79b56bb7961a19f7e11051b15e"
+    },
+    {
+      "file": "spatial8-sparse_default_u16",
+      "status": "PASS",
+      "coarse_array_equal": true,
+      "fine_array_equal": true,
+      "both_channels": true,
+      "classes_exact": 410758,
+      "masses_exact": true,
+      "rows": 205379,
+      "fresh_process": {
+        "status": "PASS",
+        "timing": {
+          "entropy_decode_l3_seconds": 0.004452966999998864,
+          "model_deserialize_seconds": 0.00033919200000198657,
+          "context_restore_seconds": 0.08784849399999928,
+          "entropy_decode_l4_seconds": 0.13954603600000226,
+          "decode_total_seconds": 0.23458136600000046
+        },
+        "allowed_data_reads": [
+          "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/bitstreams/spatial8-sparse_default_u16.bin"
+        ],
+        "blocked_reads": [],
+        "pid": 728,
+        "coarse_shape": [
+          79507,
+          2
+        ],
+        "fine_shape": [
+          205379,
+          2
+        ],
+        "classes_sha256": "329adcd0084a93d818d2541bb40cf2cd5c012289b0c4b3a80e6662de193db6d0",
+        "standalone": true,
+        "model_masses_sha256": "1e028e9174c29f7df731154a48e518354b00728a533be23d70df7b3e70e1143c"
+      },
+      "sha256": "bae24d9262cca97749f74044c5d1fffb2b5bbdac837b34101ce836558ac97375"
+    }
+  ],
+  "shared_L3_sections_bitwise_equal": true,
+  "section_sum_equals_filesystem_size": true,
+  "sources_unchanged": true,
+  "bench_reproducibility": "every warmup and timed encode bitwise identical to saved file",
+  "GPU": "NOT RUN; CPU canonical mode",
+  "real_stream_corruption_tests": {
+    "status": "PASS",
+    "cases": 54,
+    "file": "corruption-validation.json"
+  },
+  "figures": {
+    "status": "PASS",
+    "checks": [
+      {
+        "figure": "figures/actual-file-sizes.png",
+        "status": "PASS",
+        "source": "results.json",
+        "png_sha256": "591b3438c182cdc144981be0845f0e9340f2fc3d3b072c0f1fe68a106ad09230",
+        "svg_sha256": "146a831bd1432a7e8c7407e331c401bf9a6ed9a31e6a6e7d434aff53c30e9ef3"
+      },
+      {
+        "figure": "figures/payload-vs-overhead.png",
+        "status": "PASS",
+        "source": "results.json",
+        "png_sha256": "c3ef7006af13de64787cdf33e772b00d3e264380efc04796aa9be524413958d2",
+        "svg_sha256": "73fa484883d98da613a88fa6faf9a7ac252e6beadedd8f915a323a10af422d2f"
+      },
+      {
+        "figure": "figures/estimated-vs-actual.png",
+        "status": "PASS",
+        "source": "results.json",
+        "png_sha256": "cb4ca6cfc877740917589c2dfba0cbdc237da929320db51d1b7376ce2c425fe2",
+        "svg_sha256": "362f693751dd6ba4435e6fc8fbae3bfb36899a63e74f19ac2a5a0af84b2f9929"
+      },
+      {
+        "figure": "figures/net-vs-best-baseline.png",
+        "status": "PASS",
+        "source": "results.json",
+        "png_sha256": "e23626373800280b9e9bc4638ed9b383efe02a710d93dc98c9141ebfb8537328",
+        "svg_sha256": "7f5062b54f5083e72abf41d6c34bd6c35673553128c5f344d9ef190752e9d76c"
+      },
+      {
+        "figure": "figures/runtime.png",
+        "status": "PASS",
+        "source": "runtime.json",
+        "png_sha256": "2055ec2d1bd0aa6aec1942e8479b48b94aebb04690ac54573b78ed9ba8d63603",
+        "svg_sha256": "13d113f01ce0283d52b8d7be39e86a988335ea6dd1c17de6224a8be7a9357ded"
+      }
+    ]
+  },
+  "original_fitted_mass_arrays_checked": true,
+  "full_repeat": {
+    "status": "PASS",
+    "checks": [
+      {
+        "file": "bitstreams/iid-dense_u32.bin",
+        "status": "PASS",
+        "sha256": "cab886abbcaea4b6ad56b41743d3043d6d4e191dad4e969eb88f5637e2dc2e82"
+      },
+      {
+        "file": "bitstreams/iid-packed_u16.bin",
+        "status": "PASS",
+        "sha256": "3c3f5ac58db22a81432495fcf7105d4677ac5c728e4b26040a6eafcbe0b3c4e9"
+      },
+      {
+        "file": "bitstreams/iid-sparse_default_u16.bin",
+        "status": "PASS",
+        "sha256": "071f7bcfa9bdfca2ff0709097374e38948b8a98b4da9048bf8e86120cf98f850"
+      },
+      {
+        "file": "bitstreams/boundary-dense_u32.bin",
+        "status": "PASS",
+        "sha256": "7812d593063c721a45050dc7e2a4f1abfb18117522def21e19bd406b03939e4a"
+      },
+      {
+        "file": "bitstreams/boundary-packed_u16.bin",
+        "status": "PASS",
+        "sha256": "bbfdd25cc063de14b9efa5c52a9baa7c3cde1e60a043802cad459c6e0317e81f"
+      },
+      {
+        "file": "bitstreams/boundary-sparse_default_u16.bin",
+        "status": "PASS",
+        "sha256": "39d1e9756a436369e5bd40f7007aadc73755f1a360024e17bbf730d804a7dc9b"
+      },
+      {
+        "file": "bitstreams/spatial8-dense_u32.bin",
+        "status": "PASS",
+        "sha256": "f63740fdd60ac44c699175a3ed5e40c83ee50c23a286ff6e850d01d83f10593f"
+      },
+      {
+        "file": "bitstreams/spatial8-packed_u16.bin",
+        "status": "PASS",
+        "sha256": "08b6f4cc19e3f55fc248a13d3d89ca3060ac0d79b56bb7961a19f7e11051b15e"
+      },
+      {
+        "file": "bitstreams/spatial8-sparse_default_u16.bin",
+        "status": "PASS",
+        "sha256": "bae24d9262cca97749f74044c5d1fffb2b5bbdac837b34101ce836558ac97375"
+      }
+    ],
+    "against": "research/interlevel_xyz34_bitstream_repeat"
+  }
+}

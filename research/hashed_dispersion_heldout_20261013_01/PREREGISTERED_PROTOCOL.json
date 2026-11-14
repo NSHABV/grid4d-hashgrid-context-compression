@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "phase": "2-3",
+  "created_before_fitting_and_test": true,
+  "pairs": [
+    "L4_to_L5",
+    "L5_to_L6"
+  ],
+  "models": {
+    "IID": 1,
+    "Geometry4": 4,
+    "Canonical8": 10,
+    "Mean8": 10,
+    "Mean4": 6,
+    "Mean4Std2": 10
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "split": "PCG64(seed).permutation slots; floor(.20*N) test first, floor(.16*N) validation next, remainder train; sorted within each",
+  "train_slots": 335545,
+  "validation_slots": 83886,
+  "test_slots": 104857,
+  "split_rounding_note": "Actual counts asserted from split; train is remainder.",
+  "quantiles": "numpy.quantile method=linear, float64, train G2+G3 per channel only",
+  "tie_rule": "retain duplicate edges, searchsorted side=right, intervals [-inf,e0), [e0,e1),..., [elast,inf)",
+  "std_threshold": "one unconditional median of Std on active train G2+G3 per channel, no per-mean-bin fit",
+  "classes": "G0=0 G1=1, active=2+bin8; Mean4=2+bin4; Mean4Std2=2+2*bin4(mean)+bin2(std); Geometry4=g; IID=0",
+  "empty_class": "uniform 256 integer masses; all classes transmitted, no omission",
+  "mass_rule": "existing models.frequencies: Laplace alpha1, minimum1, stable largest remainder, sum65536",
+  "cdf": "strict positive masses and cumulative uint32 CDF; p=mass/65536, same input convention as existing entropy.encode_indexed; coder not imported",
+  "validation_selection": "minimum aggregate validation CE among six fixed arms; ties in declared arm order; no refit or hyperparameter tuning; all six test arms prespecified",
+  "test": "one evaluation after model+validation freeze and fresh decoder exact class replay; no post-test changes",
+  "strata": [
+    "all",
+    "G0",
+    "G1",
+    "G2",
+    "G3",
+    "G3_K2",
+    "G3_K3",
+    "G3_K4plus"
+  ],
+  "subgroup_min_slots": 100,
+  "subgroups": "K groups descriptive/exploratory; no new fitted classes",
+  "paired_intervals": "normal mean +/-1.96*sampleSE of paired slot-average losses; descriptive conditional-on-fit, spatial dependence not corrected; no pooling seeds as independent",
+  "storage_candidates": [
+    "dense_u32",
+    "packed_u16",
+    "sparse_default_u16"
+  ],
+  "storage_selection": "smallest measured exact model envelope, independently per arm; stable listed-order tie",
+  "forecast": "PREDICTED only: N_full=524288*2 scalar symbols; gross=N_full*(CE_base-CE_candidate)/8; net=gross-(side_candidate-side_base)",
+  "GO": "all correctness PASS; Mean4Std2 positive paired gains every seed/channel on both pairs in all and G3 vs Geometry4,Canonical8,Mean8; G3 gain also positive vsMean4; perpair seed aggregate gross>delta_side+max(4096,.2*delta_side) vsGeometry4,Canonical8,Mean8",
+  "arithmetic": "cpu-f32-separate-ufunc-corner0to7-anchor-f64-addat-xfast-popstd-v1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "cost_forecast": {
+    "cpu_seconds_conservative": 180,
+    "peak_additional_mib_conservative": 512,
+    "basis": "2x524288 saved contexts, 36 small histogram models, 2 required fresh coarse-only replays; sequential bounded arrays, no slot x256 PMF"
+  },
+  "no_new_quantization": true,
+  "actual_entropy_payload": false,
+  "no_training": true
+}

@@ -1,0 +1,17 @@
+scene,variant,mode,unchanged15_compressed_bytes_exact,changed_member_delta,metadata_delta,framing_delta,total_delta
+bouncingballs,M16,RAW,True,1048576,157,0,1048733
+bouncingballs,RESTORE,RAW,True,3145728,1,0,3145729
+bouncingballs,M16,DEFLATE,True,692419,38,0,692457
+bouncingballs,RESTORE,DEFLATE,True,3780348,15,0,3780363
+hellwarrior,M16,RAW,True,1048576,155,0,1048731
+hellwarrior,RESTORE,RAW,True,3145728,1,0,3145729
+hellwarrior,M16,DEFLATE,True,1255569,30,0,1255599
+hellwarrior,RESTORE,DEFLATE,True,3603911,10,0,3603921
+hook,M16,RAW,True,1048576,155,0,1048731
+hook,RESTORE,RAW,True,3145728,1,0,3145729
+hook,M16,DEFLATE,True,974186,37,0,974223
+hook,RESTORE,DEFLATE,True,3741151,16,0,3741167
+jumpingjacks,M16,RAW,True,410758,155,0,410913
+jumpingjacks,RESTORE,RAW,True,1232274,1,0,1232275
+jumpingjacks,M16,DEFLATE,True,321445,35,0,321480
+jumpingjacks,RESTORE,DEFLATE,True,1487561,14,0,1487575

@@ -1,0 +1,1149 @@
+{
+  "status": "PASS",
+  "channel_previous": [
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.43617190000077244,
+          "classes_sha256": "38f052dadf41f3bdd48a6b9b356ac73748ae3e8d2b865636c53c3fe08e57ca65",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.3985094000090612,
+          "classes_sha256": "38f052dadf41f3bdd48a6b9b356ac73748ae3e8d2b865636c53c3fe08e57ca65",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.4271217999921646,
+          "classes_sha256": "38f052dadf41f3bdd48a6b9b356ac73748ae3e8d2b865636c53c3fe08e57ca65",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 30.77653279999504,
+          "classes_sha256": "2c204c4a3a1b411900499a65c7d4eb63aa59b3afcbdb963da696d04909d26b58",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L06\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.4283031000086339,
+          "classes_sha256": "79b130c1f72e95b0fb9202793a04abb4de94800d9386e28f0e5a792c02acd517",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.4279938000108814,
+          "classes_sha256": "79b130c1f72e95b0fb9202793a04abb4de94800d9386e28f0e5a792c02acd517",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.4210564999957569,
+          "classes_sha256": "79b130c1f72e95b0fb9202793a04abb4de94800d9386e28f0e5a792c02acd517",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 31.035801599995466,
+          "classes_sha256": "522ce89f79c53cc92c833137c82bf9c2e90dadb4ec075d107261079129549db6",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L07\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.37381760000425857,
+          "classes_sha256": "c536ac70ff125cede2a7445e2f3afbc8732c1f8af592dd2d3d8f2d724501bc80",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.354098800002248,
+          "classes_sha256": "c536ac70ff125cede2a7445e2f3afbc8732c1f8af592dd2d3d8f2d724501bc80",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.34980799999902956,
+          "classes_sha256": "c536ac70ff125cede2a7445e2f3afbc8732c1f8af592dd2d3d8f2d724501bc80",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 28.008552500003134,
+          "classes_sha256": "750023c797d0d8c11295195a733e9e85cd22e4896a4855dc9ed9dd44863c38f7",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L08\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.42318679999152664,
+          "classes_sha256": "d9f0454a46bd978a65772a997b0d8b70e1a6ac9916c7dcdf9d18c789c414fadc",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.438754799994058,
+          "classes_sha256": "d9f0454a46bd978a65772a997b0d8b70e1a6ac9916c7dcdf9d18c789c414fadc",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.42151890000968706,
+          "classes_sha256": "d9f0454a46bd978a65772a997b0d8b70e1a6ac9916c7dcdf9d18c789c414fadc",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 32.28517109999666,
+          "classes_sha256": "90ad03044b06523df5f250d1368ed6dd0285c73f2e42dc84f376c38258360cc9",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L09\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.4372205999970902,
+          "classes_sha256": "a730e2eaf87eb1e8fd9bb58e63ea57112681809332cb44f6529369cc799ea20e",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.40075030000298284,
+          "classes_sha256": "a730e2eaf87eb1e8fd9bb58e63ea57112681809332cb44f6529369cc799ea20e",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.41102510000928305,
+          "classes_sha256": "a730e2eaf87eb1e8fd9bb58e63ea57112681809332cb44f6529369cc799ea20e",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 31.39552520000143,
+          "classes_sha256": "9cd7e18dab89e1aaf5abb50c029033ccdc9fa7f6a13f68b6597bf5efa3cb391c",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\bouncingballs\\L10\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.4469517000106862,
+          "classes_sha256": "9070785080024b03ba20d36b82421f05933b9356b5d6342379d38c6090fd4075",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.3901603999984218,
+          "classes_sha256": "9070785080024b03ba20d36b82421f05933b9356b5d6342379d38c6090fd4075",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.40386900000157766,
+          "classes_sha256": "9070785080024b03ba20d36b82421f05933b9356b5d6342379d38c6090fd4075",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 31.347305300005246,
+          "classes_sha256": "b5e425b141a0328180f7f657eb030133b3e6f3c4415882678350aaa3681102fe",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L06\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.4223347999941325,
+          "classes_sha256": "79a3c54fae4606218e989f31f4816584942d5916637b5e92d619bfff1bbc2cd3",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.3799808000039775,
+          "classes_sha256": "79a3c54fae4606218e989f31f4816584942d5916637b5e92d619bfff1bbc2cd3",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.39785660000052303,
+          "classes_sha256": "79a3c54fae4606218e989f31f4816584942d5916637b5e92d619bfff1bbc2cd3",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 31.085711899999296,
+          "classes_sha256": "e34a6d27c865b74fa04e3bb4e7d85a3ed4c10f9fe10757646ac30fa84c33c58b",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L07\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.4185807999892859,
+          "classes_sha256": "a8f17a02437b2b928ea18efcb27c1892375d8bc25dd84e67c9ec144e77b442e6",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.4153313999995589,
+          "classes_sha256": "a8f17a02437b2b928ea18efcb27c1892375d8bc25dd84e67c9ec144e77b442e6",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.40589200000977144,
+          "classes_sha256": "a8f17a02437b2b928ea18efcb27c1892375d8bc25dd84e67c9ec144e77b442e6",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 31.586178900004597,
+          "classes_sha256": "76781d0b9c673b00a1df3509d8d69d36345dddd91a7caa9f34667d25c06ef92c",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L08\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.42116270000406075,
+          "classes_sha256": "31c92ebf77ade2c65d97816c39945ce74d079c7d7fc90fcbc9818db9ceee802f",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.4156901999958791,
+          "classes_sha256": "31c92ebf77ade2c65d97816c39945ce74d079c7d7fc90fcbc9818db9ceee802f",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.4241102999949362,
+          "classes_sha256": "31c92ebf77ade2c65d97816c39945ce74d079c7d7fc90fcbc9818db9ceee802f",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 31.178240100009134,
+          "classes_sha256": "3a5b86c9d55b33516e4b0c30b2d6f6631700fad4465c19b753da5a2d5ef75f3e",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L09\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "record": "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\COMPLETE.json",
+      "status": "PASS",
+      "allocated_slots": 524288,
+      "records": [
+        {
+          "family": "CHANNEL8",
+          "seed": 0,
+          "status": "EXACT",
+          "seconds": 0.41277290000289213,
+          "classes_sha256": "1f02923421346a2ed9c1994f6aca017ca2a92bbb2f987ecc068deacaa7814756",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\seed0\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\channel_seed0.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\channel_seed0_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 1,
+          "status": "EXACT",
+          "seconds": 0.4138994999957504,
+          "classes_sha256": "1f02923421346a2ed9c1994f6aca017ca2a92bbb2f987ecc068deacaa7814756",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\seed1\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\channel_seed1.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\channel_seed1_ACCESS.json"
+          ]
+        },
+        {
+          "family": "CHANNEL8",
+          "seed": 2,
+          "status": "EXACT",
+          "seconds": 0.39036679999844637,
+          "classes_sha256": "1f02923421346a2ed9c1994f6aca017ca2a92bbb2f987ecc068deacaa7814756",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "channel",
+            "--q0",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\decoded_channel0.npy",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\seed2\\CHANNEL8\\thresholds.npy",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\channel_seed2.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\channel_seed2_ACCESS.json"
+          ]
+        },
+        {
+          "family": "PREVIOUS8",
+          "status": "PASS",
+          "seeds": 3,
+          "slots": 524288,
+          "seconds": 30.83061780000571,
+          "classes_sha256": "07035310068977fbb18caf4ea7618cf9c9a41c754a7cae1b789fd1ee021d98f0",
+          "command": [
+            "<PROJECT_ROOT>\\.tools\\phase2-plotting-env\\Scripts\\python.exe",
+            "-B",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\context_replay.py",
+            "previous",
+            "--edges",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\previous_all_seeds\\transmitted_edges.npy",
+            "--slots",
+            "524288",
+            "--output",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\previous_all_seeds\\classes.npy",
+            "--audit",
+            "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\heldout\\hellwarrior\\L10\\context_replay\\previous_all_seeds\\ACCESS.json"
+          ],
+          "read_policy": "edges-only file access; each current pair revealed only after all predictions"
+        }
+      ],
+      "no_context_bitstream_claim": true
+    }
+  ],
+  "mean": [
+    {
+      "scene": "bouncingballs",
+      "fine_level": 7,
+      "status": "PASS",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "exact_mean_geometry_all_arrays": true,
+      "exact_pooled_class_ids": true,
+      "coarse_only_read_audit": {
+        "allowed_data_paths": [
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L6_L7\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L6_L7\\bundle\\decoder_metadata.json",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L6_L7\\transmitted_heldout_specs.json"
+        ],
+        "audit_scope": "Python file-open allowlist, not an OS sandbox",
+        "blocked_reads": [],
+        "data_reads": [
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L6_L7\\bundle\\decoder_metadata.json",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L6_L7\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L6_L7\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L6_L7\\transmitted_heldout_specs.json"
+        ],
+        "public_code_reads": [
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__pycache__\\__init__.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\importlib\\__pycache__\\_abc.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\__init__.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\glob.cpython-312.pyc"
+        ]
+      },
+      "replay_wall_seconds": 2.593958699988434,
+      "peak_RSS_MiB": 131.328125,
+      "validation_sha256": "4932caaf3fdae90a6dede601960c0bcdf1d66cfabfa4c844a8774cfe03f71e19"
+    },
+    {
+      "scene": "bouncingballs",
+      "fine_level": 8,
+      "status": "PASS",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "exact_mean_geometry_all_arrays": true,
+      "exact_pooled_class_ids": true,
+      "coarse_only_read_audit": {
+        "allowed_data_paths": [
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L7_L8\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L7_L8\\bundle\\decoder_metadata.json",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L7_L8\\transmitted_heldout_specs.json"
+        ],
+        "audit_scope": "Python file-open allowlist, not an OS sandbox",
+        "blocked_reads": [],
+        "data_reads": [
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L7_L8\\bundle\\decoder_metadata.json",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L7_L8\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L7_L8\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\bouncingballs\\L7_L8\\transmitted_heldout_specs.json"
+        ],
+        "public_code_reads": [
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__pycache__\\__init__.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\importlib\\__pycache__\\_abc.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\__init__.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\glob.cpython-312.pyc"
+        ]
+      },
+      "replay_wall_seconds": 7.713849700012361,
+      "peak_RSS_MiB": 131.0546875,
+      "validation_sha256": "eb90cca2e172d30dbaa286b45c090b29a10350806a932a6051cbfd986d09d21f"
+    },
+    {
+      "scene": "hellwarrior",
+      "fine_level": 7,
+      "status": "PASS",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "exact_mean_geometry_all_arrays": true,
+      "exact_pooled_class_ids": true,
+      "coarse_only_read_audit": {
+        "allowed_data_paths": [
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L6_L7\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L6_L7\\bundle\\decoder_metadata.json",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L6_L7\\transmitted_heldout_specs.json"
+        ],
+        "audit_scope": "Python file-open allowlist, not an OS sandbox",
+        "blocked_reads": [],
+        "data_reads": [
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L6_L7\\bundle\\decoder_metadata.json",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L6_L7\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L6_L7\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L6_L7\\transmitted_heldout_specs.json"
+        ],
+        "public_code_reads": [
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__pycache__\\__init__.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\importlib\\__pycache__\\_abc.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\__init__.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\glob.cpython-312.pyc"
+        ]
+      },
+      "replay_wall_seconds": 2.714432900000247,
+      "peak_RSS_MiB": 131.078125,
+      "validation_sha256": "094fd93e6f8d06a48f8e2ec5ad4de1ee4782780738c439b53088c6c66423a508"
+    },
+    {
+      "scene": "hellwarrior",
+      "fine_level": 8,
+      "status": "PASS",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "exact_mean_geometry_all_arrays": true,
+      "exact_pooled_class_ids": true,
+      "coarse_only_read_audit": {
+        "allowed_data_paths": [
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L7_L8\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L7_L8\\bundle\\decoder_metadata.json",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L7_L8\\transmitted_heldout_specs.json"
+        ],
+        "audit_scope": "Python file-open allowlist, not an OS sandbox",
+        "blocked_reads": [],
+        "data_reads": [
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L7_L8\\bundle\\decoder_metadata.json",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L7_L8\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L7_L8\\bundle\\coarse_symbols.npy",
+          "<PROJECT_ROOT>\\research\\context_compression_headroom_20261107_01\\mean\\hellwarrior\\L7_L8\\transmitted_heldout_specs.json"
+        ],
+        "public_code_reads": [
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__pycache__\\__init__.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\importlib\\__pycache__\\_abc.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\__init__.cpython-312.pyc",
+          "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\glob.cpython-312.pyc"
+        ]
+      },
+      "replay_wall_seconds": 7.53886010000133,
+      "peak_RSS_MiB": 131.51171875,
+      "validation_sha256": "e10b4893977f48f062f8642999301ee3165d95ea912c073dceb91390054484e8"
+    }
+  ],
+  "geometry": [
+    {
+      "fine_level": 7,
+      "same_geometry_two_scenes": true,
+      "geometry_sha256": "2b59e042fcceddb571a5e01793b99147e33f2b44dd31e958cdc8cb7e45552faa",
+      "categories": {
+        "G0": 226,
+        "G1": 64,
+        "G2": 1816,
+        "G3": 522182
+      },
+      "nominal": 3652264,
+      "eligible": 3581577
+    },
+    {
+      "fine_level": 8,
+      "same_geometry_two_scenes": true,
+      "geometry_sha256": "5c87fb4169f79c5e91cb52b381c2f9af0e4eb789c38f916f8ac92fefcf4f05c5",
+      "categories": {
+        "G0": 0,
+        "G1": 0,
+        "G2": 0,
+        "G3": 524288
+      },
+      "nominal": 9663597,
+      "eligible": 9528128
+    }
+  ],
+  "synthetic": [
+    "TEST_HELDOUT.json",
+    "TEST_MEAN_CONTEXT.json",
+    "STRICT_PREFIX_PILOT.json"
+  ],
+  "actual_context_bitstream_created": false,
+  "scope": "Exact context IDs for all held-out model seeds/allocated slots; trusted Python file audits, not OS isolation",
+  "full_scene_fit_note": "Full-scene model projection is a later dry fit; no claim of an actual independently decoded conditional stream",
+  "wall_seconds": 360.1168120000075,
+  "parent_peak_RSS_MiB": 50.578125
+}

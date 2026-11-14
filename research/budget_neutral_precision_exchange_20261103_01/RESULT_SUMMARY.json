@@ -1,0 +1,149 @@
+{
+  "status": "MEASUREMENTS_COMPLETE",
+  "rate_summary": [
+    {
+      "scene": "mutant",
+      "G8_B": 1290908,
+      "feasible_E_out_of_42": 6,
+      "feasible_D_out_of_7": 7,
+      "D_best": "D_10",
+      "E_best": "E_10_4",
+      "FINAL_choice": "E_10_4"
+    },
+    {
+      "scene": "bouncingballs",
+      "G8_B": 2079541,
+      "feasible_E_out_of_42": 10,
+      "feasible_D_out_of_7": 7,
+      "D_best": "D_9",
+      "E_best": "E_10_4",
+      "FINAL_choice": "E_10_4"
+    },
+    {
+      "scene": "hellwarrior",
+      "G8_B": 1766435,
+      "feasible_E_out_of_42": 5,
+      "feasible_D_out_of_7": 7,
+      "D_best": "G8",
+      "E_best": "G8",
+      "FINAL_choice": "G8"
+    },
+    {
+      "scene": "hook",
+      "G8_B": 1488707,
+      "feasible_E_out_of_42": 4,
+      "feasible_D_out_of_7": 7,
+      "D_best": "G8",
+      "E_best": "G8",
+      "FINAL_choice": "G8"
+    },
+    {
+      "scene": "jumpingjacks",
+      "G8_B": 1917524,
+      "feasible_E_out_of_42": 3,
+      "feasible_D_out_of_7": 7,
+      "D_best": "G8",
+      "E_best": "G8",
+      "FINAL_choice": "G8"
+    }
+  ],
+  "decisions": [
+    {
+      "scene": "mutant",
+      "TECHNICAL_COMPLETE": "RATE_QUALITY_PASS; final_integrity=FINAL_VALIDATION.json",
+      "FEASIBILITY": true,
+      "feasible_pairs": 6,
+      "CALIBRATION_GAIN": true,
+      "E_selected_by_rule": true,
+      "TEST_TRANSFER": "PASS",
+      "ADDED_VALUE_VS_DOWN_ONLY": "TEST_PSNR_GAIN_NO_WORSE_SSIM_LPIPS",
+      "E_validation_preferred_to_D": true,
+      "FINAL_choice": "E_10_4",
+      "test_E_PSNR_gain_G8": 0.6475448608398438,
+      "test_E_PSNR_gain_D": 0.30991363525390625,
+      "test_E_SSIM_delta_D": 0.0005878210067749023,
+      "test_E_LPIPS_delta_D": -0.00028094276785850525
+    },
+    {
+      "scene": "bouncingballs",
+      "TECHNICAL_COMPLETE": "RATE_QUALITY_PASS; final_integrity=FINAL_VALIDATION.json",
+      "FEASIBILITY": true,
+      "feasible_pairs": 10,
+      "CALIBRATION_GAIN": true,
+      "E_selected_by_rule": true,
+      "TEST_TRANSFER": "PASS",
+      "ADDED_VALUE_VS_DOWN_ONLY": "TEST_PSNR_GAIN_NO_WORSE_SSIM_LPIPS",
+      "E_validation_preferred_to_D": true,
+      "FINAL_choice": "E_10_4",
+      "test_E_PSNR_gain_G8": 0.33807373046875,
+      "test_E_PSNR_gain_D": 0.3479576110839844,
+      "test_E_SSIM_delta_D": 0.0001595616340637207,
+      "test_E_LPIPS_delta_D": -0.00032029300928115845
+    },
+    {
+      "scene": "hellwarrior",
+      "TECHNICAL_COMPLETE": "RATE_QUALITY_PASS; final_integrity=FINAL_VALIDATION.json",
+      "FEASIBILITY": true,
+      "feasible_pairs": 5,
+      "CALIBRATION_GAIN": false,
+      "E_selected_by_rule": false,
+      "TEST_TRANSFER": "NOT_APPLIED_G8",
+      "ADDED_VALUE_VS_DOWN_ONLY": "NOT_APPLIED_G8",
+      "E_validation_preferred_to_D": false,
+      "FINAL_choice": "G8",
+      "test_E_PSNR_gain_G8": 0.0,
+      "test_E_PSNR_gain_D": 0.0,
+      "test_E_SSIM_delta_D": 0.0,
+      "test_E_LPIPS_delta_D": 0.0
+    },
+    {
+      "scene": "hook",
+      "TECHNICAL_COMPLETE": "RATE_QUALITY_PASS; final_integrity=FINAL_VALIDATION.json",
+      "FEASIBILITY": true,
+      "feasible_pairs": 4,
+      "CALIBRATION_GAIN": false,
+      "E_selected_by_rule": false,
+      "TEST_TRANSFER": "NOT_APPLIED_G8",
+      "ADDED_VALUE_VS_DOWN_ONLY": "NOT_APPLIED_G8",
+      "E_validation_preferred_to_D": false,
+      "FINAL_choice": "G8",
+      "test_E_PSNR_gain_G8": 0.0,
+      "test_E_PSNR_gain_D": 0.0,
+      "test_E_SSIM_delta_D": 0.0,
+      "test_E_LPIPS_delta_D": 0.0
+    },
+    {
+      "scene": "jumpingjacks",
+      "TECHNICAL_COMPLETE": "RATE_QUALITY_PASS; final_integrity=FINAL_VALIDATION.json",
+      "FEASIBILITY": true,
+      "feasible_pairs": 3,
+      "CALIBRATION_GAIN": false,
+      "E_selected_by_rule": false,
+      "TEST_TRANSFER": "NOT_APPLIED_G8",
+      "ADDED_VALUE_VS_DOWN_ONLY": "NOT_APPLIED_G8",
+      "E_validation_preferred_to_D": false,
+      "FINAL_choice": "G8",
+      "test_E_PSNR_gain_G8": 0.0,
+      "test_E_PSNR_gain_D": 0.0,
+      "test_E_SSIM_delta_D": 0.0,
+      "test_E_LPIPS_delta_D": 0.0
+    }
+  ],
+  "resources": {
+    "CPU_jobs_wall_seconds": 1224.2658037380002,
+    "validation_jobs_wall_seconds": 2337.0308219789995,
+    "test_jobs_wall_seconds": 354.6334049529992,
+    "peak_process_tree_RSS_bytes": 4855218176,
+    "peak_total_device_MiB": 3309,
+    "minimum_available_RAM_bytes": 2349015040,
+    "peak_process_tree_RSS_GiB": 4.5217742919921875,
+    "minimum_available_RAM_GiB": 2.1876907348632812,
+    "validation_jobs_wall_minutes": 38.95051369964999,
+    "test_jobs_wall_minutes": 5.910556749216653
+  },
+  "quality_sets": 87,
+  "per_view_rows": 1740,
+  "new_render_frames": 1360,
+  "report_source_sha256": "83a0c8dc9932ba24b2e1a7798abdbe31e641288bad56ac9e8e91dd6f17985fb7",
+  "final_integrity_status_source": "FINAL_VALIDATION.json"
+}

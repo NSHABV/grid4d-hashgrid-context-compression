@@ -1,0 +1,25 @@
+{
+  "correctness": "PASS",
+  "pairs": {
+    "L4_to_L5": {
+      "decision": "NO-GO",
+      "nonpositive_gain_checks": 12,
+      "margin_pass_seeds": 0,
+      "mean_delta_CE": -0.0008713245981186008,
+      "mean_predicted_net_bytes": -1618.2062577246013
+    },
+    "L5_to_L6": {
+      "decision": "NO-GO",
+      "nonpositive_gain_checks": 0,
+      "margin_pass_seeds": 0,
+      "mean_delta_CE": 0.005520502760704313,
+      "mean_predicted_net_bytes": -20.416662148964253
+    }
+  },
+  "scope": "exploratory forecast only, not actual coding or independent confirmation",
+  "Count6_bitstream_control_L5": false,
+  "B_Mean8_continues": true,
+  "wall_seconds": 0.8134451000000809,
+  "cpu_seconds": 0.765625,
+  "peak_rss_mib": 52.37109375
+}

@@ -1,0 +1,4 @@
+baseline,saving_bytes,pair_saving_percent,incremental_fine_saving_percent,baseline_incremental_bytes,candidate_incremental_bytes,payload_saving_bytes,extra_mass_bytes,extra_metadata_bytes
+IID,16463,9.544321409936808,12.870667886264668,127911,111448,21756,5157,136
+Geometry4,2873,1.8080553807426054,2.5130990806588467,114321,111448,6192,3195,124
+Canonical8,3856,2.4117636021340605,3.344203149934087,115304,111448,3000,-846,-10

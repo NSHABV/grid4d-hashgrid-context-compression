@@ -1,0 +1,6 @@
+{
+  "stage": "before runtime setup or scene measurements",
+  "reason": "Inherited prose said24 decoders from previous task; explicitly fixed already specified 5states x4scenes x2 modes=40. No scientific choices changed.",
+  "original_sha256": "239454ed822bc1c71e89ce1e7816aa28dece306561149be3ee4dff928f47a822",
+  "clarified_sha256": "2803589089ffa684a52fb0f3279d71642220738f03d8ee47b95bae30f52f8673"
+}

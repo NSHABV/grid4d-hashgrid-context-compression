@@ -1,0 +1,117 @@
+{
+  "status": "PREREGISTERED_BEFORE_NEW_MASK_COSTS",
+  "date": "2026-10-27",
+  "hypothesis": "H3 fixed-PMF geometry/channel hybrid",
+  "cases": [
+    "bouncingballs_L5",
+    "hellwarrior_L5",
+    "bouncingballs_L6",
+    "hellwarrior_L6"
+  ],
+  "masks": [
+    "0000",
+    "0001",
+    "0010",
+    "0011",
+    "0100",
+    "0101",
+    "0110",
+    "0111",
+    "1000",
+    "1001",
+    "1010",
+    "1011",
+    "1100",
+    "1101",
+    "1110",
+    "1111"
+  ],
+  "bit_order": [
+    "G2_ch0",
+    "G3_ch0",
+    "G2_ch1",
+    "G3_ch1"
+  ],
+  "bit_semantics": {
+    "0": "Geometry4",
+    "1": "Mean8"
+  },
+  "fallback": "G0/G1 always existing shared geometry PMFs; assert equals Mean8",
+  "PMFs": "Exact uint32 transmitted masses of original Geometry4/Mean8; no fitting/requantization/new thresholds",
+  "routing": "source key 0..3=G0..G3;4..11=Mean8 class2..9; per-channel lookup map to shared unique PMF pool; 255=unused",
+  "pool": "Exact uint32 deduplication only; first occurrence in channel-major source-key ascending order; omit source keys only if decoder-only routing has zero occurrences",
+  "model_transport": {
+    "magic": "H3PM",
+    "version": 1,
+    "header": "<4sBBBBHIII>",
+    "fields": [
+      "magic",
+      "version",
+      "storage",
+      "mask",
+      "channels",
+      "rows",
+      "mass_length",
+      "threshold_length",
+      "mapping_length"
+    ],
+    "mapping": "2x12 uint8, 24 B, sentinel255",
+    "thresholds": "7 little-endian float64 per Mean8-active channel, in channel order; no thresholds for geometry-only channel",
+    "storage_candidates": [
+      "dense_u32",
+      "packed_u16",
+      "sparse_default_u16"
+    ],
+    "sparse": "2B modal mass+2B exception count+3B per exception; ascending symbols; min modal mass on tie"
+  },
+  "container": {
+    "magic": "G4DHYBRD",
+    "version": 1,
+    "prefix": "<8sH5Q>",
+    "sections": [
+      "metadata",
+      "coarse_model",
+      "fine_model",
+      "coarse_payload",
+      "fine_payload"
+    ],
+    "integrity": "SHA256 trailer; source/output/pool/routing digests in canonical JSON",
+    "geometry": "verified V3 runtime contract for L4/L5,L5/L6",
+    "coarse": "verbatim original standalone IID model and payload; independently decodeable, no external prerequisite",
+    "header_keys": [
+      "version",
+      "kind",
+      "engine",
+      "arithmetic",
+      "numpy",
+      "order",
+      "geometry",
+      "model",
+      "integrity"
+    ]
+  },
+  "forecast": "ideal fine bits/8 + measured full side bytes + exact original coarse bytes; upper prediction adds64B coder uncertainty reserve; baseline actual filesystem sizes",
+  "gate": {
+    "L6_any_conservative_net_at_least_B": 256,
+    "coder_reserve_B": 64,
+    "practical_target_B": 4096,
+    "NO_GO_stops_before_new_entropy_streams": true
+  },
+  "tie_break": "smallest physical/dry bytes then lexicographic mask; transport ties dense,packed,sparse in declared order",
+  "fixed_common_mask": "minimum sum of standalone sizes across two scenes, separately per level; also descriptive all-four sum; not independent confirmation",
+  "controls": "0000 and1111 endpoint logic; compare hybrid against endpoints in same format to separate PMF sharing/framing from H3 selection",
+  "stageB_if_GO": "all16 masks x4 cases if pilot permits; every file fresh independent strict decode, exact arrays, second encode byte-identical; old16 baselines fresh decode",
+  "resources": "CPU canonical NumPy1.26.4/constriction0.4.2; pilot fullL6 context; projected<30min,peak<1GiB; no GPU unless exact parity justified",
+  "optimization": "skip all feature interpolation for0000; retain canonical full context for other masks in first implementation; groupwise skip only after exact parity test, no arithmetic changes",
+  "scientific_scope": "exploratory known checkpoints, scene-specific selection with paid signalling; no novelty or whole-scene claim",
+  "forbidden": [
+    "new PMF fitting",
+    "new quantization",
+    "new bins",
+    "neural coding",
+    "near-row merging",
+    "Grid4D retraining",
+    "new checkpoint",
+    "temporal/full-grid coding"
+  ]
+}

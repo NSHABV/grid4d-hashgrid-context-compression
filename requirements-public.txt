@@ -1,0 +1,3 @@
+# CPU decoder and synthetic publication checks; Python 3.12.
+numpy==1.26.4
+constriction==0.4.2

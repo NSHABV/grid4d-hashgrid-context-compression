@@ -1,0 +1,17 @@
+case,channel,geometry,symbols,Mean8_ideal_gain_vs_Geometry4_bits,hybrid_uses_Mean8
+bouncingballs_L5,0,G2,200128,53093.160608137325,True
+bouncingballs_L5,0,G3,133424,24958.687686626505,True
+bouncingballs_L5,1,G2,200128,36477.01008186973,True
+bouncingballs_L5,1,G3,133424,9084.26578150297,True
+hellwarrior_L5,0,G2,200128,19817.63657437925,True
+hellwarrior_L5,0,G3,133424,7054.759557866368,True
+hellwarrior_L5,1,G2,200128,18122.71071475915,True
+hellwarrior_L5,1,G3,133424,4549.654786781704,True
+bouncingballs_L6,0,G2,91014,-4209.771802224912,False
+bouncingballs_L6,0,G3,402329,7723.4098746523805,True
+bouncingballs_L6,1,G2,91014,-3822.861279663276,False
+bouncingballs_L6,1,G3,402329,6983.690595631337,False
+hellwarrior_L6,0,G2,91014,-1313.9040839224565,True
+hellwarrior_L6,0,G3,402329,6334.433102326781,True
+hellwarrior_L6,1,G2,91014,-1563.1574801049335,False
+hellwarrior_L6,1,G3,402329,4717.246257930287,False

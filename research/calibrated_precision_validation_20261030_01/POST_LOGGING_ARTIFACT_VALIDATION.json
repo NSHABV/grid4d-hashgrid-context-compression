@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archives": 4,
+  "arrays": 64,
+  "original_file_bytes_unchanged": true,
+  "canonical_reconstruction": "PASS",
+  "p16_regression": "PASS",
+  "decoder_read_audit": "PASS",
+  "rerender_or_reencode": false
+}

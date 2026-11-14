@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "assignments_exact": 410758,
+  "fresh_process": {
+    "status": "PASS",
+    "allowed_reads": [
+      "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/context-gate-recheck-1791718577792885138/coarse.npy",
+      "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/context-gate-recheck-1791718577792885138/spec.json"
+    ],
+    "blocked_reads": [],
+    "pid": 461
+  },
+  "arithmetic": "cpu-f32-separate-ufuncs-corner-order-0-to-7-v1",
+  "canonical_CPU_equals_prior_CPU": true,
+  "CPU_GPU_max_abs_error": 1.1920928955078125e-07,
+  "CPU_GPU_class_mismatches_under_new_edges": 18648,
+  "CPU_GPU_class_mismatches_under_prior_seed0_edges": 18647,
+  "near_boundaries_exact_context_equal_edge": 183141,
+  "quantile_edges": [
+    [
+      -0.011176009778864682,
+      3.880084113916382e-05,
+      0.010309206205420196,
+      0.015824735164642334,
+      0.0162407997995615,
+      0.0162407997995615,
+      0.016339498106390238
+    ],
+    [
+      -0.012043392285704613,
+      -0.0006536414148285985,
+      0.009078321512788534,
+      0.015449958387762308,
+      0.0162407997995615,
+      0.0162407997995615,
+      0.01624080166220665
+    ]
+  ],
+  "unique_edges_per_channel": [
+    6,
+    6
+  ],
+  "class_counts": [
+    [
+      24389,
+      24389,
+      24389,
+      24388,
+      20054,
+      0,
+      53114,
+      24389,
+      10267
+    ],
+    [
+      24389,
+      24389,
+      24389,
+      24389,
+      22532,
+      0,
+      43818,
+      31206,
+      10267
+    ]
+  ],
+  "in_bounds": 195112,
+  "OOB": 10267,
+  "seconds_including_fresh_process": 2.540320092,
+  "supported": "Pinned WSL Linux x86_64 NumPy1.21.6; separate float32 ufunc stages, no fused multiply-add; GPU not used. Universal portability NOT VERIFIED.",
+  "feasibility_prediction_bytes": {
+    "dense_u32": -4679.2014245300015,
+    "packed_u16": 2488.7985754699985,
+    "sparse_default_u16": 8175.7985754699985
+  }
+}

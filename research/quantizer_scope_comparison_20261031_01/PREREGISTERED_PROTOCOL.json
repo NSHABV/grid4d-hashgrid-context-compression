@@ -1,0 +1,61 @@
+{
+  "study": "exploratory baseline comparison; all test scenes previously observed",
+  "scenes": [
+    "mutant",
+    "bouncingballs",
+    "hellwarrior",
+    "hook",
+    "jumpingjacks"
+  ],
+  "states": [
+    "R0",
+    "GLOBAL8",
+    "LEVEL8"
+  ],
+  "mutant_historical": "frozen M10/L4 only; no reselection",
+  "splits": [
+    "val",
+    "test"
+  ],
+  "all_views": true,
+  "quantization": "unchanged quantizer.py: FP32 input; FP64 a,b,step=(b-a)/255; rint((x-a)/step) nearest-even; clip then u8; f64 a+q*step clip then f32",
+  "GLOBAL8": "previous frozen table-wise8 across all allocated xyz rows and both channels",
+  "LEVEL8": "original FP32 min/max per level across all allocated rows and both channels; 16 ranges, all uint8",
+  "constant": "a=b: zero codes, step0, canonical affine clipped f32; nonfinite input INPUT_BLOCKED",
+  "storage": "grid4d-spatial-scope-v3: identical level NPY1.0 names/order + manifest; canonical ZIP DEFLATE6 default strategy fixed1980 timestamps/attributes; necessary range metadata paid; M10 u16 no bitpacking",
+  "quality": "800x800 black; original renderer seed0 fixed_attention; PNG roundtrip; mean(per-view) FP32 PSNR/SSIM/LPIPS_STANDARD_VGG normalize=True exactly once",
+  "reuse": "old four test R0/GLOBAL8; mutant val/test R0/GLOBAL8/M10 after exact sources/xyz/cameras/time/GT/runtime + ordinal0 PNG/floatRGB; new val controls if absent. Failed reuse guard stops for classification, no relaxed check.",
+  "tolerances": {
+    "symbols_metadata_xyz": "bitwise exact",
+    "smoke_PNG_floatRGB": "bitwise exact",
+    "scientific_differences": "signed exact stored values; no quality tolerance",
+    "independent_scalar_reference": "exact uint8/f32"
+  },
+  "analysis": "signed bytes+PSNR+SSIM+LPIPS, remaining gap R0, per-view deterioration, data/metadata/framing; Pareto weak all/strict one, no tolerances, no BD-rate",
+  "guards": {
+    "min_available_RAM_B": 1073741824,
+    "min_start_available_RAM_B": 2147483648,
+    "max_device_used_MiB": 7168,
+    "min_start_GPU_free_MiB": 3072,
+    "min_disk_free_B": 8589934592,
+    "max_job_seconds": 1800
+  },
+  "pilot": "CPU mutant archives first then mutant val R0 ordinal0 reuse; evaluate resource result before remaining renders",
+  "freeze": "all11 archive hashes and source hashes before first new quality measurement",
+  "forbidden": [
+    "training",
+    "downloads",
+    "selector",
+    "per-channel",
+    "clipping search",
+    "precision search",
+    "H4/H5",
+    "coder changes"
+  ],
+  "equivalence_audit": {
+    "searched": "research/*REPORT.md and *SPEC.md levelwise/scope",
+    "found": "research/PHASE2_REPORT.md level-8",
+    "equivalent": false,
+    "reason": "200iterations,400x400,all4tables,LPIPS legacy,raw transport; no equivalent 5-scene xyz-only50000 ZIP STANDARD_VGG comparison"
+  }
+}

@@ -1,0 +1,9 @@
+case,hybrid_mask,reference_mask,fine_payload_saving_B,PMF_saving_B,metadata_saving_B,net_B
+bouncingballs_L5,1111,0000,15452,-4046,-112,11294
+bouncingballs_L5,1111,1111,0,0,0,0
+hellwarrior_L5,1111,0000,6192,-3195,-112,2885
+hellwarrior_L5,1111,1111,0,0,0,0
+bouncingballs_L6,0100,0000,964,-778,-56,130
+bouncingballs_L6,0100,1111,132,305,56,493
+hellwarrior_L6,1100,0000,628,-354,-56,218
+hellwarrior_L6,1100,1111,-392,345,56,9

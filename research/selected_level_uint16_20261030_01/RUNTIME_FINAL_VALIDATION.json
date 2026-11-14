@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "hashes_checked": 17,
+  "versions": {
+    "python": "3.10.21",
+    "torch": "2.7.0+cu128",
+    "cuda": "12.8",
+    "numpy": "1.26.4",
+    "torchvision": "0.22.0+cu128",
+    "Pillow": "9.5.0"
+  },
+  "lpips": "0.1.4",
+  "GPU_driver_at_final_check": "NVIDIA GeForce RTX 5060 Laptop GPU, 616.56, 8151 MiB"
+}

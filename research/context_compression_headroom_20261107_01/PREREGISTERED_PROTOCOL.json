@@ -1,0 +1,291 @@
+{
+  "study": "Bounded contextual compression headroom for unchanged GLOBAL8 spatial Grid4D",
+  "registered_time_unix": 1794051243.607163,
+  "scenes": [
+    "bouncingballs",
+    "hellwarrior"
+  ],
+  "data_role": "Fixed development scenes; no independent confirmation, no new image evaluation",
+  "source_request_sha256": "0e065193bb9b112d736570c5992775b4ee47bb9276ea303d5a3007931800ffa0",
+  "representation": "Frozen GLOBAL8 uint8 from existing full_spatial ZLIB8 artifacts; no quantization or checkpoint fitting",
+  "all_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "conditional_levels": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "mean_pairs": [
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "families": [
+    "CHANNEL8",
+    "PREVIOUS8",
+    "MEAN8"
+  ],
+  "controls": [
+    "IID",
+    "Geometry4_for_L7_L8"
+  ],
+  "baseline": {
+    "codecs": [
+      "DEFLATE6",
+      "XZ_LZMA2_PRESET6"
+    ],
+    "layouts": [
+      "slot-major",
+      "channel-major"
+    ],
+    "sections": 16,
+    "content": "raw uint8 sections, same metadata/framing policy for four adapters",
+    "historical_control": "sealed per-level NPY ZIP DEFLATE6; freshly verify decode and account separately",
+    "strongest_rule": "smallest actual correct whole file among four adapters and original sealed ZLIB8"
+  },
+  "split": {
+    "unit": "consecutive table-slot blocks, not spatial blocks",
+    "block_slots": 4096,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "rng": "numpy.random.default_rng(seed), PCG64",
+    "rounding": "permute B blocks; check first floor(.20B), validation next floor(.16B), fit remaining",
+    "for_128_blocks": {
+      "fit": 83,
+      "validation": 20,
+      "check": 25
+    },
+    "same_blocks_all_models_channels": true,
+    "all_correspondences_of_slot_stay_together": true
+  },
+  "probabilities": {
+    "alpha": 1.0,
+    "helper": "research.experiment_bench.models.frequencies",
+    "mass_sum": 65536,
+    "positive": true,
+    "alphabet": 256,
+    "normalization": "(counts+1)/(sum+256); floor(p*65280)+1; stable largest remainder"
+  },
+  "quantile8": {
+    "helper": "existing hashed_interlevel quantile8",
+    "quantiles": [
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875
+    ],
+    "dtype": "float64",
+    "method": "linear",
+    "duplicates": "retained",
+    "classify": "searchsorted side=right",
+    "fit": "fit blocks only; never check targets"
+  },
+  "CHANNEL8": {
+    "order": "entire channel0 IID, then channel1 conditional on bin8(q0)",
+    "direction": "0_to_1_only",
+    "rows": 9,
+    "both_channels_paid": true
+  },
+  "PREVIOUS8": {
+    "order": "ascending slots inside fixed4096 blocks, both channels",
+    "start": "separate per-channel row using IID PMF fit on all fit symbols",
+    "threshold_fit": "predecessor values for nonstart fit slots only",
+    "rows": 18,
+    "reset_every_block": true
+  },
+  "MEAN8": {
+    "definition": "existing exact eligible-vertex mean, coarse GLOBAL8 dequantized only; G0/G1 fallback rows",
+    "arithmetic": "cpu-f32-separate-ufunc-corner0to7-anchor-f64-addat-xfast-popstd-v1",
+    "rows": 20,
+    "chunk": 16384,
+    "pilot_prefix_vertices": 262144,
+    "pilot_count": "one chunked pilot for each of the two fixed pair scales; no tuning",
+    "max_pair_seconds": 1800,
+    "max_additional_working_bytes": 2147483648,
+    "extrapolation_safety_factor": 2.0,
+    "incomplete": "RESOURCE_BLOCKED, never negative result",
+    "no_nominal_enumeration_levels": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "side_information": {
+    "adapter": "model-only diagnostic envelope; no entropy stream",
+    "mass_transports": [
+      "dense_u32",
+      "packed_u16",
+      "sparse_default_u16"
+    ],
+    "choose": "minimum measured serialized bytes, listed order for ties",
+    "include": [
+      "PMF rows",
+      "thresholds",
+      "mapping",
+      "context specification",
+      "fallbacks",
+      "IDs",
+      "framing",
+      "integrity"
+    ],
+    "CDF": "reconstructed, not stored",
+    "clustering": false
+  },
+  "estimate": {
+    "ideal_payload_B": "sum(-log2(mass/65536))/8",
+    "predicted_section_B": "ideal_payload_B + measured dry side bytes",
+    "heldout_extrapolation": "per-channel validation/check CE times full level slots; pay model once",
+    "full_scene_fit": "one fit after check per fixed model; fully paid, not heldout"
+  },
+  "full_grid_projection": {
+    "replace": {
+      "CHANNEL8": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "PREVIOUS8": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "MEAN8": [
+        7,
+        8
+      ]
+    },
+    "rule": "baseline whole physical B - replaced actual section B + predicted sections + reserve",
+    "include_negative_levels": true,
+    "no_hybrid_or_duplicate_coarse": true,
+    "new_mode_global_reserve_B": 4096,
+    "future_payload_and_section_framing_reserve_B_per_level": 64,
+    "reserve_basis": "declared conservative engineering budget for a bounded new-mode manifest (<=4KiB) and coder termination/section framing; not measured future format; exact dry model fields already paid",
+    "label": "FULL-GRID PROJECTION, ESTIMATED"
+  },
+  "family_selection": {
+    "before": "all check evaluation and full-scene conditional fit",
+    "require": "all required levels on both scenes available and correctness PASS",
+    "score": "mean over3seeds of paid validation full-grid saving fraction vs strongest standard baseline, per scene",
+    "rank": "descending minimum across2scenes, then descending mean across2scenes, then fixed family order",
+    "ties": [
+      "CHANNEL8",
+      "PREVIOUS8",
+      "MEAN8"
+    ],
+    "no_positive_candidate": "freeze top available as diagnostic candidate, do not call it promising",
+    "after_freeze": "evaluate check for all fixed models, never change selected family"
+  },
+  "shuffled_control": {
+    "family": "selected only",
+    "seed": "10000+split_seed",
+    "operation": "within each split, independently per channel; Mean8 also within geometry category",
+    "PMF": "unchanged fit PMFs",
+    "marginals": "exactly preserved",
+    "decoder_method": false
+  },
+  "decision": {
+    "PROMISING": "correct replay; selected paid held-out gain vs simple control on both scenes all3seeds; paid full-fit full-grid projection >=3percent smaller than strongest actual baseline on each scene",
+    "WEAK_SIGNAL": "some dependency or positive net but PROMISING conjunction fails",
+    "NO_SIGNAL_IN_TESTED_FAMILY": "no convincing paid signal among tested fixed families",
+    "RESOURCE_BLOCKED": "required computation absent, not scientific negative",
+    "three_percent": "engineering filter, not scientific boundary or guaranteed actual saving"
+  },
+  "causality": "fresh process replay with only permitted channel0 / sequential prefix / coarse uint8 metadata; exact class IDs and target-mutation synthetic fixtures",
+  "preservation": "one entry dependency hash audit, one final full protected-file audit; old reports/runs immutable",
+  "runtime_sha256": "5801906db1a2534f2fea0b78f34548aa0441b41ba49a7f9eca142f9db6bc0ca6",
+  "source_dependencies_sha256": {
+    "AGENTS.md": "764b8cec00c644f17c3bf9e48a3ddb4647e982fe8c6d8f3b21d9c0ae88b077e4",
+    "research/grid4d/codec.py": "0d46b2cba14bd0b7670d5e8fe24390f90272f15be37d2ec01bcc50314f121578",
+    "research/experiment_bench/models.py": "bbd03f74778e493274885d75968688366ab6f3b7c72f4820746ec7e43b72a00e",
+    "research/experiment_bench/entropy.py": "e100e40462e88d66222d09ae8fed0acd6c5d5fa18ee3c780ff40af54b7f563c5",
+    "research/hashgrid_analysis/hashed_context/__init__.py": "dafef555bf3515140415b381cde9598c320747d6bf6d29d8e4285eaf10b1400a",
+    "research/hashgrid_analysis/hashed_context/core.py": "f91caf2ae5392f81dda22588727b30aee9727b345168ae4d2847ffd16654f1e1",
+    "research/hashgrid_analysis/hashed_context/cross_cpu_parity.py": "d58a1111c724a42ec647bb8b5ea85f314cc613853d7ad3d10ccb5832790b9f1e",
+    "research/hashgrid_analysis/hashed_context/diagnostic.py": "b828227a15b909cee22bf41ab8f79faec11619338909627254262dfd97b39904",
+    "research/hashgrid_analysis/hashed_context/finalize.py": "ec3ffa26b9c3895dcedef9aef154d927c8d87b726298677332efc00a7ab54a9a",
+    "research/hashgrid_analysis/hashed_context/gpu_parity.py": "6e4db860784ab9e4a048905804fd2424931afe14b76a01b5970f9545bb278114",
+    "research/hashgrid_analysis/hashed_context/integrity.py": "6cf63126aa4875cbca3f5d61c6a9071510847b1515b130d5efcacd04387bd03b",
+    "research/hashgrid_analysis/hashed_context/replay.py": "7f2bb63d798db58b9e27d75603fdb36c3fb78e0a40a4e8052d5e2fd3f43e53ea",
+    "research/hashgrid_analysis/hashed_context/report.py": "ed07eac57dc89bfb5b489029dc2e68b0e9824ebde12bb2740ac1baba883e1c67",
+    "research/hashgrid_analysis/hashed_context/runtime.py": "bc5ee10805801d6d9e54eeb491b5bfe3632af6c61494a713ffe612a11a95f7d2",
+    "research/hashgrid_analysis/hashed_context/test_synthetic.py": "d6597b286d70a95d5960d26e6db51367616bf96c8672c831e9ccaf228eb46aab",
+    "research/hashgrid_analysis/hashed_context/verify_real_examples.py": "b959f0296cd6d724b309e5faa820545b76f9200dcf9da9e566220cb312aa222a",
+    "research/hashgrid_analysis/hashed_context/visualize.py": "b44451377b946ae8df1ff99a55f83b7ad3b483c23ecacf2839eebc652da5e5ec",
+    "research/experiment_bench/hashed_interlevel/__init__.py": "73774b3df7c3a8c93a119f0645886c7d9bbb1fed662dfd782c52653bdb6ceafc",
+    "research/experiment_bench/hashed_interlevel/audit.py": "1ac1b1c6a87118a86add524b842705343f88d4269bfcb72a5778e690ef2e4d71",
+    "research/experiment_bench/hashed_interlevel/core.py": "44fa2a7c814b81332c24665ddce45fe6cb6127d88d87a0cd1545a98d931a7b1d",
+    "research/experiment_bench/hashed_interlevel/dry_model.py": "5a29efeca742f462b72e243bc04dd752372910ab911ff920ce96f7e5ab5b49dd",
+    "research/experiment_bench/hashed_interlevel/finalize.py": "bacee7d66f1aa73a7fe8c0ec9b8c2bd71795af6f8f38aa6d31a25677722d3c53",
+    "research/experiment_bench/hashed_interlevel/replay.py": "4f9c2c3129f0fa4e1c38697d0fba562150b0e83e20a358a64a1fc8cf1c936361",
+    "research/experiment_bench/hashed_interlevel/report.py": "ef5616ff48adab0e346c61582f50b7ce449fbd203aa932d334cb1a0f596df40e",
+    "research/experiment_bench/hashed_interlevel/study.py": "f47f08c5d1d479f4b639616abc6897217f813d93f146d2c37df2a59a55d2ea73",
+    "research/experiment_bench/hashed_interlevel/test_classes.py": "e595fa7dbfd8a530127e8948a9a06e1e93bbc3c048f79766d979b0f7215cd889",
+    "research/experiment_bench/hashed_interlevel/test_dry_model.py": "50819c0477c21b41b9ad05da5dbd4d38b30d7c1688d6a4ede7ad91e946f5565a",
+    "research/experiment_bench/hashed_interlevel/test_fit.py": "3eb5f7dc5a729858756649b4cbc4f476d3a8d90f71dfade7fcfd649413bcb175",
+    "research/experiment_bench/hashed_interlevel/unit_checks.py": "e0cb26d06ca9a1bef9604e9aaba9e675de4963ebc931962f7f695ceeb291d3a4",
+    "research/experiment_bench/pmf_clustering/__init__.py": "e2cd62f2d5c9e7e990558a6da59f041b9658c58d93734c93e79ed3463a6dc443",
+    "research/experiment_bench/pmf_clustering/__main__.py": "de3f5ae48b46de7ae4cd9e39760e508c28c6d12e6411ad5a0bef963f548345c4",
+    "research/experiment_bench/pmf_clustering/bundle.py": "d0d2f45c6c737c7c4d0d6f420efea4d59cfca1c12207c13d47e9cfea69c07f7c",
+    "research/experiment_bench/pmf_clustering/codec.py": "91297391e1785fa528e9b23a35a8231ecd85bc29d32f83d081b6bfd1bd8e4986",
+    "research/experiment_bench/pmf_clustering/geometry.py": "a3c578cd0cc65c265de5c97c07f9dd9c8dbedbe42050b78d8b41776de950e18b",
+    "research/experiment_bench/pmf_clustering/optimizer.py": "8051bc2ac47269c36b1d9d44944ceb42942d16423601ba703da5a7b24766998e",
+    "research/experiment_bench/pmf_clustering/preservation.py": "43523b2fdd9d3284dd9e5886f2c6dfd4600a3679bce48500274f7c2ccf9944c0",
+    "research/experiment_bench/pmf_clustering/replay.py": "3a330c94dd7b9516278028630c460a91a16e91118060d9b9b5f821e055e9ea00",
+    "research/experiment_bench/pmf_clustering/test_geometry_oracle.py": "42e6090b569ee909bf97dc7eb9a2f2de174504920924d72aceed4334726012bc",
+    "research/experiment_bench/pmf_clustering/test_integration.py": "6e278adacdc06d9862ca80d837bf6af1ee396b9de87fbbad37aecb557c354377",
+    "research/experiment_bench/pmf_clustering/test_optimizer.py": "f22a066a09b9367e06c0a4dc9880e4dacd209e8a20bb6d256d66499890df6778",
+    "research/experiment_bench/pmf_clustering/transport.py": "87445811ce32141798e36d8705c6362c42d23987af76649eb54802a79ae48a76",
+    "research/experiment_bench/pmf_clustering/verification.py": "be0bbb07a8cadff2b73138e50a25fdd7ca421ce777bfe14ff22eeee631f68684",
+    "research/experiment_bench/hashed_pair/__init__.py": "bf1be6bde81cf17cd7f088b7c131e7e928e9ed0781d8c8267f118526b67a9faa",
+    "research/experiment_bench/hashed_pair/corruption.py": "b6b208ea57b520e347a9482d2961a5758d85d177baa3631417e8b97a4afcf445",
+    "research/experiment_bench/hashed_pair/engine.py": "f7d60033b1c9b9378d10953cd3da28db4846abfb6eafb6cdcebed688f07cf271",
+    "research/experiment_bench/hashed_pair/finalize.py": "f72b7d5ed6d927b0940e942598360a3f4396ad85260271ca18a16bdfc2914753",
+    "research/experiment_bench/hashed_pair/format.py": "19a39d385bd288fcae996c4bd101c52ca7d9cbce2762dc990d2da096edc3252f",
+    "research/experiment_bench/hashed_pair/polish.py": "5a0a0d0c5e0464e991ec0179578245296e4f132c4ca93cdbaae7d3d0ef95182c",
+    "research/experiment_bench/hashed_pair/replay.py": "22255f2d92416ed6ffec6ae0505d4de1a6b93c0cf688d24d5cdc030b518b079c",
+    "research/experiment_bench/hashed_pair/report.py": "6813802f3a7814ce3b092d284e043027368d26570a10b45ac24110647bc86a7b",
+    "research/experiment_bench/hashed_pair/run.py": "43f04346d5768fb1a74bec626d658419181641fe9de85a99f1dfc7b2a092cb03",
+    "research/experiment_bench/hashed_pair/test_format.py": "1955777b04ef36fc39eff269eb642f338ba108dc0031023bfba5979e548097a4",
+    "research/experiment_bench/hashed_pair/verify_final.py": "76e4b91fe7f8e83fd1c406de9dc00fa97e031fc19919a57df1bd734107ec042b"
+  },
+  "execution_source_policy": "new diagnostic adapters snapshotted before their first measurement; no changes to existing algorithms/containers",
+  "stop": "after one report; no extra candidates/scenes, no trex/training/render/quantizer/new contextual bitstream",
+  "supersedes_active_task": "Trex recovery preparation cancelled by this request; no second full training launched"
+}

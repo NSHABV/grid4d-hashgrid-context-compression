@@ -1,0 +1,3 @@
+# Preserve exact publication bytes: manifests hash stored file contents.
+# Do not silently rewrite historical CSV line endings on checkout or commit.
+* -text

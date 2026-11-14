@@ -1,0 +1,5 @@
+case,status,fine_slots,channels,counts,G0_G1_PMFS_equal_and_zero_gain,nominal_vertices,point_vertices,gain_partitions_abs_tolerance_bits
+bouncingballs_L5,PASS,524288,2,"[183592, 7144, 200128, 133424]",True,531441,512000,1e-07
+hellwarrior_L5,PASS,524288,2,"[183592, 7144, 200128, 133424]",True,531441,512000,1e-07
+bouncingballs_L6,PASS,524288,2,"[27888, 3057, 91014, 402329]",True,1404928,1367631,1e-07
+hellwarrior_L6,PASS,524288,2,"[27888, 3057, 91014, 402329]",True,1404928,1367631,1e-07

@@ -1,0 +1,2984 @@
+[
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "MULTIPLICITY_REPORT.md",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "BITSTREAM_REPORT.md",
+    "artifact": "<PROJECT_ROOT>/research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "Предыдущий HELDOUT_REPORT.md",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "Контракт geometry/coarse context",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "failure history",
+    "artifact": "<PROJECT_ROOT>/research/hashed_mean8_bitstream_20261015_01/failure-history.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "corruption checks",
+    "artifact": "<PROJECT_ROOT>/research/hashed_mean8_bitstream_20261015_01/corruption_checks_02/corruption-checks.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "post-repair validation",
+    "artifact": "<PROJECT_ROOT>/research/hashed_mean8_bitstream_20261015_01/post_repair_validation/validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "independent review",
+    "artifact": "<PROJECT_ROOT>/research/hashed_mean8_bitstream_20261015_01/B_INDEPENDENT_REVIEW.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "final-validation.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_mean8_bitstream_20261015_01/final-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/HASHED_CONTEXT_RESEARCH_STATUS_20261015_01.md",
+    "label": "локальному аудиту официального исходного кода",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/CNC_SOURCE_AUDIT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "direction_audit_20261011_01",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry-diagnostic.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "BASELINE_GRID4D",
+    "artifact": "<PROJECT_ROOT>/research/BASELINE_GRID4D.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "EXPERIMENT_BENCH_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/EXPERIMENT_BENCH_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "deform.pth",
+    "artifact": "<PROJECT_ROOT>/outputs/grid4d/bouncingballs-reference-50000/deform/iteration_50000/deform.pth",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "reference-float32 results",
+    "artifact": "<PROJECT_ROOT>/experiments/reference-float32/model/results.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "reference-table-8 results",
+    "artifact": "<PROJECT_ROOT>/experiments/reference-table-8/model/results.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "reference-level-8",
+    "artifact": "<PROJECT_ROOT>/experiments/reference-level-8/model/results.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "HASHGRID_MAP",
+    "artifact": "<PROJECT_ROOT>/research/HASHGRID_MAP.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "MEMORY_AUDIT_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/hashgrid_memory_audit/MEMORY_AUDIT_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "reference-iid bitstream",
+    "artifact": "<PROJECT_ROOT>/experiments/reference-iid/bitstream.bin",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "reference-channel_context",
+    "artifact": "<PROJECT_ROOT>/experiments/reference-channel_context/bitstream.bin",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "pairs REPORT",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_results/REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "decoder.py",
+    "artifact": "<PROJECT_ROOT>/research/hashgrid_analysis/xyz34/decoder.py:18",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "FEASIBILITY_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "core.py",
+    "artifact": "<PROJECT_ROOT>/research/hashgrid_analysis/xyz34_feasibility/core.py:14",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "BITSTREAM_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "LOCAL_EVIDENCE_AUDIT.json",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/LOCAL_EVIDENCE_AUDIT.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "context-validation",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/context-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "context.py",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/context.py:8",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "geometry-diagnostic.json",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry-diagnostic.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "geometry_diagnostic.py",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry_diagnostic.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "MEMORY_AUDIT_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/hashgrid_memory_audit/MEMORY_AUDIT_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "FEASIBILITY_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Локальное приложение",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/LOCAL_EVIDENCE_AUDIT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "ANALYSIS_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/analysis_results/ANALYSIS_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Проверка исходников",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "CNC_SOURCE_AUDIT",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/CNC_SOURCE_AUDIT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Новый source audit",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "старый availability report",
+    "artifact": "<PROJECT_ROOT>/research/4DGS_CC_AVAILABILITY.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Grid4D.encode_spatial/encode_temporal",
+    "artifact": "<PROJECT_ROOT>/external/Grid4D-audit-clean/scene/network.py:123",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "HASHGRID_MAP",
+    "artifact": "<PROJECT_ROOT>/research/HASHGRID_MAP.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "HashEncoder allocation",
+    "artifact": "<PROJECT_ROOT>/external/Grid4D-audit-clean/hashencoder/hashgrid.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "CUDA `fast_hash/get_grid_index/kernel_grid`",
+    "artifact": "<PROJECT_ROOT>/external/Grid4D-audit-clean/hashencoder/src/hashencoder.cu:36",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "deform_model.save_weights",
+    "artifact": "<PROJECT_ROOT>/external/Grid4D-audit-clean/scene/deform_model.py:139",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Table8 manifest",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/reference-study/table-8/manifest.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Exact nominal slot coverage",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/slot-coverage.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "CSV",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry-diagnostic.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "JSON",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry-diagnostic.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "SVG",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/slot-coverage.svg",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "diagnostic-validation.json",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/diagnostic-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "mapping-validation",
+    "artifact": "<PROJECT_ROOT>/research/analysis_results/mapping-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "codec.py",
+    "artifact": "<PROJECT_ROOT>/research/grid4d/codec.py:101",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "mapping.py",
+    "artifact": "<PROJECT_ROOT>/research/hashgrid_analysis/mapping.py:4",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "geometry diagnostic",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry_diagnostic.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "context.py",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/context.py:8",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "GPU mapping-validation",
+    "artifact": "<PROJECT_ROOT>/research/analysis_results/mapping-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "feasibility/core.py",
+    "artifact": "<PROJECT_ROOT>/research/hashgrid_analysis/xyz34_feasibility/core.py:14",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "models.frequencies",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/models.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "model_io.serialize/deserialize",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/model_io.py:9",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "entropy.encode_indexed/decode_indexed",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/entropy.py:91",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "format.py",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/format.py:43",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "workflow.py:170",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/workflow.py:170",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "BASELINE_GRID4D",
+    "artifact": "<PROJECT_ROOT>/research/BASELINE_GRID4D.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "HASHGRID_MAP",
+    "artifact": "<PROJECT_ROOT>/research/HASHGRID_MAP.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "PHASE2_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/PHASE2_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "EXPERIMENT_BENCH_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/EXPERIMENT_BENCH_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "bench CLI",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/cli.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "ANALYSIS_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/analysis_results/ANALYSIS_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "levels.csv",
+    "artifact": "<PROJECT_ROOT>/research/analysis_results/entropy/levels.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "GPU mapping-validation",
+    "artifact": "<PROJECT_ROOT>/research/analysis_results/mapping-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Pairs REPORT",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_results/REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "pairs.npz",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_results/pairs.npz",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "FEASIBILITY_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "BITSTREAM_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "MEMORY_AUDIT_REPORT",
+    "artifact": "<PROJECT_ROOT>/research/hashgrid_memory_audit/MEMORY_AUDIT_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Table8 manifest",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/reference-study/table-8/manifest.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "xyz uint8",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/reference-study/table-8/xyz_encoding.u8.bin",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "AGENTS.md",
+    "artifact": "<PROJECT_ROOT>/AGENTS.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "LOCAL_EVIDENCE_AUDIT.md",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/LOCAL_EVIDENCE_AUDIT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "JSON",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/LOCAL_EVIDENCE_AUDIT.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "CNC_SOURCE_AUDIT.md",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/CNC_SOURCE_AUDIT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "cnc_sources.json",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/cnc_sources.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "NVCC_SOURCE_AUDIT.md",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "NVCC_sources.json",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/NVCC_sources.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "geometry_diagnostic.py",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry_diagnostic.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "JSON",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry-diagnostic.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "CSV",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry-diagnostic.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "validation",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/diagnostic-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "Input hashes",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/input-hashes-before.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "final-validation.json",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/final-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/RESEARCH_DIRECTION_DECISION.md",
+    "label": "research/RESEARCH_DIRECTION_DECISION.md",
+    "artifact": "<PROJECT_ROOT>/research/RESEARCH_DIRECTION_DECISION.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/BIBLIOGRAPHY.md",
+    "label": "research/BASELINE_GRID4D.md",
+    "artifact": "<<PROJECT_ROOT>/research/BASELINE_GRID4D.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/BIBLIOGRAPHY.md",
+    "label": "research/direction_audit_20261011_01/CNC_SOURCE_AUDIT.md",
+    "artifact": "<<PROJECT_ROOT>/research/direction_audit_20261011_01/CNC_SOURCE_AUDIT.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/BIBLIOGRAPHY.md",
+    "label": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "artifact": "<<PROJECT_ROOT>/research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/BIBLIOGRAPHY.md",
+    "label": "research/4DGS_CC_AVAILABILITY.md",
+    "artifact": "<<PROJECT_ROOT>/research/4DGS_CC_AVAILABILITY.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/BIBLIOGRAPHY.md",
+    "label": "research/frozen_previous8_actual_20261108_01/SOURCE_RUNTIME.json",
+    "artifact": "<<PROJECT_ROOT>/research/frozen_previous8_actual_20261108_01/SOURCE_RUNTIME.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/BIBLIOGRAPHY.md",
+    "label": "research/frozen_previous8_actual_20261108_01/ENGINE_PROBE.json",
+    "artifact": "<<PROJECT_ROOT>/research/frozen_previous8_actual_20261108_01/ENGINE_PROBE.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/BIBLIOGRAPHY.md",
+    "label": "research/previous8_reserve_batch_20261108_01/MODEL_FITTING_AUDIT.json",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/MODEL_FITTING_AUDIT.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/previous8_reserve_batch_20261108_01/SIX_SCENE_SUMMARY.csv",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/SIX_SCENE_SUMMARY.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/previous8_reserve_batch_20261108_01/PER_LEVEL_COSTS.csv",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/PER_LEVEL_COSTS.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/previous8_reserve_batch_20261108_01/PERFORMANCE.csv",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/PERFORMANCE.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/previous8_reserve_batch_20261108_01/FILE_SIZES.csv",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/FILE_SIZES.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/context_gain_attribution_20261107_01/GAIN_ATTRIBUTION.csv",
+    "artifact": "<<PROJECT_ROOT>/research/context_gain_attribution_20261107_01/GAIN_ATTRIBUTION.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/previous8_reserve_batch_20261108_01/PREVIOUS8_RESERVE_REPORT.md",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/PREVIOUS8_RESERVE_REPORT.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/frozen_previous8_actual_20261108_01/FROZEN_PREVIOUS8_ACTUAL_REPORT.md",
+    "artifact": "<<PROJECT_ROOT>/research/frozen_previous8_actual_20261108_01/FROZEN_PREVIOUS8_ACTUAL_REPORT.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/context_compression_headroom_20261107_01/CONTEXT_COMPRESSION_HEADROOM_REPORT.md",
+    "artifact": "<<PROJECT_ROOT>/research/context_compression_headroom_20261107_01/CONTEXT_COMPRESSION_HEADROOM_REPORT.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/frozen_previous8_actual_20261108_01/FORMAT_SPEC.md",
+    "artifact": "<<PROJECT_ROOT>/research/frozen_previous8_actual_20261108_01/FORMAT_SPEC.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/previous8_reserve_batch_20261108_01/FINAL_VALIDATION.json",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/FINAL_VALIDATION.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/CONTEXT_CODING_CHAPTER.md",
+    "label": "research/RESEARCH_DIRECTION_DECISION.md",
+    "artifact": "<<PROJECT_ROOT>/research/RESEARCH_DIRECTION_DECISION.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/RESEARCH_POSITION.md",
+    "label": "research/previous8_reserve_batch_20261108_01/SIX_SCENE_SUMMARY.csv",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/SIX_SCENE_SUMMARY.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/RESEARCH_POSITION.md",
+    "label": "research/previous8_reserve_batch_20261108_01/PER_LEVEL_COSTS.csv",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/PER_LEVEL_COSTS.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/context_coding_research_synthesis_20261108_01/RESEARCH_POSITION.md",
+    "label": "research/previous8_reserve_batch_20261108_01/FINAL_VALIDATION.json",
+    "artifact": "<<PROJECT_ROOT>/research/previous8_reserve_batch_20261108_01/FINAL_VALIDATION.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/CNC_SOURCE_AUDIT.md",
+    "label": "BITSTREAM_REPORT.md",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/CNC_SOURCE_AUDIT.md",
+    "label": "context.py",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/context.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/CNC_SOURCE_AUDIT.md",
+    "label": "cnc_sources.json",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/cnc_sources.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "локальная версия",
+    "artifact": "<PROJECT_ROOT>/research/sources/4dgscc-paper-v2.html",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "4DGS_CC_AVAILABILITY.md",
+    "artifact": "<PROJECT_ROOT>/research/4DGS_CC_AVAILABILITY.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "scene/network.py:123",
+    "artifact": "<PROJECT_ROOT>/external/Grid4D-audit-clean/scene/network.py:123",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "hashencoder.cu:36",
+    "artifact": "<PROJECT_ROOT>/external/Grid4D-audit-clean/hashencoder/src/hashencoder.cu:36",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "deform_model.py:139",
+    "artifact": "<PROJECT_ROOT>/external/Grid4D-audit-clean/scene/deform_model.py:139",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "codec.py:101",
+    "artifact": "<PROJECT_ROOT>/research/grid4d/codec.py:101",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "context.py",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/context.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "format.py",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/format.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "model_io.py",
+    "artifact": "<PROJECT_ROOT>/research/experiment_bench/interlevel/model_io.py",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "context-validation.json",
+    "artifact": "<PROJECT_ROOT>/research/interlevel_xyz34_bitstream/context-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/direction_audit_20261011_01/NVCC_SOURCE_AUDIT.md",
+    "label": "NVCC_sources.json",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/NVCC_sources.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/experiment_bench/pmf_clustering/README.md",
+    "label": "VALIDATION.json",
+    "artifact": "../../pmf_clustering_impl_20261028_01/tests_01/VALIDATION.json",
+    "resolved": "research/pmf_clustering_impl_20261028_01/tests_01/VALIDATION.json"
+  },
+  {
+    "document": "research/full_spatial_hashgrid_audit_20261029_01/FULL_SPATIAL_HASHGRID_RESEARCH_REPORT.md",
+    "label": "Measured level sizes",
+    "artifact": "level_sizes.png",
+    "resolved": "research/full_spatial_hashgrid_audit_20261029_01/level_sizes.png"
+  },
+  {
+    "document": "research/full_spatial_hashgrid_audit_20261029_01/FULL_SPATIAL_HASHGRID_RESEARCH_REPORT.md",
+    "label": "PSNR differences",
+    "artifact": "quality_deltas.png",
+    "resolved": "research/full_spatial_hashgrid_audit_20261029_01/quality_deltas.png"
+  },
+  {
+    "document": "research/full_spatial_hashgrid_audit_20261029_01/LOSSLESS_BASELINE_REPORT.md",
+    "label": "Measured level sizes",
+    "artifact": "level_sizes.png",
+    "resolved": "research/full_spatial_hashgrid_audit_20261029_01/level_sizes.png"
+  },
+  {
+    "document": "research/full_spatial_hashgrid_audit_20261029_01/LOSSLESS_BASELINE_REPORT.md",
+    "label": "PSNR differences",
+    "artifact": "quality_deltas.png",
+    "resolved": "research/full_spatial_hashgrid_audit_20261029_01/quality_deltas.png"
+  },
+  {
+    "document": "research/full_spatial_hashgrid_audit_20261029_01/RENDER_QUALITY_REPORT.md",
+    "label": "PSNR deltas",
+    "artifact": "quality_deltas.png",
+    "resolved": "research/full_spatial_hashgrid_audit_20261029_01/quality_deltas.png"
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "RESEARCH_DIRECTION_DECISION.md",
+    "artifact": "<PROJECT_ROOT>/research/RESEARCH_DIRECTION_DECISION.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "geometry audit",
+    "artifact": "<PROJECT_ROOT>/research/direction_audit_20261011_01/geometry-diagnostic.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "Manifest входов этапа 0",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/run-manifest.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "хеши защищённых прежних файлов",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/protected-input-hashes.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "Multiplicity и geometry",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/diagnostics/multiplicity_geometry.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "Распределения Std по каналам и G2/G3",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/diagnostics/std_distributions.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "Mean и Std coarse features",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/diagnostics/mean_std_hexbin.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "Полные примеры с mean/Std каждого канала",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/diagnostics/examples.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "scalar-проверка",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/example_verification/validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "все correspondences выбранных slots",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/example_verification/selected-correspondences.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "Synthetic results",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/synthetic-tests.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "все context checks",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/context-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "artifact integrity",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/integrity_checks/validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "Windows/WSL CPU parity",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/gpu_checks/cross-cpu-parity.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "NPZ",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L4_to_L5/contexts.npz",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "CSV",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L4_to_L5/contexts.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "fine labels",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L4_to_L5/fine_symbols.npy",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "metadata",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L4_to_L5/decoder_bundle/decoder_metadata.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "coarse symbols",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L4_to_L5/decoder_bundle/coarse_symbols.npy",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "CUDA parity",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/gpu_checks/L4_to_L5/gpu-parity.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "NPZ",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L5_to_L6/contexts.npz",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "CSV",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L5_to_L6/contexts.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "fine labels",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L5_to_L6/fine_symbols.npy",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "metadata",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L5_to_L6/decoder_bundle/decoder_metadata.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "coarse symbols",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/L5_to_L6/decoder_bundle/coarse_symbols.npy",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "label": "CUDA parity",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/gpu_checks/L5_to_L6/gpu-parity.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "предыдущий диагностический отчёт",
+    "artifact": "<PROJECT_ROOT>/research/hashed_context_diagnostic_20261013_01/DIAGNOSTIC_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "RESEARCH_DIRECTION_DECISION.md",
+    "artifact": "<PROJECT_ROOT>/research/RESEARCH_DIRECTION_DECISION.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "PREREGISTERED_PROTOCOL.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/PREREGISTERED_PROTOCOL.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "MODEL_FREEZE.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/MODEL_FREEZE.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "Парные gains и conditional интервалы",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/plots/paired_gains.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "test-scores.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/test-scores.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "paired-differences.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/paired-differences.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "Максимальная и эффективная capacity",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/plots/class_capacity.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "model-sizes.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/model-sizes.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "PREDICTED net",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/plots/predicted_net.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "predicted-net.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/predicted-net.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "replay-validation.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/replay-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "input-validation.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/input-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "splits.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/splits.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "decision.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/decision.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "PREREGISTERED_PROTOCOL.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/PREREGISTERED_PROTOCOL.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "splits.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/splits.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "validation-scores.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/validation-scores.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "test-scores.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/test-scores.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "paired-differences.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/paired-differences.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "model-sizes.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/model-sizes.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "label": "predicted-net.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/predicted-net.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Точные секции и SHA каждого файла",
+    "artifact": "results.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/results.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Лучшие файлы",
+    "artifact": "best.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/best.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Физические размеры",
+    "artifact": "figures/actual_sizes_v2.png",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/figures/actual_sizes_v2.png"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Все gains",
+    "artifact": "actual-gains.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/actual-gains.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Численное разложение",
+    "artifact": "prediction-bridge.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/prediction-bridge.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Повтор после исправления",
+    "artifact": "post_repair_validation/validation.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/post_repair_validation/validation.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Corruption PASS",
+    "artifact": "corruption_checks_02/corruption-checks.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/corruption_checks_02/corruption-checks.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Независимый аудит",
+    "artifact": "B_INDEPENDENT_REVIEW.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/B_INDEPENDENT_REVIEW.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "История",
+    "artifact": "failure-history.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/failure-history.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Все repeats",
+    "artifact": "runtime-samples.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/runtime-samples.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Pilot",
+    "artifact": "pilot-agent.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/pilot-agent.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "CPU runtime",
+    "artifact": "figures/runtime.png",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/figures/runtime.png"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "Runtime metadata",
+    "artifact": "environment.json",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/environment.json"
+  },
+  {
+    "document": "research/hashed_mean8_bitstream_20261015_01/BITSTREAM_REPORT.md",
+    "label": "requirements",
+    "artifact": "requirements-research.txt",
+    "resolved": "research/hashed_mean8_bitstream_20261015_01/requirements-research.txt"
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "Paired gain",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/plots/paired_gain.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "PREDICTED net",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/plots/predicted_net.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "Прежний HELDOUT_REPORT.md",
+    "artifact": "<PROJECT_ROOT>/research/hashed_dispersion_heldout_20261013_01/HELDOUT_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "PREREGISTERED_PROTOCOL.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/PREREGISTERED_PROTOCOL.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "decision.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/decision.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "test-scores.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/test-scores.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "paired-differences.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/paired-differences.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "model-sizes.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/model-sizes.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "predicted-net.csv",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/predicted-net.csv",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "replay-validation.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/replay-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "independent-audit.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/independent-audit.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hashed_multiplicity_study_20261014_01/MULTIPLICITY_REPORT.md",
+    "label": "final-validation.json",
+    "artifact": "<PROJECT_ROOT>/research/hashed_multiplicity_study_20261014_01/final-validation.json",
+    "resolved": ""
+  },
+  {
+    "document": "research/hybrid_context_selection_20261027_01/HYBRID_CONTEXT_RESEARCH_REPORT.md",
+    "label": "Format vs routing",
+    "artifact": "figures/gain_decomposition.png",
+    "resolved": "research/hybrid_context_selection_20261027_01/figures/gain_decomposition.png"
+  },
+  {
+    "document": "research/hybrid_context_selection_20261027_01/HYBRID_CONTEXT_RESEARCH_REPORT.md",
+    "label": "All masks",
+    "artifact": "figures/mask_actual_net.png",
+    "resolved": "research/hybrid_context_selection_20261027_01/figures/mask_actual_net.png"
+  },
+  {
+    "document": "research/hybrid_context_selection_20261027_01/HYBRID_CONTEXT_RESEARCH_REPORT.md",
+    "label": "DRY_SIZE_PREDICTIONS.md",
+    "artifact": "DRY_SIZE_PREDICTIONS.md",
+    "resolved": "research/hybrid_context_selection_20261027_01/DRY_SIZE_PREDICTIONS.md"
+  },
+  {
+    "document": "research/hybrid_context_selection_20261027_01/HYBRID_CONTEXT_RESEARCH_REPORT.md",
+    "label": "GO_NO_GO_STAGE_A.md",
+    "artifact": "GO_NO_GO_STAGE_A.md",
+    "resolved": "research/hybrid_context_selection_20261027_01/GO_NO_GO_STAGE_A.md"
+  },
+  {
+    "document": "research/hybrid_context_selection_20261027_01/HYBRID_CONTEXT_RESEARCH_REPORT.md",
+    "label": "INDEPENDENT_DECODER_VALIDATION.md",
+    "artifact": "INDEPENDENT_DECODER_VALIDATION.md",
+    "resolved": "research/hybrid_context_selection_20261027_01/INDEPENDENT_DECODER_VALIDATION.md"
+  },
+  {
+    "document": "research/hybrid_context_selection_20261027_01/HYBRID_CONTEXT_RESEARCH_REPORT.md",
+    "label": "CROSS_SCENE_COMPARISON.md",
+    "artifact": "CROSS_SCENE_COMPARISON.md",
+    "resolved": "research/hybrid_context_selection_20261027_01/CROSS_SCENE_COMPARISON.md"
+  },
+  {
+    "document": "research/hybrid_context_selection_20261027_01/HYBRID_CONTEXT_RESEARCH_REPORT.md",
+    "label": "NEXT_RESEARCH_DECISION.md",
+    "artifact": "NEXT_RESEARCH_DECISION.md",
+    "resolved": "research/hybrid_context_selection_20261027_01/NEXT_RESEARCH_DECISION.md"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_bitstream/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "prediction-bridge.json",
+    "artifact": "prediction-bridge.json",
+    "resolved": "research/interlevel_xyz34_bitstream/prediction-bridge.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "runtime.json",
+    "artifact": "runtime.json",
+    "resolved": "research/interlevel_xyz34_bitstream/runtime.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "tests.log",
+    "artifact": "tests.log",
+    "resolved": "research/interlevel_xyz34_bitstream/tests.log"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "Журнал исправлений",
+    "artifact": "failure-history.json",
+    "resolved": "research/interlevel_xyz34_bitstream/failure-history.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "Nine real files, all independently decoded",
+    "artifact": "figures/actual-file-sizes.png",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/actual-file-sizes.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "SVG",
+    "artifact": "figures/actual-file-sizes.svg",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/actual-file-sizes.svg"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_bitstream/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "Every byte accounted for: payload and overhead",
+    "artifact": "figures/payload-vs-overhead.png",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/payload-vs-overhead.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "SVG",
+    "artifact": "figures/payload-vs-overhead.svg",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/payload-vs-overhead.svg"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_bitstream/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "Spatial-8: forecasts versus measured full-file savings",
+    "artifact": "figures/estimated-vs-actual.png",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/estimated-vs-actual.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "SVG",
+    "artifact": "figures/estimated-vs-actual.svg",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/estimated-vs-actual.svg"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_bitstream/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "Net file savings against the best measured IID and Boundary baselines",
+    "artifact": "figures/net-vs-best-baseline.png",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/net-vs-best-baseline.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "SVG",
+    "artifact": "figures/net-vs-best-baseline.svg",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/net-vs-best-baseline.svg"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_bitstream/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "One warmup + three timed runs; imports, disk I/O and plots excluded",
+    "artifact": "figures/runtime.png",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/runtime.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "SVG",
+    "artifact": "figures/runtime.svg",
+    "resolved": "research/interlevel_xyz34_bitstream/figures/runtime.svg"
+  },
+  {
+    "document": "research/interlevel_xyz34_bitstream/BITSTREAM_REPORT.md",
+    "label": "runtime.json",
+    "artifact": "runtime.json",
+    "resolved": "research/interlevel_xyz34_bitstream/runtime.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "model-selection.json",
+    "artifact": "model-selection.json",
+    "resolved": "research/interlevel_xyz34_feasibility/model-selection.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "tests.log",
+    "artifact": "tests.log",
+    "resolved": "research/interlevel_xyz34_feasibility/tests.log"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "validation.log",
+    "artifact": "validation.log",
+    "resolved": "research/interlevel_xyz34_feasibility/validation.log"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "failure-history.json",
+    "artifact": "failure-history.json",
+    "resolved": "research/interlevel_xyz34_feasibility/failure-history.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "Reproducibility evidence",
+    "artifact": "reproducibility.json",
+    "resolved": "research/interlevel_xyz34_feasibility/reproducibility.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "IID, channel0: training conditional histograms",
+    "artifact": "figures/distributions/IID-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/IID-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "IID, channel0: p(q4|class)",
+    "artifact": "figures/probabilities/IID-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/IID-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "IID, channel1: training conditional histograms",
+    "artifact": "figures/distributions/IID-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/IID-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "IID, channel1: p(q4|class)",
+    "artifact": "figures/probabilities/IID-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/IID-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "Boundary, channel0: training conditional histograms",
+    "artifact": "figures/distributions/Boundary-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/Boundary-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "Boundary, channel0: p(q4|class)",
+    "artifact": "figures/probabilities/Boundary-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/Boundary-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "Boundary, channel1: training conditional histograms",
+    "artifact": "figures/distributions/Boundary-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/Boundary-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "Boundary, channel1: p(q4|class)",
+    "artifact": "figures/probabilities/Boundary-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/Boundary-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-4, channel0: training conditional histograms",
+    "artifact": "figures/distributions/uniform-Spatial-4-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/uniform-Spatial-4-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-4, channel0: p(q4|class)",
+    "artifact": "figures/probabilities/uniform-Spatial-4-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/uniform-Spatial-4-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-4, channel1: training conditional histograms",
+    "artifact": "figures/distributions/uniform-Spatial-4-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/uniform-Spatial-4-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-4, channel1: p(q4|class)",
+    "artifact": "figures/probabilities/uniform-Spatial-4-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/uniform-Spatial-4-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-8, channel0: training conditional histograms",
+    "artifact": "figures/distributions/uniform-Spatial-8-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/uniform-Spatial-8-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-8, channel0: p(q4|class)",
+    "artifact": "figures/probabilities/uniform-Spatial-8-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/uniform-Spatial-8-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-8, channel1: training conditional histograms",
+    "artifact": "figures/distributions/uniform-Spatial-8-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/uniform-Spatial-8-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-8, channel1: p(q4|class)",
+    "artifact": "figures/probabilities/uniform-Spatial-8-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/uniform-Spatial-8-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-16, channel0: training conditional histograms",
+    "artifact": "figures/distributions/uniform-Spatial-16-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/uniform-Spatial-16-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-16, channel0: p(q4|class)",
+    "artifact": "figures/probabilities/uniform-Spatial-16-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/uniform-Spatial-16-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-16, channel1: training conditional histograms",
+    "artifact": "figures/distributions/uniform-Spatial-16-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/uniform-Spatial-16-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform-Spatial-16, channel1: p(q4|class)",
+    "artifact": "figures/probabilities/uniform-Spatial-16-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/uniform-Spatial-16-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-4, channel0: training conditional histograms",
+    "artifact": "figures/distributions/quantile-Spatial-4-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/quantile-Spatial-4-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-4, channel0: p(q4|class)",
+    "artifact": "figures/probabilities/quantile-Spatial-4-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/quantile-Spatial-4-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-4, channel1: training conditional histograms",
+    "artifact": "figures/distributions/quantile-Spatial-4-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/quantile-Spatial-4-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-4, channel1: p(q4|class)",
+    "artifact": "figures/probabilities/quantile-Spatial-4-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/quantile-Spatial-4-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-8, channel0: training conditional histograms",
+    "artifact": "figures/distributions/quantile-Spatial-8-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/quantile-Spatial-8-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-8, channel0: p(q4|class)",
+    "artifact": "figures/probabilities/quantile-Spatial-8-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/quantile-Spatial-8-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-8, channel1: training conditional histograms",
+    "artifact": "figures/distributions/quantile-Spatial-8-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/quantile-Spatial-8-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-8, channel1: p(q4|class)",
+    "artifact": "figures/probabilities/quantile-Spatial-8-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/quantile-Spatial-8-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-16, channel0: training conditional histograms",
+    "artifact": "figures/distributions/quantile-Spatial-16-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/quantile-Spatial-16-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-16, channel0: p(q4|class)",
+    "artifact": "figures/probabilities/quantile-Spatial-16-ch0.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/quantile-Spatial-16-ch0.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-16, channel1: training conditional histograms",
+    "artifact": "figures/distributions/quantile-Spatial-16-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/distributions/quantile-Spatial-16-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile-Spatial-16, channel1: p(q4|class)",
+    "artifact": "figures/probabilities/quantile-Spatial-16-ch1.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/probabilities/quantile-Spatial-16-ch1.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "representative-distributions.json",
+    "artifact": "representative-distributions.json",
+    "resolved": "research/interlevel_xyz34_feasibility/representative-distributions.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform: held-out cross entropy, mean over3 seeds",
+    "artifact": "figures/crossentropy-uniform.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/crossentropy-uniform.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_feasibility/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform: estimated payload benefit vs primary model cost",
+    "artifact": "figures/net-saving-uniform.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/net-saving-uniform.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_feasibility/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform: context occupancy, separate train/validation/test",
+    "artifact": "figures/occupancy-uniform.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/occupancy-uniform.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "uniform: incremental predictive gain across fixed splits",
+    "artifact": "figures/stability-uniform.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/stability-uniform.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_feasibility/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile: held-out cross entropy, mean over3 seeds",
+    "artifact": "figures/crossentropy-quantile.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/crossentropy-quantile.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_feasibility/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile: estimated payload benefit vs primary model cost",
+    "artifact": "figures/net-saving-quantile.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/net-saving-quantile.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_feasibility/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile: context occupancy, separate train/validation/test",
+    "artifact": "figures/occupancy-quantile.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/occupancy-quantile.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "quantile: incremental predictive gain across fixed splits",
+    "artifact": "figures/stability-quantile.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/stability-quantile.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_feasibility/results.json"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "Predicted profitability depends on how probability masses are stored",
+    "artifact": "figures/overhead-sensitivity.png",
+    "resolved": "research/interlevel_xyz34_feasibility/figures/overhead-sensitivity.png"
+  },
+  {
+    "document": "research/interlevel_xyz34_feasibility/FEASIBILITY_REPORT.md",
+    "label": "results.json",
+    "artifact": "results.json",
+    "resolved": "research/interlevel_xyz34_feasibility/results.json"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "Size versus PSNR",
+    "artifact": "bouncingballs_PSNR.png",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/bouncingballs_PSNR.png"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "Size versus LPIPS",
+    "artifact": "bouncingballs_LPIPS_STANDARD_VGG.png",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/bouncingballs_LPIPS_STANDARD_VGG.png"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "Size versus PSNR",
+    "artifact": "hellwarrior_PSNR.png",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/hellwarrior_PSNR.png"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "Size versus LPIPS",
+    "artifact": "hellwarrior_LPIPS_STANDARD_VGG.png",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/hellwarrior_LPIPS_STANDARD_VGG.png"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "Size versus PSNR",
+    "artifact": "hook_PSNR.png",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/hook_PSNR.png"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "Size versus LPIPS",
+    "artifact": "hook_LPIPS_STANDARD_VGG.png",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/hook_LPIPS_STANDARD_VGG.png"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "Size versus PSNR",
+    "artifact": "jumpingjacks_PSNR.png",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/jumpingjacks_PSNR.png"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "Size versus LPIPS",
+    "artifact": "jumpingjacks_LPIPS_STANDARD_VGG.png",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/jumpingjacks_LPIPS_STANDARD_VGG.png"
+  },
+  {
+    "document": "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md",
+    "label": "FIXED_VIEW_COMPARISON.html",
+    "artifact": "FIXED_VIEW_COMPARISON.html",
+    "resolved": "research/intermediate_precision_rate_quality_20261030_01/FIXED_VIEW_COMPARISON.html"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "Isolated loss",
+    "artifact": "isolated_loss.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/isolated_loss.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "Restoration gain",
+    "artifact": "restore_gain.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/restore_gain.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "bouncingballs/R0/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/R0/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "bouncingballs/R0/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/R0/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "bouncingballs/R0/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/R0/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "bouncingballs/R2/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/R2/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "bouncingballs/R2/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/R2/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "bouncingballs/R2/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/R2/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "bouncingballs/Q_ONLY_L4/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/Q_ONLY_L4/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "bouncingballs/Q_ONLY_L4/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/Q_ONLY_L4/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "bouncingballs/Q_ONLY_L4/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/Q_ONLY_L4/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "bouncingballs/Q_ONLY_L7/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/Q_ONLY_L7/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "bouncingballs/Q_ONLY_L7/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/Q_ONLY_L7/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "bouncingballs/Q_ONLY_L7/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/Q_ONLY_L7/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "bouncingballs/RESTORE_FP32_L4/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/RESTORE_FP32_L4/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "bouncingballs/RESTORE_FP32_L4/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/RESTORE_FP32_L4/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "bouncingballs/RESTORE_FP32_L4/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/RESTORE_FP32_L4/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "bouncingballs/RESTORE_FP32_L7/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/RESTORE_FP32_L7/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "bouncingballs/RESTORE_FP32_L7/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/RESTORE_FP32_L7/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "bouncingballs/RESTORE_FP32_L7/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/bouncingballs/RESTORE_FP32_L7/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hellwarrior/R0/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/R0/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hellwarrior/R0/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/R0/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hellwarrior/R0/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/R0/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hellwarrior/R2/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/R2/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hellwarrior/R2/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/R2/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hellwarrior/R2/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/R2/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hellwarrior/Q_ONLY_L4/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/Q_ONLY_L4/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hellwarrior/Q_ONLY_L4/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/Q_ONLY_L4/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hellwarrior/Q_ONLY_L4/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/Q_ONLY_L4/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hellwarrior/Q_ONLY_L7/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/Q_ONLY_L7/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hellwarrior/Q_ONLY_L7/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/Q_ONLY_L7/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hellwarrior/Q_ONLY_L7/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/Q_ONLY_L7/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hellwarrior/RESTORE_FP32_L4/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/RESTORE_FP32_L4/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hellwarrior/RESTORE_FP32_L4/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/RESTORE_FP32_L4/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hellwarrior/RESTORE_FP32_L4/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/RESTORE_FP32_L4/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hellwarrior/RESTORE_FP32_L7/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/RESTORE_FP32_L7/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hellwarrior/RESTORE_FP32_L7/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/RESTORE_FP32_L7/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hellwarrior/RESTORE_FP32_L7/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hellwarrior/RESTORE_FP32_L7/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hook/R0/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/R0/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hook/R0/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/R0/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hook/R0/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/R0/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hook/R2/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/R2/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hook/R2/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/R2/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hook/R2/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/R2/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hook/Q_ONLY_L4/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/Q_ONLY_L4/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hook/Q_ONLY_L4/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/Q_ONLY_L4/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hook/Q_ONLY_L4/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/Q_ONLY_L4/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hook/Q_ONLY_L7/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/Q_ONLY_L7/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hook/Q_ONLY_L7/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/Q_ONLY_L7/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hook/Q_ONLY_L7/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/Q_ONLY_L7/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hook/RESTORE_FP32_L4/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/RESTORE_FP32_L4/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hook/RESTORE_FP32_L4/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/RESTORE_FP32_L4/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hook/RESTORE_FP32_L4/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/RESTORE_FP32_L4/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "hook/RESTORE_FP32_L7/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/RESTORE_FP32_L7/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "hook/RESTORE_FP32_L7/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/RESTORE_FP32_L7/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "hook/RESTORE_FP32_L7/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/hook/RESTORE_FP32_L7/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "jumpingjacks/R0/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/R0/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "jumpingjacks/R0/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/R0/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "jumpingjacks/R0/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/R0/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "jumpingjacks/R2/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/R2/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "jumpingjacks/R2/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/R2/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "jumpingjacks/R2/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/R2/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "jumpingjacks/Q_ONLY_L4/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/Q_ONLY_L4/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "jumpingjacks/Q_ONLY_L4/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/Q_ONLY_L4/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "jumpingjacks/Q_ONLY_L4/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/Q_ONLY_L4/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "jumpingjacks/Q_ONLY_L7/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/Q_ONLY_L7/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "jumpingjacks/Q_ONLY_L7/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/Q_ONLY_L7/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "jumpingjacks/Q_ONLY_L7/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/Q_ONLY_L7/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "jumpingjacks/RESTORE_FP32_L4/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/RESTORE_FP32_L4/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "jumpingjacks/RESTORE_FP32_L4/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/RESTORE_FP32_L4/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "jumpingjacks/RESTORE_FP32_L4/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/RESTORE_FP32_L4/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00000.png",
+    "artifact": "jumpingjacks/RESTORE_FP32_L7/model/test/ours_50000/renders/00000.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/RESTORE_FP32_L7/model/test/ours_50000/renders/00000.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00010.png",
+    "artifact": "jumpingjacks/RESTORE_FP32_L7/model/test/ours_50000/renders/00010.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/RESTORE_FP32_L7/model/test/ours_50000/renders/00010.png"
+  },
+  {
+    "document": "research/levelwise_quantization_sensitivity_20261029_01/LEVELWISE_QUANTIZATION_RESEARCH_REPORT.md",
+    "label": "00019.png",
+    "artifact": "jumpingjacks/RESTORE_FP32_L7/model/test/ours_50000/renders/00019.png",
+    "resolved": "research/levelwise_quantization_sensitivity_20261029_01/jumpingjacks/RESTORE_FP32_L7/model/test/ours_50000/renders/00019.png"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/CONTEXT_COST_DIAGNOSTIC_REPORT.md",
+    "label": "geometry_Geometry4",
+    "artifact": "plots/geometry_Geometry4.png",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/plots/geometry_Geometry4.png"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/CONTEXT_COST_DIAGNOSTIC_REPORT.md",
+    "label": "physical_waterfall_v2",
+    "artifact": "plots/physical_waterfall_v2.png",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/plots/physical_waterfall_v2.png"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/CONTEXT_COST_DIAGNOSTIC_REPORT.md",
+    "label": "BREAK_EVEN_ANALYSIS.md",
+    "artifact": "BREAK_EVEN_ANALYSIS.md",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/BREAK_EVEN_ANALYSIS.md"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/CONTEXT_COST_DIAGNOSTIC_REPORT.md",
+    "label": "CROSS_SCENE_LEVEL_COMPARISON.md",
+    "artifact": "CROSS_SCENE_LEVEL_COMPARISON.md",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/CROSS_SCENE_LEVEL_COMPARISON.md"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/CONTEXT_COST_DIAGNOSTIC_REPORT.md",
+    "label": "NEXT_ALGORITHM_HYPOTHESIS.md",
+    "artifact": "NEXT_ALGORITHM_HYPOTHESIS.md",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/NEXT_ALGORITHM_HYPOTHESIS.md"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/CONTEXT_COST_DIAGNOSTIC_REPORT.md",
+    "label": "ANALYSIS_PROTOCOL.md",
+    "artifact": "ANALYSIS_PROTOCOL.md",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/ANALYSIS_PROTOCOL.md"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/CONTEXT_COST_DIAGNOSTIC_REPORT.md",
+    "label": "INPUT_MANIFEST.json",
+    "artifact": "INPUT_MANIFEST.json",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/INPUT_MANIFEST.json"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/GEOMETRY_GAIN_REPORT.md",
+    "label": "geometry_Geometry4",
+    "artifact": "plots/geometry_Geometry4.png",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/plots/geometry_Geometry4.png"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/GEOMETRY_GAIN_REPORT.md",
+    "label": "channel_contributions",
+    "artifact": "plots/channel_contributions.png",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/plots/channel_contributions.png"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/GEOMETRY_GAIN_REPORT.md",
+    "label": "multiplicity_contributions",
+    "artifact": "plots/multiplicity_contributions.png",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/plots/multiplicity_contributions.png"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/GEOMETRY_GAIN_REPORT.md",
+    "label": "geometry_Canonical8",
+    "artifact": "plots/geometry_Canonical8.png",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/plots/geometry_Canonical8.png"
+  },
+  {
+    "document": "research/mean8_context_cost_analysis_20261024_01/SPARSE_MODEL_COST_REPORT.md",
+    "label": "sparse_row_costs",
+    "artifact": "plots/sparse_row_costs.png",
+    "resolved": "research/mean8_context_cost_analysis_20261024_01/plots/sparse_row_costs.png"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "подготовленный план",
+    "artifact": "../mean8_cross_scene_20261018_02/NEXT_MEAN8_VALIDATION_PLAN.md",
+    "resolved": "research/mean8_cross_scene_20261018_02/NEXT_MEAN8_VALIDATION_PLAN.md"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "integrity-final.json",
+    "artifact": "integrity-final.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/integrity-final.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "runtime.json",
+    "artifact": "inputs/runtime.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/inputs/runtime.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "manifest.json",
+    "artifact": "inputs/manifest.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/inputs/manifest.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "предыдущая оценка",
+    "artifact": "../mean8_cross_scene_20261018_02/BASELINE_EVALUATION.md",
+    "resolved": "research/mean8_cross_scene_20261018_02/BASELINE_EVALUATION.md"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "Context checks",
+    "artifact": "inputs/context-validation.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/inputs/context-validation.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "actual/results.csv",
+    "artifact": "actual/results.csv",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual/results.csv"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "actual/best.json",
+    "artifact": "actual/best.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual/best.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "actual/streams",
+    "artifact": "actual/streams",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual/streams"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "Реальные размеры и trade-off",
+    "artifact": "figures/actual_sizes.png",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/figures/actual_sizes.png"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "Численное разложение",
+    "artifact": "actual-gains.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual-gains.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "heldout/HELDOUT_REPORT.md",
+    "artifact": "heldout/HELDOUT_REPORT.md",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/heldout/HELDOUT_REPORT.md"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "Held-out gains отдельно от actual bytes",
+    "artifact": "figures/heldout_gains.png",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/figures/heldout_gains.png"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "Prediction bridge",
+    "artifact": "prediction-bridge.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/prediction-bridge.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "actual",
+    "artifact": "INDEPENDENT_ACTUAL_AUDIT_001.md",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/INDEPENDENT_ACTUAL_AUDIT_001.md"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "held-out",
+    "artifact": "heldout-review-001/HELDOUT_INDEPENDENT_REVIEW_001.md",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/heldout-review-001/HELDOUT_INDEPENDENT_REVIEW_001.md"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "decode-validation",
+    "artifact": "actual/decode-validation.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual/decode-validation.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "corruption-checks",
+    "artifact": "actual-corruption-001/corruption-checks.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual-corruption-001/corruption-checks.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "v2-review",
+    "artifact": "v2-review-001.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/v2-review-001.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "heldout final validation",
+    "artifact": "heldout/FINAL_VALIDATION.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/heldout/FINAL_VALIDATION.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "Environment",
+    "artifact": "environment.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/environment.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "decoder requirements",
+    "artifact": "requirements-decoder.txt",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/requirements-decoder.txt"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "raw samples",
+    "artifact": "actual/runtime-samples.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual/runtime-samples.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/BITSTREAM_REPORT.md",
+    "label": "Failure history",
+    "artifact": "failure-history.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/failure-history.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "Вторичный held-out отчёт",
+    "artifact": "heldout/HELDOUT_REPORT.md",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/heldout/HELDOUT_REPORT.md"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "Actual independent audit",
+    "artifact": "INDEPENDENT_ACTUAL_AUDIT_001.md",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/INDEPENDENT_ACTUAL_AUDIT_001.md"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "Held-out independent audit",
+    "artifact": "heldout-review-001/HELDOUT_INDEPENDENT_REVIEW_001.md",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/heldout-review-001/HELDOUT_INDEPENDENT_REVIEW_001.md"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "размеры",
+    "artifact": "actual/best.csv",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual/best.csv"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "Inputs manifest",
+    "artifact": "inputs/manifest.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/inputs/manifest.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "runtime geometry",
+    "artifact": "inputs/runtime.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/inputs/runtime.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "context checks",
+    "artifact": "inputs/context-validation.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/inputs/context-validation.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "freeze",
+    "artifact": "actual/INPUT_FREEZE.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual/INPUT_FREEZE.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "Exact decode checks",
+    "artifact": "actual/decode-validation.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual/decode-validation.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "corruption checks",
+    "artifact": "actual-corruption-001/corruption-checks.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/actual-corruption-001/corruption-checks.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "Environment",
+    "artifact": "environment.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/environment.json"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "decoder dependencies",
+    "artifact": "requirements-decoder.txt",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/requirements-decoder.txt"
+  },
+  {
+    "document": "research/mean8_hellwarrior_validation_20261020_01/REPORT_INDEX.md",
+    "label": "failure history",
+    "artifact": "failure-history.json",
+    "resolved": "research/mean8_hellwarrior_validation_20261020_01/failure-history.json"
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "все physical .bin",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/bouncingballs/actual/streams>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "12 transport budgets",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/bouncingballs/actual/results.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "best file manifests",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/bouncingballs/actual/best.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "независимые восстановленные массивы",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/bouncingballs/actual/decoded>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "malformed checks",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/bouncingballs/corruption-001/corruption-checks.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "все physical .bin",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/hellwarrior/actual/streams>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "12 transport budgets",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/hellwarrior/actual/results.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "best file manifests",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/hellwarrior/actual/best.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "независимые восстановленные массивы",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/hellwarrior/actual/decoded>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "malformed checks",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/hellwarrior/corruption-001/corruption-checks.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "Actual sizes",
+    "artifact": "<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/figures/actual_sizes.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/BITSTREAM_REPORT.md",
+    "label": "Overhead tradeoff",
+    "artifact": "<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/figures/overhead_tradeoff.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/HELDOUT_REPORT.md",
+    "label": "HELDOUT_REPORT.md",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/bouncingballs/heldout/HELDOUT_REPORT.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/HELDOUT_REPORT.md",
+    "label": "test-scores.csv",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/bouncingballs/heldout/test-scores.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/HELDOUT_REPORT.md",
+    "label": "paired-differences.csv",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/bouncingballs/heldout/paired-differences.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/HELDOUT_REPORT.md",
+    "label": "HELDOUT_REPORT.md",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/hellwarrior/heldout/HELDOUT_REPORT.md>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/HELDOUT_REPORT.md",
+    "label": "test-scores.csv",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/hellwarrior/heldout/test-scores.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/HELDOUT_REPORT.md",
+    "label": "paired-differences.csv",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/hellwarrior/heldout/paired-differences.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/HELDOUT_REPORT.md",
+    "label": "audit.json",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/heldout-independent-001/audit.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/HELDOUT_REPORT.md",
+    "label": "Heldout",
+    "artifact": "<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/figures/heldout_gains.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/PERFORMANCE_REPORT.md",
+    "label": "environment.json",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/environment.json>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/PERFORMANCE_REPORT.md",
+    "label": "runtime-summary.csv",
+    "artifact": "<<PROJECT_ROOT>/research/mean8_l56_cross_scene_20261022_01/runtime-summary.csv>",
+    "resolved": ""
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/REPORT_INDEX.md",
+    "label": "EXPERIMENT_PROTOCOL.md",
+    "artifact": "EXPERIMENT_PROTOCOL.md",
+    "resolved": "research/mean8_l56_cross_scene_20261022_01/EXPERIMENT_PROTOCOL.md"
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/REPORT_INDEX.md",
+    "label": "INPUT_AUDIT.md",
+    "artifact": "INPUT_AUDIT.md",
+    "resolved": "research/mean8_l56_cross_scene_20261022_01/INPUT_AUDIT.md"
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/REPORT_INDEX.md",
+    "label": "CONTEXT_VALIDATION.md",
+    "artifact": "CONTEXT_VALIDATION.md",
+    "resolved": "research/mean8_l56_cross_scene_20261022_01/CONTEXT_VALIDATION.md"
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/REPORT_INDEX.md",
+    "label": "CROSS_LEVEL_COMPARISON.md",
+    "artifact": "CROSS_LEVEL_COMPARISON.md",
+    "resolved": "research/mean8_l56_cross_scene_20261022_01/CROSS_LEVEL_COMPARISON.md"
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/REPORT_INDEX.md",
+    "label": "NEXT_RESEARCH_DECISION.md",
+    "artifact": "NEXT_RESEARCH_DECISION.md",
+    "resolved": "research/mean8_l56_cross_scene_20261022_01/NEXT_RESEARCH_DECISION.md"
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/REPORT_INDEX.md",
+    "label": "bouncingballs",
+    "artifact": "bouncingballs/actual/streams/",
+    "resolved": "research/mean8_l56_cross_scene_20261022_01/bouncingballs/actual/streams"
+  },
+  {
+    "document": "research/mean8_l56_cross_scene_20261022_01/REPORT_INDEX.md",
+    "label": "hellwarrior",
+    "artifact": "hellwarrior/actual/streams/",
+    "resolved": "research/mean8_l56_cross_scene_20261022_01/hellwarrior/actual/streams"
+  },
+  {
+    "document": "research/mixed_spatial_storage_20261030_02/MIXED_SPATIAL_STORAGE_REPORT.md",
+    "label": "Size versus PSNR",
+    "artifact": "bouncingballs_PSNR.png",
+    "resolved": "research/mixed_spatial_storage_20261030_02/bouncingballs_PSNR.png"
+  },
+  {
+    "document": "research/mixed_spatial_storage_20261030_02/MIXED_SPATIAL_STORAGE_REPORT.md",
+    "label": "Size versus standard LPIPS",
+    "artifact": "bouncingballs_LPIPS_STANDARD_VGG.png",
+    "resolved": "research/mixed_spatial_storage_20261030_02/bouncingballs_LPIPS_STANDARD_VGG.png"
+  },
+  {
+    "document": "research/mixed_spatial_storage_20261030_02/MIXED_SPATIAL_STORAGE_REPORT.md",
+    "label": "Size versus PSNR",
+    "artifact": "hellwarrior_PSNR.png",
+    "resolved": "research/mixed_spatial_storage_20261030_02/hellwarrior_PSNR.png"
+  },
+  {
+    "document": "research/mixed_spatial_storage_20261030_02/MIXED_SPATIAL_STORAGE_REPORT.md",
+    "label": "Size versus standard LPIPS",
+    "artifact": "hellwarrior_LPIPS_STANDARD_VGG.png",
+    "resolved": "research/mixed_spatial_storage_20261030_02/hellwarrior_LPIPS_STANDARD_VGG.png"
+  },
+  {
+    "document": "research/mixed_spatial_storage_20261030_02/MIXED_SPATIAL_STORAGE_REPORT.md",
+    "label": "Size versus PSNR",
+    "artifact": "hook_PSNR.png",
+    "resolved": "research/mixed_spatial_storage_20261030_02/hook_PSNR.png"
+  },
+  {
+    "document": "research/mixed_spatial_storage_20261030_02/MIXED_SPATIAL_STORAGE_REPORT.md",
+    "label": "Size versus standard LPIPS",
+    "artifact": "hook_LPIPS_STANDARD_VGG.png",
+    "resolved": "research/mixed_spatial_storage_20261030_02/hook_LPIPS_STANDARD_VGG.png"
+  },
+  {
+    "document": "research/mixed_spatial_storage_20261030_02/MIXED_SPATIAL_STORAGE_REPORT.md",
+    "label": "Size versus PSNR",
+    "artifact": "jumpingjacks_PSNR.png",
+    "resolved": "research/mixed_spatial_storage_20261030_02/jumpingjacks_PSNR.png"
+  },
+  {
+    "document": "research/mixed_spatial_storage_20261030_02/MIXED_SPATIAL_STORAGE_REPORT.md",
+    "label": "Size versus standard LPIPS",
+    "artifact": "jumpingjacks_LPIPS_STANDARD_VGG.png",
+    "resolved": "research/mixed_spatial_storage_20261030_02/jumpingjacks_LPIPS_STANDARD_VGG.png"
+  },
+  {
+    "document": "research/pmf_clustering_evaluation_20261028_01/H4_EXPERIMENTAL_REPORT.md",
+    "label": "Clustering",
+    "artifact": "CLUSTERING_RESULTS.md",
+    "resolved": "research/pmf_clustering_evaluation_20261028_01/CLUSTERING_RESULTS.md"
+  },
+  {
+    "document": "research/pmf_clustering_evaluation_20261028_01/H4_EXPERIMENTAL_REPORT.md",
+    "label": "Prediction",
+    "artifact": "PREDICTED_VS_ACTUAL.md",
+    "resolved": "research/pmf_clustering_evaluation_20261028_01/PREDICTED_VS_ACTUAL.md"
+  },
+  {
+    "document": "research/pmf_clustering_evaluation_20261028_01/H4_EXPERIMENTAL_REPORT.md",
+    "label": "Interpretation",
+    "artifact": "SCIENTIFIC_INTERPRETATION.md",
+    "resolved": "research/pmf_clustering_evaluation_20261028_01/SCIENTIFIC_INTERPRETATION.md"
+  },
+  {
+    "document": "research/pmf_clustering_evaluation_20261028_01/H4_EXPERIMENTAL_REPORT.md",
+    "label": "Next",
+    "artifact": "NEXT_RESEARCH_DECISION.md",
+    "resolved": "research/pmf_clustering_evaluation_20261028_01/NEXT_RESEARCH_DECISION.md"
+  },
+  {
+    "document": "research/quantizer_scope_comparison_20261031_01/QUANTIZER_SCOPE_REPORT.md",
+    "label": "Measured test rate and quality",
+    "artifact": "rate_quality_test.png",
+    "resolved": "research/quantizer_scope_comparison_20261031_01/rate_quality_test.png"
+  },
+  {
+    "document": "research/quantizer_scope_comparison_20261031_01/QUANTIZER_SCOPE_REPORT.md",
+    "label": "Level range and feature error diagnostics",
+    "artifact": "level_diagnostics.png",
+    "resolved": "research/quantizer_scope_comparison_20261031_01/level_diagnostics.png"
+  },
+  {
+    "document": "research/scope_fixed_budget_20261031_01/SCOPE_FIXED_BUDGET_REPORT.md",
+    "label": "PNG",
+    "artifact": "<PROJECT_ROOT>/research/scope_fixed_budget_20261031_01/figures/validation_rate_psnr.png",
+    "resolved": ""
+  },
+  {
+    "document": "research/scope_fixed_budget_20261031_01/SCOPE_FIXED_BUDGET_REPORT.md",
+    "label": "PDF",
+    "artifact": "<PROJECT_ROOT>/research/scope_fixed_budget_20261031_01/figures/validation_rate_psnr.pdf",
+    "resolved": ""
+  },
+  {
+    "document": "research/scope_fixed_budget_20261031_01/SCOPE_FIXED_BUDGET_REPORT.md",
+    "label": "QUANTIZER_SCOPE_REPORT.md",
+    "artifact": "<PROJECT_ROOT>/research/quantizer_scope_comparison_20261031_01/QUANTIZER_SCOPE_REPORT.md",
+    "resolved": ""
+  },
+  {
+    "document": "research/selected_level_uint16_20261030_01/UINT16_SELECTED_LEVEL_REPORT.md",
+    "label": "FIXED_VIEW_COMPARISON.html",
+    "artifact": "FIXED_VIEW_COMPARISON.html",
+    "resolved": "research/selected_level_uint16_20261030_01/FIXED_VIEW_COMPARISON.html"
+  }
+]

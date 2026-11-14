@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "preregistered_runtime_files_checked": 11,
+  "versions_unchanged": true,
+  "GPU_driver_unchanged": true,
+  "extension_hashes_post_run_supplement": {
+    "<PROJECT_ROOT>/external/Grid4D-audit-clean/tmp_build/_hash_encoder.so": "28c496dcdfb9a4faded3ec47283a1c4aca89f6e400de8e68b2768920633c243d"
+  },
+  "note": "Supplemental extension binary hashes were recorded after rendering, not claimed to be preregistered; original source hashes and baseline pixel parity provide separate controls."
+}

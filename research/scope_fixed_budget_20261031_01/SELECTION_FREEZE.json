@@ -1,0 +1,1337 @@
+{
+  "scenes": {
+    "mutant": {
+      "GLOBAL": {
+        "scene": "mutant",
+        "scope": "GLOBAL",
+        "p": 8,
+        "state": "GLOBAL8",
+        "bytes": 1290969,
+        "budget": 1290969,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 1287999,
+        "metadata_bytes": 1246,
+        "framing_bytes": 1724,
+        "archive_sha256": "9e5247297f80fa1fdc61b1fb21d2f6406a56890c00a12882caba363a41f2a2f6",
+        "scores": {
+          "PSNR": 38.9088020324707,
+          "SSIM": 0.9904419779777527,
+          "LPIPS_STANDARD_VGG": 0.008548079058527946
+        },
+        "metrics_sha256": "15dd1b9e890b7ef7c990808b5d81fd2187ac64e375189c3b7240c47f9fa1c7b6",
+        "unused_budget_B": 0,
+        "budget_utilization": 1.0
+      },
+      "LEVEL": {
+        "scene": "mutant",
+        "scope": "LEVEL",
+        "p": 4,
+        "state": "LEVEL4",
+        "bytes": 983199,
+        "budget": 1290969,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 979589,
+        "metadata_bytes": 1886,
+        "framing_bytes": 1724,
+        "archive_sha256": "e4e1249d03310b11ae7dc3eada422897779c8e1fa6ab8424915f6ddfc4b159b2",
+        "scores": {
+          "PSNR": 27.95293617248535,
+          "SSIM": 0.9395207166671753,
+          "LPIPS_STANDARD_VGG": 0.04374699667096138
+        },
+        "metrics_sha256": "633290966e843e4e1d7f5b960a55a2a3430a8e7507f818845a0fd5d8651265bb",
+        "unused_budget_B": 307770,
+        "budget_utilization": 0.7615976836004582
+      },
+      "B_max": 1290969,
+      "feasible": [
+        {
+          "scene": "mutant",
+          "scope": "GLOBAL",
+          "p": 2,
+          "state": "GLOBAL2",
+          "bytes": 17066,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 14374,
+          "metadata_bytes": 968,
+          "framing_bytes": 1724,
+          "archive_sha256": "a522a6d82893e8d76caf8c1f8e137b76ed30ec233288134f2a5f061269c97ae9",
+          "scores": {
+            "PSNR": 17.305721282958984,
+            "SSIM": 0.7637960314750671,
+            "LPIPS_STANDARD_VGG": 0.21541094779968262
+          },
+          "metrics_sha256": "881a9fd8442d0fb7abdfc65a309615e93bf1157565a3e5e9c68b0cdc5d437d4c"
+        },
+        {
+          "scene": "mutant",
+          "scope": "GLOBAL",
+          "p": 3,
+          "state": "GLOBAL3",
+          "bytes": 17484,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 14791,
+          "metadata_bytes": 969,
+          "framing_bytes": 1724,
+          "archive_sha256": "e87a6a7f79f276657447e6f8010deb7d0320b329cc9114d1b064d59d1c92acf8",
+          "scores": {
+            "PSNR": 23.581459045410156,
+            "SSIM": 0.9133977890014648,
+            "LPIPS_STANDARD_VGG": 0.0742981880903244
+          },
+          "metrics_sha256": "561934bd99c4ba5e60e9656d6e9d80b2467f1320c715f8998430e1f92b1664a2"
+        },
+        {
+          "scene": "mutant",
+          "scope": "GLOBAL",
+          "p": 4,
+          "state": "GLOBAL4",
+          "bytes": 53103,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 50215,
+          "metadata_bytes": 1164,
+          "framing_bytes": 1724,
+          "archive_sha256": "f9ef8130970ce689c1cd3bd40ad6968cc0dc49e76115e702691e7867eebc85ee",
+          "scores": {
+            "PSNR": 22.81089210510254,
+            "SSIM": 0.8941459655761719,
+            "LPIPS_STANDARD_VGG": 0.09842069447040558
+          },
+          "metrics_sha256": "c20d582a0c748105e3218ffdf237259f55297072e062214f3477f0ee5309be9c"
+        },
+        {
+          "scene": "mutant",
+          "scope": "GLOBAL",
+          "p": 5,
+          "state": "GLOBAL5",
+          "bytes": 102277,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 99381,
+          "metadata_bytes": 1172,
+          "framing_bytes": 1724,
+          "archive_sha256": "3fb16de9bdc4314f316e932c13493dc31524e4720ad9a0a9bb1f2911138a2916",
+          "scores": {
+            "PSNR": 26.817089080810547,
+            "SSIM": 0.9327451586723328,
+            "LPIPS_STANDARD_VGG": 0.05318811535835266
+          },
+          "metrics_sha256": "391d41d8e668bbef926cc96457ccb4df8fb0205cc284dd1733df5ba6975b8722"
+        },
+        {
+          "scene": "mutant",
+          "scope": "GLOBAL",
+          "p": 6,
+          "state": "GLOBAL6",
+          "bytes": 165866,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 162974,
+          "metadata_bytes": 1168,
+          "framing_bytes": 1724,
+          "archive_sha256": "36751f8f7971a56b35e158552ad3007937491fe05b1d6bba7ff813805feec94a",
+          "scores": {
+            "PSNR": 32.03706741333008,
+            "SSIM": 0.9678034782409668,
+            "LPIPS_STANDARD_VGG": 0.020513111725449562
+          },
+          "metrics_sha256": "f0d1a954bc7fa6c11369d8e0a13890697f06092cc7933669d7187779ac4e00b5"
+        },
+        {
+          "scene": "mutant",
+          "scope": "GLOBAL",
+          "p": 7,
+          "state": "GLOBAL7",
+          "bytes": 554066,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 551098,
+          "metadata_bytes": 1244,
+          "framing_bytes": 1724,
+          "archive_sha256": "81bc83c72c8b6bcef02ca30c21d81709eff715dbd7b54de286f2747a2d453995",
+          "scores": {
+            "PSNR": 36.157806396484375,
+            "SSIM": 0.9845825433731079,
+            "LPIPS_STANDARD_VGG": 0.011316230520606041
+          },
+          "metrics_sha256": "dab8b21ca4a2231a3e92584719a650b98e612396cf90112d0f60cbaae2d801ce"
+        },
+        {
+          "scene": "mutant",
+          "scope": "GLOBAL",
+          "p": 8,
+          "state": "GLOBAL8",
+          "bytes": 1290969,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1287999,
+          "metadata_bytes": 1246,
+          "framing_bytes": 1724,
+          "archive_sha256": "9e5247297f80fa1fdc61b1fb21d2f6406a56890c00a12882caba363a41f2a2f6",
+          "scores": {
+            "PSNR": 38.9088020324707,
+            "SSIM": 0.9904419779777527,
+            "LPIPS_STANDARD_VGG": 0.008548079058527946
+          },
+          "metrics_sha256": "15dd1b9e890b7ef7c990808b5d81fd2187ac64e375189c3b7240c47f9fa1c7b6",
+          "unused_budget_B": 0,
+          "budget_utilization": 1.0
+        },
+        {
+          "scene": "mutant",
+          "scope": "LEVEL",
+          "p": 2,
+          "state": "LEVEL2",
+          "bytes": 338406,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 334799,
+          "metadata_bytes": 1883,
+          "framing_bytes": 1724,
+          "archive_sha256": "80efd58e0db5c70d364992265b3c379d3b1317be929e31d7fe782af035acdd51",
+          "scores": {
+            "PSNR": 20.61078453063965,
+            "SSIM": 0.8507501482963562,
+            "LPIPS_STANDARD_VGG": 0.14141060411930084
+          },
+          "metrics_sha256": "d73c9fe0a8bc8a86992ad1fd543f025f8ded76caab0eee9cb8ccdb27cbf34572"
+        },
+        {
+          "scene": "mutant",
+          "scope": "LEVEL",
+          "p": 3,
+          "state": "LEVEL3",
+          "bytes": 439804,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 436194,
+          "metadata_bytes": 1886,
+          "framing_bytes": 1724,
+          "archive_sha256": "2a374b4059c76250055e515b8823a2afa847447c924a5d6f52163d24c0d78521",
+          "scores": {
+            "PSNR": 25.09493637084961,
+            "SSIM": 0.9130412936210632,
+            "LPIPS_STANDARD_VGG": 0.07210938632488251
+          },
+          "metrics_sha256": "66574d642e6dc0ab35d5a74b12612b1d5822913301c1ef165e11e41706280660"
+        },
+        {
+          "scene": "mutant",
+          "scope": "LEVEL",
+          "p": 4,
+          "state": "LEVEL4",
+          "bytes": 983199,
+          "budget": 1290969,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 979589,
+          "metadata_bytes": 1886,
+          "framing_bytes": 1724,
+          "archive_sha256": "e4e1249d03310b11ae7dc3eada422897779c8e1fa6ab8424915f6ddfc4b159b2",
+          "scores": {
+            "PSNR": 27.95293617248535,
+            "SSIM": 0.9395207166671753,
+            "LPIPS_STANDARD_VGG": 0.04374699667096138
+          },
+          "metrics_sha256": "633290966e843e4e1d7f5b960a55a2a3430a8e7507f818845a0fd5d8651265bb",
+          "unused_budget_B": 307770,
+          "budget_utilization": 0.7615976836004582
+        }
+      ],
+      "LEVEL_status": "FEASIBLE"
+    },
+    "bouncingballs": {
+      "GLOBAL": {
+        "scene": "bouncingballs",
+        "scope": "GLOBAL",
+        "p": 8,
+        "state": "GLOBAL8",
+        "bytes": 2079602,
+        "budget": 2079602,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 2076637,
+        "metadata_bytes": 1241,
+        "framing_bytes": 1724,
+        "archive_sha256": "a8c8253afd031a53a27c64e094eedd82074b0e72c5c2919f6782ea6e57065b8c",
+        "scores": {
+          "PSNR": 38.92505645751953,
+          "SSIM": 0.9944549798965454,
+          "LPIPS_STANDARD_VGG": 0.02126527577638626
+        },
+        "metrics_sha256": "c175f2d51247e7f2e65ae7ffb4911e8f4af6fe56fa90d7efb971d8086975f595",
+        "unused_budget_B": 0,
+        "budget_utilization": 1.0
+      },
+      "LEVEL": {
+        "scene": "bouncingballs",
+        "scope": "LEVEL",
+        "p": 5,
+        "state": "LEVEL5",
+        "bytes": 1518977,
+        "budget": 2079602,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 1515371,
+        "metadata_bytes": 1882,
+        "framing_bytes": 1724,
+        "archive_sha256": "ab4d33403911f48b0313783f2694610224f942f1a1209d7fc862021c11ef4ed0",
+        "scores": {
+          "PSNR": 28.414962768554688,
+          "SSIM": 0.980810821056366,
+          "LPIPS_STANDARD_VGG": 0.039637863636016846
+        },
+        "metrics_sha256": "a45c92709f508e6aad62f5f3b36cc007b2d9c5d2239b517f9904c61570b8be73",
+        "unused_budget_B": 560625,
+        "budget_utilization": 0.7304171663616403
+      },
+      "B_max": 2079602,
+      "feasible": [
+        {
+          "scene": "bouncingballs",
+          "scope": "GLOBAL",
+          "p": 2,
+          "state": "GLOBAL2",
+          "bytes": 16725,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 14032,
+          "metadata_bytes": 969,
+          "framing_bytes": 1724,
+          "archive_sha256": "1a2284fc8e62c01e740d4bd4fde78b8150ce4f83ace7c9040483f73927e9ab55",
+          "scores": {
+            "PSNR": 16.840003967285156,
+            "SSIM": 0.920669674873352,
+            "LPIPS_STANDARD_VGG": 0.10578420013189316
+          },
+          "metrics_sha256": "68dc1ae69fc90b5132c3ad6965a22ade5961d7125f4395dc02bdeb866c5a1dc5"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "GLOBAL",
+          "p": 3,
+          "state": "GLOBAL3",
+          "bytes": 321596,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 318666,
+          "metadata_bytes": 1206,
+          "framing_bytes": 1724,
+          "archive_sha256": "1b7e4f2c021bee76ac8f4336a856e6be1b99d830653a647e284a427fee435617",
+          "scores": {
+            "PSNR": 15.579954147338867,
+            "SSIM": 0.8778314590454102,
+            "LPIPS_STANDARD_VGG": 0.18120990693569183
+          },
+          "metrics_sha256": "4e9942e8ca9170a11f17f42aee96cb9cc371e4eae964efd10d16ab0eb0bb0fdb"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "GLOBAL",
+          "p": 4,
+          "state": "GLOBAL4",
+          "bytes": 83562,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 80717,
+          "metadata_bytes": 1121,
+          "framing_bytes": 1724,
+          "archive_sha256": "1f889c1416a44ebd47520cdf06c7467db6c61152f2103305446cdad73a217204",
+          "scores": {
+            "PSNR": 20.715499877929688,
+            "SSIM": 0.9441426992416382,
+            "LPIPS_STANDARD_VGG": 0.09008002281188965
+          },
+          "metrics_sha256": "c7829e43ea7c38194cd854c23c985d76b403dd0fde137cb453306634a5750297"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "GLOBAL",
+          "p": 5,
+          "state": "GLOBAL5",
+          "bytes": 145713,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 142822,
+          "metadata_bytes": 1167,
+          "framing_bytes": 1724,
+          "archive_sha256": "060420064acd8dfaebebe22a5ad76af2c4806195e5d0f1125efdcd5577f31643",
+          "scores": {
+            "PSNR": 24.090839385986328,
+            "SSIM": 0.9670383334159851,
+            "LPIPS_STANDARD_VGG": 0.053340960294008255
+          },
+          "metrics_sha256": "a092f372d96229c11b5ce6890d2da94544b83a6d05e23ef54362edfcc7413a64"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "GLOBAL",
+          "p": 6,
+          "state": "GLOBAL6",
+          "bytes": 463328,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 460399,
+          "metadata_bytes": 1205,
+          "framing_bytes": 1724,
+          "archive_sha256": "b31b4c83e876e518a96d290cf9ec3bd5a08e39f806bd9f685c5771866b8bed06",
+          "scores": {
+            "PSNR": 29.931884765625,
+            "SSIM": 0.9835150837898254,
+            "LPIPS_STANDARD_VGG": 0.03748762607574463
+          },
+          "metrics_sha256": "da3460abd3d083d47f3ed5ebadbc8e93aa0faceec029ade216730613448f88f3"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "GLOBAL",
+          "p": 7,
+          "state": "GLOBAL7",
+          "bytes": 1227113,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1224142,
+          "metadata_bytes": 1247,
+          "framing_bytes": 1724,
+          "archive_sha256": "2c1980f85ecef5a62f3bbf1c76484b2de48cdaf19f7c02f991262d08d278443a",
+          "scores": {
+            "PSNR": 33.61799240112305,
+            "SSIM": 0.9897282719612122,
+            "LPIPS_STANDARD_VGG": 0.029768120497465134
+          },
+          "metrics_sha256": "3cf4ad6caa07d0b4d7341c20c6d423817933d838d7da59eebcd13052d6e9458b"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "GLOBAL",
+          "p": 8,
+          "state": "GLOBAL8",
+          "bytes": 2079602,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 2076637,
+          "metadata_bytes": 1241,
+          "framing_bytes": 1724,
+          "archive_sha256": "a8c8253afd031a53a27c64e094eedd82074b0e72c5c2919f6782ea6e57065b8c",
+          "scores": {
+            "PSNR": 38.92505645751953,
+            "SSIM": 0.9944549798965454,
+            "LPIPS_STANDARD_VGG": 0.02126527577638626
+          },
+          "metrics_sha256": "c175f2d51247e7f2e65ae7ffb4911e8f4af6fe56fa90d7efb971d8086975f595",
+          "unused_budget_B": 0,
+          "budget_utilization": 1.0
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "LEVEL",
+          "p": 2,
+          "state": "LEVEL2",
+          "bytes": 748659,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 745050,
+          "metadata_bytes": 1885,
+          "framing_bytes": 1724,
+          "archive_sha256": "d3b98155ea9c341777f5299877676a8f5ce0dcc508dd19fb778237abd5745611",
+          "scores": {
+            "PSNR": 15.08543872833252,
+            "SSIM": 0.88519686460495,
+            "LPIPS_STANDARD_VGG": 0.1691461205482483
+          },
+          "metrics_sha256": "5ab6d69f1099cbdf90d322335b08c58f91846db31d077a810f5426360d656d39"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "LEVEL",
+          "p": 3,
+          "state": "LEVEL3",
+          "bytes": 855806,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 852199,
+          "metadata_bytes": 1883,
+          "framing_bytes": 1724,
+          "archive_sha256": "9cb3def0ebf955f81b7c13c9c76ba0ffde4174325769ff229e77b34ba16f0639",
+          "scores": {
+            "PSNR": 20.435428619384766,
+            "SSIM": 0.9368698000907898,
+            "LPIPS_STANDARD_VGG": 0.10556353628635406
+          },
+          "metrics_sha256": "b261f936eb925f9942beddc9043dfde139476e89dd18ad7073c126eb092e478c"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "LEVEL",
+          "p": 4,
+          "state": "LEVEL4",
+          "bytes": 1083184,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1079582,
+          "metadata_bytes": 1878,
+          "framing_bytes": 1724,
+          "archive_sha256": "024a21d38f06f5a13095f84124236fb116af3ec03daadf49a8a057a355cac563",
+          "scores": {
+            "PSNR": 22.75543785095215,
+            "SSIM": 0.9602619409561157,
+            "LPIPS_STANDARD_VGG": 0.062117673456668854
+          },
+          "metrics_sha256": "43eb38c17edaf88cb3b21ebb7334b61204b61840e591121b165c301f1eb7b741"
+        },
+        {
+          "scene": "bouncingballs",
+          "scope": "LEVEL",
+          "p": 5,
+          "state": "LEVEL5",
+          "bytes": 1518977,
+          "budget": 2079602,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1515371,
+          "metadata_bytes": 1882,
+          "framing_bytes": 1724,
+          "archive_sha256": "ab4d33403911f48b0313783f2694610224f942f1a1209d7fc862021c11ef4ed0",
+          "scores": {
+            "PSNR": 28.414962768554688,
+            "SSIM": 0.980810821056366,
+            "LPIPS_STANDARD_VGG": 0.039637863636016846
+          },
+          "metrics_sha256": "a45c92709f508e6aad62f5f3b36cc007b2d9c5d2239b517f9904c61570b8be73",
+          "unused_budget_B": 560625,
+          "budget_utilization": 0.7304171663616403
+        }
+      ],
+      "LEVEL_status": "FEASIBLE"
+    },
+    "hellwarrior": {
+      "GLOBAL": {
+        "scene": "hellwarrior",
+        "scope": "GLOBAL",
+        "p": 8,
+        "state": "GLOBAL8",
+        "bytes": 1766497,
+        "budget": 1766497,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 1763531,
+        "metadata_bytes": 1242,
+        "framing_bytes": 1724,
+        "archive_sha256": "450e6ea9c2e03f5a0042809d426671a04be88cd68767929470e47a520e9031bb",
+        "scores": {
+          "PSNR": 42.131221771240234,
+          "SSIM": 0.9896740913391113,
+          "LPIPS_STANDARD_VGG": 0.022895609959959984
+        },
+        "metrics_sha256": "170d611a450434faa29c702ae9c760ef0fa14e880d55766a121135e882e8640d",
+        "unused_budget_B": 0,
+        "budget_utilization": 1.0
+      },
+      "LEVEL": {
+        "scene": "hellwarrior",
+        "scope": "LEVEL",
+        "p": 4,
+        "state": "LEVEL4",
+        "bytes": 903035,
+        "budget": 1766497,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 899436,
+        "metadata_bytes": 1875,
+        "framing_bytes": 1724,
+        "archive_sha256": "131bd90a5279fe53f3996edbd4882e867e1bdd2e268136eb3f720fb691d8ae36",
+        "scores": {
+          "PSNR": 35.36630630493164,
+          "SSIM": 0.9643231630325317,
+          "LPIPS_STANDARD_VGG": 0.05176858976483345
+        },
+        "metrics_sha256": "395c0dbfe5f6415bcf64019f7f8b749c93bbb8a59b78dc5c99d26dbe049cb56a",
+        "unused_budget_B": 863462,
+        "budget_utilization": 0.5112009813772681
+      },
+      "B_max": 1766497,
+      "feasible": [
+        {
+          "scene": "hellwarrior",
+          "scope": "GLOBAL",
+          "p": 2,
+          "state": "GLOBAL2",
+          "bytes": 16453,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 13766,
+          "metadata_bytes": 963,
+          "framing_bytes": 1724,
+          "archive_sha256": "df8f6521274a51c6c7f607246109072adce2c5439e0aebabfa0427419252f88e",
+          "scores": {
+            "PSNR": 27.3375186920166,
+            "SSIM": 0.8823536038398743,
+            "LPIPS_STANDARD_VGG": 0.14213602244853973
+          },
+          "metrics_sha256": "3664db8d14bdc06042e66e721b4b4152883156015ec109057386c58ca51f6ec3"
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "GLOBAL",
+          "p": 3,
+          "state": "GLOBAL3",
+          "bytes": 645324,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 642354,
+          "metadata_bytes": 1246,
+          "framing_bytes": 1724,
+          "archive_sha256": "e41e879c47abc05f63053724d5d6ee42ee9a4a3cec4f37a892b5d266afe57a33",
+          "scores": {
+            "PSNR": 23.366107940673828,
+            "SSIM": 0.7131165266036987,
+            "LPIPS_STANDARD_VGG": 0.24085386097431183
+          },
+          "metrics_sha256": "f13d8477e2b8955dd2e0d0c72294b2cf0d501eaaa74ac5ce24ee9c70c043a517"
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "GLOBAL",
+          "p": 4,
+          "state": "GLOBAL4",
+          "bytes": 274865,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 271974,
+          "metadata_bytes": 1167,
+          "framing_bytes": 1724,
+          "archive_sha256": "392b3076915e59ba3b8d597676851e81a9d92eb98163b91c0e4b65d44ef5eb6e",
+          "scores": {
+            "PSNR": 28.208629608154297,
+            "SSIM": 0.8894534111022949,
+            "LPIPS_STANDARD_VGG": 0.1382199078798294
+          },
+          "metrics_sha256": "43a8af53331eba3f988a65358776154d571c0bfd8cdf805e7b423ec7189f8150"
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "GLOBAL",
+          "p": 5,
+          "state": "GLOBAL5",
+          "bytes": 134553,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 131661,
+          "metadata_bytes": 1168,
+          "framing_bytes": 1724,
+          "archive_sha256": "03c693a47bd2b6f7b024a658e7923434b70b6cc44ebc1cf9fe640ae7da77fc98",
+          "scores": {
+            "PSNR": 34.12467956542969,
+            "SSIM": 0.9578677415847778,
+            "LPIPS_STANDARD_VGG": 0.06302283704280853
+          },
+          "metrics_sha256": "98d927a88fd8c28431bb7e29bbaa02340a76417dae2bab63931a17dff28bf487"
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "GLOBAL",
+          "p": 6,
+          "state": "GLOBAL6",
+          "bytes": 716359,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 713394,
+          "metadata_bytes": 1241,
+          "framing_bytes": 1724,
+          "archive_sha256": "9630133d50971be0e87445a391c67d14d054e332ee02b256f0fdebe0b6612d3a",
+          "scores": {
+            "PSNR": 36.38347625732422,
+            "SSIM": 0.9697577357292175,
+            "LPIPS_STANDARD_VGG": 0.049719881266355515
+          },
+          "metrics_sha256": "e3b703ac340ff041ef444f5611da7c4314d1601cf52865a46ce7c0ea55393f4e"
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "GLOBAL",
+          "p": 7,
+          "state": "GLOBAL7",
+          "bytes": 1141180,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1138206,
+          "metadata_bytes": 1250,
+          "framing_bytes": 1724,
+          "archive_sha256": "f26456903e46c1ec0ecea4336f6cdb029c0132fbb8ae13d11f47c7fd32837856",
+          "scores": {
+            "PSNR": 40.23005676269531,
+            "SSIM": 0.9850746393203735,
+            "LPIPS_STANDARD_VGG": 0.028319260105490685
+          },
+          "metrics_sha256": "6b2ce58945caa0e38da58b0dccb1ae55d6b559c8d929e36346537e4ab63a6f22"
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "GLOBAL",
+          "p": 8,
+          "state": "GLOBAL8",
+          "bytes": 1766497,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1763531,
+          "metadata_bytes": 1242,
+          "framing_bytes": 1724,
+          "archive_sha256": "450e6ea9c2e03f5a0042809d426671a04be88cd68767929470e47a520e9031bb",
+          "scores": {
+            "PSNR": 42.131221771240234,
+            "SSIM": 0.9896740913391113,
+            "LPIPS_STANDARD_VGG": 0.022895609959959984
+          },
+          "metrics_sha256": "170d611a450434faa29c702ae9c760ef0fa14e880d55766a121135e882e8640d",
+          "unused_budget_B": 0,
+          "budget_utilization": 1.0
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "LEVEL",
+          "p": 2,
+          "state": "LEVEL2",
+          "bytes": 500617,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 497016,
+          "metadata_bytes": 1877,
+          "framing_bytes": 1724,
+          "archive_sha256": "2accbc5f2a0ff1240dcadcaedf36908dc556a6bdb2d7a62f925a6ea1a0b4401b",
+          "scores": {
+            "PSNR": 28.979312896728516,
+            "SSIM": 0.905535101890564,
+            "LPIPS_STANDARD_VGG": 0.12295065820217133
+          },
+          "metrics_sha256": "6766573812712bc94f647e7284f01946a677c5c0fdc8eefc7267812c8731ee68"
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "LEVEL",
+          "p": 3,
+          "state": "LEVEL3",
+          "bytes": 562963,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 559364,
+          "metadata_bytes": 1875,
+          "framing_bytes": 1724,
+          "archive_sha256": "417e61c547532638e8c839daec861278a7d274f41a72510494b82e7e16b4d094",
+          "scores": {
+            "PSNR": 32.62368392944336,
+            "SSIM": 0.94633549451828,
+            "LPIPS_STANDARD_VGG": 0.07435108721256256
+          },
+          "metrics_sha256": "804f8bb22830d542fd747d7e54e8cb1363e7e49a0b4d864991786420fcf738c7"
+        },
+        {
+          "scene": "hellwarrior",
+          "scope": "LEVEL",
+          "p": 4,
+          "state": "LEVEL4",
+          "bytes": 903035,
+          "budget": 1766497,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 899436,
+          "metadata_bytes": 1875,
+          "framing_bytes": 1724,
+          "archive_sha256": "131bd90a5279fe53f3996edbd4882e867e1bdd2e268136eb3f720fb691d8ae36",
+          "scores": {
+            "PSNR": 35.36630630493164,
+            "SSIM": 0.9643231630325317,
+            "LPIPS_STANDARD_VGG": 0.05176858976483345
+          },
+          "metrics_sha256": "395c0dbfe5f6415bcf64019f7f8b749c93bbb8a59b78dc5c99d26dbe049cb56a",
+          "unused_budget_B": 863462,
+          "budget_utilization": 0.5112009813772681
+        }
+      ],
+      "LEVEL_status": "FEASIBLE"
+    },
+    "hook": {
+      "GLOBAL": {
+        "scene": "hook",
+        "scope": "GLOBAL",
+        "p": 8,
+        "state": "GLOBAL8",
+        "bytes": 1488765,
+        "budget": 1488765,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 1485799,
+        "metadata_bytes": 1242,
+        "framing_bytes": 1724,
+        "archive_sha256": "4ea46ed152cc170578cde67d1db8e2708d46a309d259f08eb53dbb70f442f08a",
+        "scores": {
+          "PSNR": 37.69799041748047,
+          "SSIM": 0.9896491169929504,
+          "LPIPS_STANDARD_VGG": 0.012191095389425755
+        },
+        "metrics_sha256": "696df5e1f1f3b8115ccf2e3796a5859d0ad09a5db332fbcb8b5b2e5f505d20d4",
+        "unused_budget_B": 0,
+        "budget_utilization": 1.0
+      },
+      "LEVEL": {
+        "scene": "hook",
+        "scope": "LEVEL",
+        "p": 4,
+        "state": "LEVEL4",
+        "bytes": 1018650,
+        "budget": 1488765,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 1015048,
+        "metadata_bytes": 1878,
+        "framing_bytes": 1724,
+        "archive_sha256": "2de890247d8ae68bf4e2be9db18583ce7af18bf91689f7cf4884b8ca9641d5f0",
+        "scores": {
+          "PSNR": 26.490520477294922,
+          "SSIM": 0.9336990118026733,
+          "LPIPS_STANDARD_VGG": 0.05228950455784798
+        },
+        "metrics_sha256": "ab8416267100b95033534335ed4fbe415eae82050bbfd625cceeef7e9fa1f878",
+        "unused_budget_B": 470115,
+        "budget_utilization": 0.6842248440821755
+      },
+      "B_max": 1488765,
+      "feasible": [
+        {
+          "scene": "hook",
+          "scope": "GLOBAL",
+          "p": 2,
+          "state": "GLOBAL2",
+          "bytes": 33145,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 30297,
+          "metadata_bytes": 1124,
+          "framing_bytes": 1724,
+          "archive_sha256": "6e27c93d2683e0f6c000d46212c3bb04b5e387236e74bf4fcfd71979152231e7",
+          "scores": {
+            "PSNR": 14.741259574890137,
+            "SSIM": 0.6662957668304443,
+            "LPIPS_STANDARD_VGG": 0.26144787669181824
+          },
+          "metrics_sha256": "83a131dc071b6f6a27aa9ba888f57d8604e8ddf675ad5717c39ca7737cc28f11"
+        },
+        {
+          "scene": "hook",
+          "scope": "GLOBAL",
+          "p": 3,
+          "state": "GLOBAL3",
+          "bytes": 33597,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 30749,
+          "metadata_bytes": 1124,
+          "framing_bytes": 1724,
+          "archive_sha256": "23db4f6d3e6b3a7e813c95441d45dac50695a4a17214b68af11c383cb19818cc",
+          "scores": {
+            "PSNR": 19.222530364990234,
+            "SSIM": 0.8579908609390259,
+            "LPIPS_STANDARD_VGG": 0.13289161026477814
+          },
+          "metrics_sha256": "3272ce59fe9c3e240ea0bf95f2bbd7d32b1de4ffec2f93359b6201e0b7b21a87"
+        },
+        {
+          "scene": "hook",
+          "scope": "GLOBAL",
+          "p": 4,
+          "state": "GLOBAL4",
+          "bytes": 36250,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 33403,
+          "metadata_bytes": 1123,
+          "framing_bytes": 1724,
+          "archive_sha256": "39b4c148b3ac618a5175b21a371ffc99f8ce743562332080ae386f062d22acc7",
+          "scores": {
+            "PSNR": 23.508575439453125,
+            "SSIM": 0.9088866114616394,
+            "LPIPS_STANDARD_VGG": 0.0703367292881012
+          },
+          "metrics_sha256": "903b575112803ed702231594a75843c6fa2384e8aadca24cc9b74677aee0d848"
+        },
+        {
+          "scene": "hook",
+          "scope": "GLOBAL",
+          "p": 5,
+          "state": "GLOBAL5",
+          "bytes": 74973,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 72080,
+          "metadata_bytes": 1169,
+          "framing_bytes": 1724,
+          "archive_sha256": "eb9c56e98235d50430d4fe859b1258dc60ae61ac6eced9a22c663390e0ee13e8",
+          "scores": {
+            "PSNR": 27.444055557250977,
+            "SSIM": 0.9411647915840149,
+            "LPIPS_STANDARD_VGG": 0.0405842550098896
+          },
+          "metrics_sha256": "ba6892d89f806dbdb51c5bc148b8a5e1a69f61144aacc12ac6cee1fd840f5ff5"
+        },
+        {
+          "scene": "hook",
+          "scope": "GLOBAL",
+          "p": 6,
+          "state": "GLOBAL6",
+          "bytes": 354642,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 351677,
+          "metadata_bytes": 1241,
+          "framing_bytes": 1724,
+          "archive_sha256": "89679b0fd96555b9b0c45285d9ac6da79e9ae9db6117811b9a7adaacdcb50b4c",
+          "scores": {
+            "PSNR": 30.69114112854004,
+            "SSIM": 0.9642883539199829,
+            "LPIPS_STANDARD_VGG": 0.02692243456840515
+          },
+          "metrics_sha256": "60b666597f7c2e8478c7a5f9b8e95af21ee6594e8bc9eb1e51c85092cad474ae"
+        },
+        {
+          "scene": "hook",
+          "scope": "GLOBAL",
+          "p": 7,
+          "state": "GLOBAL7",
+          "bytes": 738128,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 735159,
+          "metadata_bytes": 1245,
+          "framing_bytes": 1724,
+          "archive_sha256": "c7cda401a25e534eb6dad72eb16a68fa4793dbe4ed3cb1922be5597654b80e23",
+          "scores": {
+            "PSNR": 34.85997772216797,
+            "SSIM": 0.9827462434768677,
+            "LPIPS_STANDARD_VGG": 0.016410252079367638
+          },
+          "metrics_sha256": "0986a6391db345782733f6123733ff5ecee4cfc725bbb0ad2dfa6a0704dac9cc"
+        },
+        {
+          "scene": "hook",
+          "scope": "GLOBAL",
+          "p": 8,
+          "state": "GLOBAL8",
+          "bytes": 1488765,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1485799,
+          "metadata_bytes": 1242,
+          "framing_bytes": 1724,
+          "archive_sha256": "4ea46ed152cc170578cde67d1db8e2708d46a309d259f08eb53dbb70f442f08a",
+          "scores": {
+            "PSNR": 37.69799041748047,
+            "SSIM": 0.9896491169929504,
+            "LPIPS_STANDARD_VGG": 0.012191095389425755
+          },
+          "metrics_sha256": "696df5e1f1f3b8115ccf2e3796a5859d0ad09a5db332fbcb8b5b2e5f505d20d4",
+          "unused_budget_B": 0,
+          "budget_utilization": 1.0
+        },
+        {
+          "scene": "hook",
+          "scope": "LEVEL",
+          "p": 2,
+          "state": "LEVEL2",
+          "bytes": 589905,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 586297,
+          "metadata_bytes": 1884,
+          "framing_bytes": 1724,
+          "archive_sha256": "8434f499b304316e25e1a790a548fdb16c6c1fe37a014896bb63a8bdba2165e9",
+          "scores": {
+            "PSNR": 19.36293601989746,
+            "SSIM": 0.8541163206100464,
+            "LPIPS_STANDARD_VGG": 0.13806688785552979
+          },
+          "metrics_sha256": "4da6047c3051db1552f17c16c0b9cf1b0c010c7ae53e3e6ae9183a00588ed4eb"
+        },
+        {
+          "scene": "hook",
+          "scope": "LEVEL",
+          "p": 3,
+          "state": "LEVEL3",
+          "bytes": 645734,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 642119,
+          "metadata_bytes": 1891,
+          "framing_bytes": 1724,
+          "archive_sha256": "0db5c63a06c3ca4323419ece66146608ca73b9e7d0a05f6f0a092399ce8e8d53",
+          "scores": {
+            "PSNR": 22.42087173461914,
+            "SSIM": 0.8941724896430969,
+            "LPIPS_STANDARD_VGG": 0.09842200577259064
+          },
+          "metrics_sha256": "bff14ef5e3a0a2f5cecf0f576e2a7eef712e8c342b46b4153cdd37fdf704ad44"
+        },
+        {
+          "scene": "hook",
+          "scope": "LEVEL",
+          "p": 4,
+          "state": "LEVEL4",
+          "bytes": 1018650,
+          "budget": 1488765,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1015048,
+          "metadata_bytes": 1878,
+          "framing_bytes": 1724,
+          "archive_sha256": "2de890247d8ae68bf4e2be9db18583ce7af18bf91689f7cf4884b8ca9641d5f0",
+          "scores": {
+            "PSNR": 26.490520477294922,
+            "SSIM": 0.9336990118026733,
+            "LPIPS_STANDARD_VGG": 0.05228950455784798
+          },
+          "metrics_sha256": "ab8416267100b95033534335ed4fbe415eae82050bbfd625cceeef7e9fa1f878",
+          "unused_budget_B": 470115,
+          "budget_utilization": 0.6842248440821755
+        }
+      ],
+      "LEVEL_status": "FEASIBLE"
+    },
+    "jumpingjacks": {
+      "GLOBAL": {
+        "scene": "jumpingjacks",
+        "scope": "GLOBAL",
+        "p": 8,
+        "state": "GLOBAL8",
+        "bytes": 1917587,
+        "budget": 1917587,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 1914621,
+        "metadata_bytes": 1242,
+        "framing_bytes": 1724,
+        "archive_sha256": "2e5b955f84acf3fc8f9a6c55c3b41a772c744ddd1d512c39c6971fb3be9b9cc8",
+        "scores": {
+          "PSNR": 38.61469268798828,
+          "SSIM": 0.9915841221809387,
+          "LPIPS_STANDARD_VGG": 0.011675367131829262
+        },
+        "metrics_sha256": "15c348ec3ffb7ae883a84c0498f1a1e88b57ce4c8c5e66322fd8ed7ce651e54a",
+        "unused_budget_B": 0,
+        "budget_utilization": 1.0
+      },
+      "LEVEL": {
+        "scene": "jumpingjacks",
+        "scope": "LEVEL",
+        "p": 5,
+        "state": "LEVEL5",
+        "bytes": 1882411,
+        "budget": 1917587,
+        "feasible": true,
+        "numerical_bytes": 12196216,
+        "level_member_bytes": 1878800,
+        "metadata_bytes": 1887,
+        "framing_bytes": 1724,
+        "archive_sha256": "17acf8cdb2a2ff01621c42052c620f240a9005d8b06d913b4e3120d59a211a50",
+        "scores": {
+          "PSNR": 32.92725372314453,
+          "SSIM": 0.9803148508071899,
+          "LPIPS_STANDARD_VGG": 0.017971286550164223
+        },
+        "metrics_sha256": "b777a5d00bd6e02df80bbc573a9f6d04fcbb356f81dc72f7479ba3744c13bf94",
+        "unused_budget_B": 35176,
+        "budget_utilization": 0.9816561126040174
+      },
+      "B_max": 1917587,
+      "feasible": [
+        {
+          "scene": "jumpingjacks",
+          "scope": "GLOBAL",
+          "p": 2,
+          "state": "GLOBAL2",
+          "bytes": 40250,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 37359,
+          "metadata_bytes": 1167,
+          "framing_bytes": 1724,
+          "archive_sha256": "aa2e39f87cb20f4c077c142c56babf4fd1dc23fa1679058a834cc2ddb04508a8",
+          "scores": {
+            "PSNR": 13.92637825012207,
+            "SSIM": 0.6530779600143433,
+            "LPIPS_STANDARD_VGG": 0.2686121463775635
+          },
+          "metrics_sha256": "5eda8d0cd2e3a095a9259c1c509b71f29dfc179afaef11809adadee273e28f52"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "GLOBAL",
+          "p": 3,
+          "state": "GLOBAL3",
+          "bytes": 40541,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 37651,
+          "metadata_bytes": 1166,
+          "framing_bytes": 1724,
+          "archive_sha256": "4800a330a93fb35743a699d7dd97f202942400d56d8a30de3863ff6eea5572cf",
+          "scores": {
+            "PSNR": 20.678730010986328,
+            "SSIM": 0.9097356796264648,
+            "LPIPS_STANDARD_VGG": 0.0941203162074089
+          },
+          "metrics_sha256": "06a41733e7fecf6a2a801fdc9406fa596b5750c246512ef3a33bc1ff3e1ab8dd"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "GLOBAL",
+          "p": 4,
+          "state": "GLOBAL4",
+          "bytes": 42229,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 39336,
+          "metadata_bytes": 1169,
+          "framing_bytes": 1724,
+          "archive_sha256": "e0d6d529353e16fd83d8d63171fc48e557265cad0f706bf7729fa762aa892319",
+          "scores": {
+            "PSNR": 25.322385787963867,
+            "SSIM": 0.9494544267654419,
+            "LPIPS_STANDARD_VGG": 0.04557168856263161
+          },
+          "metrics_sha256": "069ff02e566907b37a73b794b0b38fb9a1e49ab3a03e8d0e7abfab3f92ecde00"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "GLOBAL",
+          "p": 5,
+          "state": "GLOBAL5",
+          "bytes": 62220,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 59330,
+          "metadata_bytes": 1166,
+          "framing_bytes": 1724,
+          "archive_sha256": "bb87a4275bcdbf9ca8270b04379490b3a48919d5dfb98dba88b7b492f698a679",
+          "scores": {
+            "PSNR": 29.286251068115234,
+            "SSIM": 0.9671565890312195,
+            "LPIPS_STANDARD_VGG": 0.026107575744390488
+          },
+          "metrics_sha256": "1dd256e420bd77657c5e1018561d7b75ce0a15ee86f32ea078355d5c33e951a4"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "GLOBAL",
+          "p": 6,
+          "state": "GLOBAL6",
+          "bytes": 1516915,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1513956,
+          "metadata_bytes": 1235,
+          "framing_bytes": 1724,
+          "archive_sha256": "5fd3b7117041b54cfc6eda8e24d7de900b819d4b36738c64d2a04820101132f5",
+          "scores": {
+            "PSNR": 32.67649841308594,
+            "SSIM": 0.9791552424430847,
+            "LPIPS_STANDARD_VGG": 0.021540172398090363
+          },
+          "metrics_sha256": "2fb03ecbaf03145e9e25aa280a96e0a47c61329a4b9d4839ebcb970ff4f304be"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "GLOBAL",
+          "p": 7,
+          "state": "GLOBAL7",
+          "bytes": 1482444,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1479477,
+          "metadata_bytes": 1243,
+          "framing_bytes": 1724,
+          "archive_sha256": "2381e41ef8bd9525ab06168a4eaddd14c3aff88332032d71aad5a7995f2e9bf1",
+          "scores": {
+            "PSNR": 36.345863342285156,
+            "SSIM": 0.9882011413574219,
+            "LPIPS_STANDARD_VGG": 0.01382526196539402
+          },
+          "metrics_sha256": "d003824fa70387c498438e155e0d1b101bec6d784f670d243b53190256b605c4"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "GLOBAL",
+          "p": 8,
+          "state": "GLOBAL8",
+          "bytes": 1917587,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1914621,
+          "metadata_bytes": 1242,
+          "framing_bytes": 1724,
+          "archive_sha256": "2e5b955f84acf3fc8f9a6c55c3b41a772c744ddd1d512c39c6971fb3be9b9cc8",
+          "scores": {
+            "PSNR": 38.61469268798828,
+            "SSIM": 0.9915841221809387,
+            "LPIPS_STANDARD_VGG": 0.011675367131829262
+          },
+          "metrics_sha256": "15c348ec3ffb7ae883a84c0498f1a1e88b57ce4c8c5e66322fd8ed7ce651e54a",
+          "unused_budget_B": 0,
+          "budget_utilization": 1.0
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "LEVEL",
+          "p": 2,
+          "state": "LEVEL2",
+          "bytes": 660161,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 656554,
+          "metadata_bytes": 1883,
+          "framing_bytes": 1724,
+          "archive_sha256": "80e24471f0977e9105832f43f53a7b29e884974e4d1d2274b33482240959db15",
+          "scores": {
+            "PSNR": 20.534313201904297,
+            "SSIM": 0.8971068263053894,
+            "LPIPS_STANDARD_VGG": 0.1040990948677063
+          },
+          "metrics_sha256": "92e65fc52d13fb4cbc660d38be2046865facafd1e38b8e3834f5953512e48b63"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "LEVEL",
+          "p": 3,
+          "state": "LEVEL3",
+          "bytes": 734592,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 730988,
+          "metadata_bytes": 1880,
+          "framing_bytes": 1724,
+          "archive_sha256": "1b5917b40fb4c619d6598ae4396d5bb50f66029c05161e435aef9f6ab4610447",
+          "scores": {
+            "PSNR": 24.93587303161621,
+            "SSIM": 0.9420862197875977,
+            "LPIPS_STANDARD_VGG": 0.05792471021413803
+          },
+          "metrics_sha256": "9319e730d471f9a95238abf37a377c5d581da39af9a642ad75bce490a325859c"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "LEVEL",
+          "p": 4,
+          "state": "LEVEL4",
+          "bytes": 1013360,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1009749,
+          "metadata_bytes": 1887,
+          "framing_bytes": 1724,
+          "archive_sha256": "c4faea3393d050a8ccd0aa8ae002918ad37d7b5ef432e6a5bd9b27e46d80447d",
+          "scores": {
+            "PSNR": 29.209218978881836,
+            "SSIM": 0.9653564691543579,
+            "LPIPS_STANDARD_VGG": 0.030074765905737877
+          },
+          "metrics_sha256": "f0acfbc0cc1a69e9885d4d50bb58ec5581795d6dbaccf4649e328f742a82f47c"
+        },
+        {
+          "scene": "jumpingjacks",
+          "scope": "LEVEL",
+          "p": 5,
+          "state": "LEVEL5",
+          "bytes": 1882411,
+          "budget": 1917587,
+          "feasible": true,
+          "numerical_bytes": 12196216,
+          "level_member_bytes": 1878800,
+          "metadata_bytes": 1887,
+          "framing_bytes": 1724,
+          "archive_sha256": "17acf8cdb2a2ff01621c42052c620f240a9005d8b06d913b4e3120d59a211a50",
+          "scores": {
+            "PSNR": 32.92725372314453,
+            "SSIM": 0.9803148508071899,
+            "LPIPS_STANDARD_VGG": 0.017971286550164223
+          },
+          "metrics_sha256": "b777a5d00bd6e02df80bbc573a9f6d04fcbb356f81dc72f7479ba3744c13bf94",
+          "unused_budget_B": 35176,
+          "budget_utilization": 0.9816561126040174
+        }
+      ],
+      "LEVEL_status": "FEASIBLE"
+    }
+  },
+  "sources": {
+    "common.py": "38c7c64ebdbaf8cbb73678f2d9ca7451a67acf9390dc189b0968bbfa078729ba",
+    "cpu_scene.py": "e1a64028499b4ff2162bab50ff4b270ffe28aff8d913e1cd5f89c44ac0349c1a",
+    "decode_archive.py": "71d14e293b7030deaf446e3cb9fe2e14c752244e22d5927d4b2b9da9fbef6444",
+    "evaluate.py": "33ab563efdf43be3e0874669cb18768b4fd90629e6e8a41258bd939e823e69f3",
+    "finalize.py": "42e0b424fcd19ba5e676a58c49f9ce3786f18974ac460137cade7660a8b3df83",
+    "generate_adapters.py": "47eb165fa458f813469b31ca64e83f25833f8c6c9a0e76302da2972b726814d3",
+    "guard.py": "e419c6849f68efb5333d93696a679ec105bcd719c39041b297be729edc7d2671",
+    "materialize.py": "05fe784cf5c3444a48e42685ad9549f97c005d6a983fb2fe2c81c7baad6423d6",
+    "prepare.py": "056478ce193b3a34d4c4758b5167b3c8f8b6cb82932dc1d6071812a1e88aea72",
+    "quantizer.py": "80a6e440f0e6165e1338c2b3da586660aa4df7a32c18770bbabee6f18c9a4c6e",
+    "quantizer_p8_reference.py": "e8f0f12752d35aa70f58310a50f003a79c53f91f8bb111157b3fac5a12ceacca",
+    "report.py": "b0d1578eadc7aae7ef23d1fd0e1e65a047a2b213002c248dc6bbd033e59fdc0e",
+    "run.py": "744fa1bd45e40330b1ca706ed6f3e194f2ca562512629c132f26cb59060c1603",
+    "selection.py": "634a94356adea00c5679a4029d022ac7edd43cb60c1b640e4d0258e50002ec4c",
+    "storage.py": "5ef4565036895cacdff6786256be272303642f9d2f3279f2b5acf24fcda0509b",
+    "storage_v3_reference.py": "ac717682df79c5c40d871c642d2d11dd48ea3479a73e7f053c5d539f7e58f378",
+    "test_protocol.py": "f7c3ecf5cf8d53b9b65a8e138a5c439ad29c3471a8b5233af39e4418bdb14923"
+  },
+  "protocol_sha256": "7c0dff75fe1189176b2afe626b3bbd340fc2885d2fb91fec6c03b177aa600c7f",
+  "rate_manifest_sha256": "4e5c5e236ba448e68f77d9177b5d692a7537eb368bb580eb4269cd59380a3419",
+  "time_unix": 1793655782.430745,
+  "new_test_accessed": false
+}

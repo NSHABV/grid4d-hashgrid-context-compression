@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "secret_scan_findings": [],
+  "broken_local_links": [],
+  "syntax_and_structured_files": {
+    "python": 131,
+    "json": 120,
+    "csv": 180,
+    "markdown": 90
+  },
+  "used_original_sources_unchanged": 511,
+  "critical_codec_files_byte_identical": [
+    "research/frozen_previous8_actual_20261108_01/codec.py",
+    "research/context_compression_headroom_20261107_01/model_side.py",
+    "research/context_compression_headroom_20261107_01/baselines.py",
+    "research/context_compression_headroom_20261107_01/input_sources.py",
+    "research/context_compression_headroom_20261107_01/heldout.py",
+    "research/context_compression_headroom_20261107_01/context_replay.py",
+    "research/experiment_bench/models.py",
+    "research/experiment_bench/entropy.py",
+    "research/experiment_bench/hashed_pair/engine.py",
+    "research/experiment_bench/hashed_pair_v3/format.py",
+    "research/experiment_bench/pmf_clustering/transport.py",
+    "research/experiment_bench/pmf_clustering/codec.py",
+    "research/experiment_bench/pmf_clustering/optimizer.py",
+    "research/hashgrid_analysis/hashed_context/core.py",
+    "research/grid4d/codec.py"
+  ],
+  "tests": {
+    "count": 81,
+    "status": "PASS",
+    "kind": "synthetic packaging tests, including fresh process X/I/P",
+    "full_scene_reproduction": false,
+    "remote_ci_run": false
+  },
+  "scope": "Allowlisted publication files only; no whole-project preservation or universal secret-free claim."
+}

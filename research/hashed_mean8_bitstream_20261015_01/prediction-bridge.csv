@@ -1,0 +1,3 @@
+baseline,old_predicted_gross_bytes,old_measured_extra_side_bytes,old_predicted_net_bytes,full_scene_finite_payload_gain_bytes,actual_range_payload_gain_bytes,actual_extra_side_bytes,actual_standalone_gain_bytes
+Geometry4,15035.225365350569,3885.0,11150.225365350569,15451.640519767068,15452,4174,11278
+Canonical8,8539.931847303827,521.0,8018.931847303828,8602.076030222932,8604,452,8152

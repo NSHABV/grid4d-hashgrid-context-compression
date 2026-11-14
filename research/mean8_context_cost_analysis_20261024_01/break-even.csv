@@ -1,0 +1,13 @@
+case,target_net_bytes,current_net_bytes,additional_payload_reduction_needed_bytes,side_reduction_needed_bytes_fixed_payload,required_extra_bits_per_symbol,needed_percent_of_absolute_Mean8_mass_bytes,needed_percent_of_extra_mass_overhead,possible_by_removing_only_all_Mean8_mass_bytes,note
+bouncingballs_L5,0,11278,0,0,0.0,0.0,0.0,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+bouncingballs_L5,1,11278,0,0,0.0,0.0,0.0,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+bouncingballs_L5,4096,11278,0,0,0.0,0.0,0.0,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+hellwarrior_L5,0,2873,0,0,0.0,0.0,0.0,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+hellwarrior_L5,1,2873,0,0,0.0,0.0,0.0,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+hellwarrior_L5,4096,2873,1223,1223,0.00933074951171875,21.89794091316025,38.27856025039124,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+bouncingballs_L6,0,-375,375,375,0.00286102294921875,12.234910277324634,34.62603878116344,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+bouncingballs_L6,1,-375,376,376,0.00286865234375,12.267536704730832,34.71837488457987,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+bouncingballs_L6,4096,-375,4471,4471,0.03411102294921875,145.87275693311582,412.8347183748846,False,Requirement arithmetic only; target0 already exceeded if current net positive.
+hellwarrior_L6,0,197,0,0,0.0,0.0,0.0,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+hellwarrior_L6,1,197,0,0,0.0,0.0,0.0,True,Requirement arithmetic only; target0 already exceeded if current net positive.
+hellwarrior_L6,4096,197,3899,3899,0.02974700927734375,151.3586956521739,557.7968526466381,False,Requirement arithmetic only; target0 already exceeded if current net positive.

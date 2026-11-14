@@ -1,0 +1,2 @@
+scene,state,donor,recipient,bytes,donor_saving_B,recipient_cost_B,donor_member_delta_B,recipient_member_delta_B,metadata_delta_B,framing_delta_B,total_delta_B,unused_budget_B,net_saving_percent_vs_G8
+standup,G8,,,1736798,0,0,0,0,0,0,0,0,0.0

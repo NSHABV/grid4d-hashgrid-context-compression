@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "protected_files": 3440,
+  "splits_exact": true,
+  "protocol_sha256": "50b1c24b630c55453abad1d70fef88e730cb52760766eba9f6174c863bf36975",
+  "wall_seconds": 35.533070399999986,
+  "cpu_seconds": 9.234375,
+  "peak_rss_mib": 44.69921875
+}

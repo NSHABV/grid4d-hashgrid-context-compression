@@ -1,0 +1,31 @@
+{
+  "status": "PASS_COMPLETED",
+  "meaning": "Correctly completed bounded diagnostic; not a useful new compressor claim",
+  "scientific_status": "WEAK_SIGNAL",
+  "selected_family": "PREVIOUS8",
+  "input_manifest_sha256": "99280b84fd8492961902dc7d8f2ed04cd59664998d9a9d04817100f7f99bb502",
+  "protocol_sha256": "1634c3ce6d9b775e8dbc0b620e66bf0b6d8886e5dd3781081bd2313752266c6a",
+  "correctness_sha256": "fa7311461145605488094756a51e57ddef6c9954188604085abb1c68fb1e61ac",
+  "preservation_sha256": "f3cb8854ddcb4ad28baffcd0e9eae226d2cc77dcd0933492a25aef30febbae19",
+  "report_sha256": "4102c983fb0a996dd4ea7b097e813d88574d2a66379c761f054fb572243d2575",
+  "protected_unchanged_files": 41262,
+  "actual": [
+    "ten standard baseline whole files and fresh exact decodes",
+    "serialized PMF side information"
+  ],
+  "estimated": [
+    "finite-PMF ideal lengths",
+    "paid held-out extrapolations",
+    "full-grid contextual projections"
+  ],
+  "not_performed": [
+    "contextual entropy bitstream",
+    "Grid4D training",
+    "new quantization",
+    "rendering",
+    "reserve-scene conditional models",
+    "H4 clustering"
+  ],
+  "time_unix": 1794052609.4512346,
+  "next": "STOP; no automatic follow-up experiment"
+}

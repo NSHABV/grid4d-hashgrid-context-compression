@@ -1,0 +1,92 @@
+{
+  "scene": "jumpingjacks",
+  "scene_selection": "User-fixed fourth scene before inspecting PMFs; no dataset/checkpoint found in project or WSL baseline storage",
+  "checkpoint_selection": "iteration_50000 of fresh seed0 training, never best",
+  "training": {
+    "iterations": 50000,
+    "seed": 0,
+    "resolution": 1,
+    "load2gpu_on_the_fly": true,
+    "warm_up": 3000,
+    "config": {
+      "canonical_num_levels": 16,
+      "canonical_level_dim": 2,
+      "canonical_base_resolution": 16,
+      "canonical_desired_resolution": 2048,
+      "canonical_log2_hashmap_size": 19,
+      "deform_num_levels": 32,
+      "deform_level_dim": 2,
+      "deform_base_resolution": [
+        8,
+        8,
+        8
+      ],
+      "deform_desired_resolution": [
+        32,
+        32,
+        16
+      ],
+      "deform_log2_hashmap_size": 19,
+      "bound": 1.6
+    },
+    "network": {
+      "depth": 0,
+      "width": 256,
+      "directional": true
+    },
+    "config_sha256": "3b88f1fd620830b0f3c38712d956c00a3091872fce1cbbcfec1739196ca0a117",
+    "train_sha256": "7a88c4f1fb9cfa20d607b72dc5b55ece87ad032a176a1cf86ed8a3903edd96f7"
+  },
+  "quantization": {
+    "function": "research.grid4d.codec.quantize",
+    "scope": "whole xyz table [0,6098108), both channels together",
+    "bits": 8,
+    "arithmetic": "float32 min/max, float64 affine, numpy.rint ties-to-even, clip 0..255",
+    "scene_specific_minmax": true
+  },
+  "pair": "xyz L4->L5",
+  "modes": [
+    "C0",
+    "C1",
+    "C2"
+  ],
+  "h4_source_sha256": {
+    "research\\experiment_bench\\pmf_clustering\\bundle.py": "d0d2f45c6c737c7c4d0d6f420efea4d59cfca1c12207c13d47e9cfea69c07f7c",
+    "research\\experiment_bench\\pmf_clustering\\codec.py": "91297391e1785fa528e9b23a35a8231ecd85bc29d32f83d081b6bfd1bd8e4986",
+    "research\\experiment_bench\\pmf_clustering\\geometry.py": "a3c578cd0cc65c265de5c97c07f9dd9c8dbedbe42050b78d8b41776de950e18b",
+    "research\\experiment_bench\\pmf_clustering\\optimizer.py": "8051bc2ac47269c36b1d9d44944ceb42942d16423601ba703da5a7b24766998e",
+    "research\\experiment_bench\\pmf_clustering\\preservation.py": "43523b2fdd9d3284dd9e5886f2c6dfd4600a3679bce48500274f7c2ccf9944c0",
+    "research\\experiment_bench\\pmf_clustering\\replay.py": "3a330c94dd7b9516278028630c460a91a16e91118060d9b9b5f821e055e9ea00",
+    "research\\experiment_bench\\pmf_clustering\\test_geometry_oracle.py": "42e6090b569ee909bf97dc7eb9a2f2de174504920924d72aceed4334726012bc",
+    "research\\experiment_bench\\pmf_clustering\\test_integration.py": "6e278adacdc06d9862ca80d837bf6af1ee396b9de87fbbad37aecb557c354377",
+    "research\\experiment_bench\\pmf_clustering\\test_optimizer.py": "f22a066a09b9367e06c0a4dc9880e4dacd209e8a20bb6d256d66499890df6778",
+    "research\\experiment_bench\\pmf_clustering\\transport.py": "87445811ce32141798e36d8705c6362c42d23987af76649eb54802a79ae48a76",
+    "research\\experiment_bench\\pmf_clustering\\verification.py": "be0bbb07a8cadff2b73138e50a25fdd7ca421ce777bfe14ff22eeee631f68684",
+    "research\\experiment_bench\\pmf_clustering\\__init__.py": "e2cd62f2d5c9e7e990558a6da59f041b9658c58d93734c93e79ed3463a6dc443",
+    "research\\experiment_bench\\pmf_clustering\\__main__.py": "de3f5ae48b46de7ae4cd9e39760e508c28c6d12e6411ad5a0bef963f548345c4"
+  },
+  "criteria": {
+    "NO-GO": "C1-C2 <=0 B",
+    "LIMITED GO": "0<C1-C2<1024 B",
+    "GO": "C1-C2>=1024 B",
+    "PRACTICAL TARGET": "C1-C2>=4096 B",
+    "threshold_type": "engineering, not statistical"
+  },
+  "size_accounting": "actual standalone filesystem bytes with all coarse, masses, mapping, thresholds and framing; C2-C1 primary; sharing separate",
+  "stop_rule": "BLOCKED_NEEDS_ULTRA for any codec correctness/logic change need; diagnostic only, no repair",
+  "training_recovery": "Original train.py has weight/PLY saves, no optimizer resume. If interrupted preserve run and restart same fixed seed0 into a new output; never present weight-only resume as equivalent.",
+  "source_dataset_readme": "https://github.com/albertpumarola/D-NeRF#download-dataset",
+  "fallback_order": [
+    "mutant",
+    "standup",
+    "trex"
+  ],
+  "primary_comparison": "C1 vs C2, xyz L4->L5",
+  "auxiliary_C0": "Retain successful hook validation unchanged, including exact-sharing payload regression",
+  "prior_scenes": {
+    "bouncingballs": 3011,
+    "hellwarrior": 2940,
+    "hook": 2922
+  },
+  "created_local": "2026-10-29T14:04:06.611201+03:00"
+}

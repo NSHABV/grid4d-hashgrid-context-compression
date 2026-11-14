@@ -1,0 +1,17 @@
+# Validated on RTX 5060 Laptop: training, loading, rendering, metrics.
+name: grid4d-blackwell
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip=24.0
+  - setuptools=65.6.3
+  - wheel=0.38.4
+  - cuda-nvcc=12.8
+  - cuda-cudart-dev=12.8
+  - cuda-cccl=12.8
+  - cuda-version=12.8
+  - gcc_linux-64=13
+  - gxx_linux-64=13
+  - ninja=1.11

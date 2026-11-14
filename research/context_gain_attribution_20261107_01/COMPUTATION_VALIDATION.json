@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "models": 38,
+  "no_missing": true,
+  "synthetic_arithmetic": "PASS",
+  "mass_reproduction": "PASS",
+  "symbol_coverage_per_model": 1048576,
+  "identities_tolerance_B": 1e-06,
+  "original_context_projections_match": true,
+  "no_fitting_or_splits_or_shuffle_recomputed": true,
+  "seconds": 0.023963300001923926
+}

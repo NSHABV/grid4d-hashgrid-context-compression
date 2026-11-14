@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scenes": [
+    {
+      "scene": "hook",
+      "all12_archive_checks": "PASS",
+      "unchanged11_XZ": "EXACT",
+      "malformed_model_tests": 2
+    },
+    {
+      "scene": "jumpingjacks",
+      "all12_archive_checks": "PASS",
+      "unchanged11_XZ": "EXACT",
+      "malformed_model_tests": 2
+    },
+    {
+      "scene": "mutant",
+      "all12_archive_checks": "PASS",
+      "unchanged11_XZ": "EXACT",
+      "malformed_model_tests": 2
+    },
+    {
+      "scene": "standup",
+      "all12_archive_checks": "PASS",
+      "unchanged11_XZ": "EXACT",
+      "malformed_model_tests": 2
+    }
+  ],
+  "old_corruption_suite_sha256": "27c04c9d1a37bd2489ea65235573a2f20e6a96589fabfc4c6b66dc55b3f1bd68"
+}

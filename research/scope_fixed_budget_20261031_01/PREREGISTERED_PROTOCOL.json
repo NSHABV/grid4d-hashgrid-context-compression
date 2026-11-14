@@ -1,0 +1,58 @@
+{
+  "study": "fixed-budget exploratory SAME_BUDGET_CAP; all scenes/test previously observed",
+  "scenes": [
+    "mutant",
+    "bouncingballs",
+    "hellwarrior",
+    "hook",
+    "jumpingjacks"
+  ],
+  "scopes": [
+    "GLOBAL",
+    "LEVEL"
+  ],
+  "precisions": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "candidates": 70,
+  "ranges": "from original FP32 across every allocated xyz row and both channels; fixed per scope across all p; no clipping fit",
+  "arithmetic": "FP64 step=(b-a)/(2**p-1); rint((x-a)/step) nearest-even; clip before uint8; reconstruct clip(a+float64(q)*step,a,b) to FP32. Constant a=b => step0,codes0; nonfinite INPUT_BLOCKED",
+  "storage": "scope-v4; uniform p2..8; all uint8 NPY1.0; same canonical ZIP DEFLATE6 default strategy; no packing/shuffle; 16 levels; explicit precision and Qmax. All p8 controls repacked; format delta separate",
+  "budget": "actual filesystem size of new GLOBAL8 per scene; B<=budget strict, no tolerance",
+  "selection": "per scope independently maximize validation mean(per-view PSNR); exact ties lower physical bytes then lower p. SSIM/LPIPS not selection objectives",
+  "no_feasible": "NO_FEASIBLE_LEVEL_IN_SEARCH_SET; do not expand search",
+  "near_rate_threshold": 0.05,
+  "rate_gap": "abs(B_LEVEL-B_GLOBAL)/max(B_LEVEL,B_GLOBAL); descriptive only, not quality tolerance",
+  "quality": "same20val and20test; 800x800 black,PNG roundtrip,FP32 mean per-view PSNR,SSIM,LPIPS_STANDARD_VGG normalize=True once",
+  "reuse": "R0/GLOBAL8/LEVEL8 only after identical provenance/runtime/cameras/time/GT/xyz and ordinal0 exact PNG+floatRGB; test references only after overall selection freeze",
+  "test_gate": "no new p<8 test before all5 scene selections sealed; no reselect; evaluate selected G/L and GLOBAL8 unique; R0/LEVEL8 references only",
+  "exact_checks": "zero tolerance codes,metadata,dtype,offsets,canonical FP32,p8 old codes+reconstruction,byte-identical rebuild",
+  "pilot": "mutant CPU14 archives; then mutant val R0 smoke; resource guards before remaining jobs",
+  "guards": {
+    "min_available_RAM_B": 1073741824,
+    "min_start_available_RAM_B": 2147483648,
+    "max_device_used_MiB": 7168,
+    "min_start_GPU_free_MiB": 3072,
+    "min_disk_free_B": 8589934592,
+    "max_job_seconds": 1800
+  },
+  "retention": "all70 archives/manifests/checks/hashes retained; only one temporary decoded/full-model candidate; remove its scratch after exact/evaluation checks; never remove prior artifacts",
+  "reporting": "signed quality and rate; both GLOBAL controls; underfill; strict Pareto; no interpolation/BD-rate/independence/global optimality",
+  "forbidden": [
+    "training",
+    "downloads",
+    "p outside2..8",
+    "mixed precision",
+    "per-channel",
+    "range search",
+    "new transport",
+    "H3/H4/H5",
+    "test-driven selection"
+  ]
+}

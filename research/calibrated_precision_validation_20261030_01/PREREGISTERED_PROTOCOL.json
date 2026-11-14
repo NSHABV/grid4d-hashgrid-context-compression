@@ -1,0 +1,116 @@
+{
+  "scene": "D-NeRF/mutant",
+  "checkpoint_rule": "existing suitable completed fixed iteration50000 else one fresh seed0 50000-step official config training; no quality-based selection",
+  "independence": "Prior four scenes are development. Config-only capacity inventories and unexecuted fallback list do not use mutant quality. Local inventory found no mutant dataset or checkpoint; WSL baseline storage scan empty.",
+  "source_hashes": {
+    "AGENTS.md": "764b8cec00c644f17c3bf9e48a3ddb4647e982fe8c6d8f3b21d9c0ae88b077e4",
+    "research/download_dnerf_scene.py": "07cda3e1d5098a9b214ec7b86d5b7241596644259096845dcb754f84eeec2abc",
+    "research/mean8_cross_scene_20261018_02/download_bounded.py": "1843ecc1f3bfa428c9e500d0533c658926fb6ab1f9b3b229565b73aa12866458",
+    "research/mean8_cross_scene_20261018_02/train_controller.py": "3758e8b74abf4e3a16d51b15388b11e91f9fd7801b1dee898f8b8850f20ee100",
+    "research/env_common.sh": "e9a5cddbf5982b3d511f4bf7247a1368c0d4c18b454c8bb3c4acc3bbad6e7617",
+    "research/grid4d/codec.py": "0d46b2cba14bd0b7670d5e8fe24390f90272f15be37d2ec01bcc50314f121578",
+    "research/mean8_cross_scene_20261018_01/remote-catalog.json": "f612bdd8792616fd242564d5ac3c45dce9725531ac71b43cdfa0fb1d30b2e25c",
+    "research/sources/dnerf-readme.md": "b242c9b0e2c2390a9fe7e36c47915bcb9709b7ea508fdf6d711b63a891916d76",
+    "research/intermediate_precision_rate_quality_20261030_01/common.py": "38c7c64ebdbaf8cbb73678f2d9ca7451a67acf9390dc189b0968bbfa078729ba",
+    "research/intermediate_precision_rate_quality_20261030_01/quantizer.py": "e8f0f12752d35aa70f58310a50f003a79c53f91f8bb111157b3fac5a12ceacca",
+    "research/intermediate_precision_rate_quality_20261030_01/storage.py": "1ef4e669a21ec806afae263cb4b02daa281679dda7a44c839ee9e2161daa932a",
+    "research/intermediate_precision_rate_quality_20261030_01/decode_archive.py": "71d14e293b7030deaf446e3cb9fe2e14c752244e22d5927d4b2b9da9fbef6444",
+    "research/intermediate_precision_rate_quality_20261030_01/render_checked.py": "da49510c352b2b29dea3a4fe2b9e514c99da67c24fd89681e56e44eff352ed51",
+    "research/intermediate_precision_rate_quality_20261030_01/evaluate_scene.py": "eec3959e8710a1b25fbcd77b05554f6cfe1c52ab67cea91dd234f66317805060",
+    "research/intermediate_precision_rate_quality_20261030_01/runner.py": "b21bb86a874f365298bd0cbc8b7e91558d801fe259cc9e06c9a3bd92c6e9f7c8",
+    "research/intermediate_precision_rate_quality_20261030_01/test_quantizer.py": "27eecc16db841fb0e65f0f6bce3bb191e6c835383170324e51340d3851c79b3a",
+    "research/intermediate_precision_rate_quality_20261030_01/test_storage.py": "6aabc989c3c7ad3f5f6feb0dfe04f131b1c9118e14e55d2d8757918026e0928e",
+    "research/intermediate_precision_rate_quality_20261030_01/INTERMEDIATE_PRECISION_REPORT.md": "0419cdb31c87d29bd35408e61e79a4f334e5d1e7ab290070036aa9c1746d77b9",
+    "research/intermediate_precision_rate_quality_20261030_01/FINAL_VALIDATION.json": "e9b3cc776a9ef6d893dafa1f29f11e5720a9da1a175f718bf793426e09727af5",
+    "external/Grid4D-audit-clean/train.py": "7a88c4f1fb9cfa20d607b72dc5b55ece87ad032a176a1cf86ed8a3903edd96f7",
+    "external/Grid4D-audit-clean/render.py": "342979e940eceda86abdaa15bbd742a1a53cee15c263aa6e2127b74aaf26a016",
+    "external/Grid4D-audit-clean/arguments/dnerf/mutant.py": "3b88f1fd620830b0f3c38712d956c00a3091872fce1cbbcfec1739196ca0a117",
+    "external/Grid4D-audit-clean/scene/dataset_readers.py": "378654a63eee94c9ea45675ce78cc47a8c50db48ec3aec2eefe50326ee092c5d",
+    "external/Grid4D-audit-clean/scene/__init__.py": "8eb97c1e1a82f0a83a0feb992def90a2a6518099a472a80a120ca3d0bcf88b07",
+    "external/Grid4D-audit-clean/scene/deform_model.py": "1c7c1b18f87626178571ae944b8f33ef9e388453adf138286ae00fa345c09816",
+    "external/Grid4D-audit-clean/utils/image_utils.py": "022eccd8668facf2372b6453e7e9cfd70fa27b37f965d1474d0a6e131f85384c",
+    "external/Grid4D-audit-clean/utils/loss_utils.py": "4b3bbcc3f87f6752a26055252f89df32dd7079876084e6c9d437ae57a8f85a02"
+  },
+  "splits": {
+    "train": "official train only",
+    "calibration": "official val after deterministic exclusions",
+    "test": "complete official test, metadata/hashes only before freeze",
+    "observation_rule": "Observation=(exact numeric camera matrix, intrinsics, timestamp). Exclude val if normalized absolute path OR image SHA256 OR observation tuple matches train/test. Then deduplicate val by same keys in original val ordinal order. Raw basename IDs are scoped to split, not globally unique camera identities. Report matrix-only, timestamp-only and basename overlaps separately; these alone are not same observation.",
+    "minimum_calibration": 10,
+    "quality_access": "no test rendering/error/quality access before SELECTION_FREEZE.json"
+  },
+  "training": {
+    "seed": 0,
+    "iterations": 50000,
+    "config": "external/Grid4D-audit-clean/arguments/dnerf/mutant.py",
+    "evaluation": "disable all training-time test evaluation; assert train-only loader",
+    "pilot": "separate directory; same50000 schedule; through warmup3000 and first deformation/densification; final fresh seed0",
+    "full_seconds_limit": 10800,
+    "device_memory_limit_MiB": 7168,
+    "watchdog": "audited external supervisor, fail closed; resource preflight required"
+  },
+  "candidate_levels": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "level_rule": "argmax mean per-view PSNR(RESTORE_FP32_Li)-PSNR(R2); exact tie lowest level; freeze before precision",
+  "candidates": [
+    "R2",
+    "M10",
+    "M12",
+    "M16"
+  ],
+  "budget_multiplier": 1.25,
+  "budget_rule": "floor(5*B(R2)/4), physical complete spatial DEFLATE file",
+  "psnr_gap_to_M16_allowed": 0.05,
+  "constraints": [
+    "B<=Bmax",
+    "PSNR>=M16-0.05",
+    "SSIM>=R2",
+    "LPIPS_STANDARD_VGG<=R2"
+  ],
+  "selection": "minimum bytes among feasible; byte ties R2,M10,M12,M16; else NO_FEASIBLE_POINT and no retroactive selection",
+  "numerics": "Mean of per-view FP32 metric scalars using torch FP32 mean, stored full Python float; selection comparisons binary64 with no tolerance; exact codes/metadata/dequantization hashes; synthetic scalar reference tolerance eps32*max(1,abs(reference)) only, never for selection",
+  "quantizer": "unchanged fixed-range helper, global full original xyz FP32 extrema -> binary64 step, divide by step then rint nearest-even clip cast; p>8 little-endian uint16; canonical dequantization FP32",
+  "transport": "unchanged grid4d-spatial-mixed-v2 ZIP/NPY DEFLATE6 all16 levels; dtype/precision map identifies selected level; no bitpacking",
+  "metrics": "original PSNR/SSIM; LPIPS_STANDARD_VGG RGB[0,1] normalize=True once eval/inference_mode; PNG evaluation same previous pipeline",
+  "order": [
+    "input audit",
+    "split audit",
+    "guarded pilot/full training if needed",
+    "calibration R0/R2/7RESTORE",
+    "LEVEL_SELECTION",
+    "4files exact decoder checks",
+    "calibration M10/M12/M16",
+    "SELECTION_FREEZE",
+    "full test6states",
+    "report/seal"
+  ],
+  "test_controls": [
+    "R0",
+    "R2",
+    "M10",
+    "M12",
+    "M16",
+    "RESTORE_FP32"
+  ],
+  "result_axes": [
+    "TECHNICAL",
+    "CALIBRATION_FEASIBILITY",
+    "TEST_TRANSFER",
+    "RATE",
+    "residual loss vs R0"
+  ],
+  "stop_rules": [
+    "INPUT_BLOCKED",
+    "SPLIT_BLOCKED if <10 observations",
+    "RESOURCE_BLOCKED",
+    "BLOCKED_NEEDS_ULTRA for algorithmic exactness/codec/forward issue"
+  ],
+  "scientific_limits": "one new scene, correlated views; no significance/BD-rate/novelty/global-optimum claim; no test-driven revision"
+}

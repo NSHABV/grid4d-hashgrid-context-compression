@@ -1,0 +1,9 @@
+> Публичная копия исторического документа. Локальные пути и ссылки адаптированы; численные результаты не пересчитывались. Хеши и PASS внутри текста относятся к исходному запуску, а не к этой копии.
+
+# jumpingjacks training
+Completed50000, seed0; same official Grid4D training body/config as hook. Config SHA 3b88f1fd620830b0f3c38712d956c00a3091872fce1cbbcfec1739196ca0a117. Spatial16×2, base16, desired2048, cap2^19; temporal32×2; network depth0,width256,directional; warmup3000,resolution1,black background, original optimizer/schedule.
+Checkpoint `<PROJECT_ROOT>/research/h4_fourth_scene_validation_20261029_01/full/model/deform/iteration_50000/deform.pth`, SHA256 `a6ddef70bad80b2015b9f8e2fe2b7eb8d2f9128d54f890326a0898b2a96dc0df`. Official iteration50000, not best. Shape[6098108, 2], L4/L5 offsets[125561, 330940, 855228]; rows205379/524288. Full scales/config in inputs/manifest.json.
+Completed segment wall 4762.212s; total observed segment wall including interrupted segments 4762.212s (lower bound if abrupt termination occurred after last telemetry). Last segment wall 4762.212s. Pilot is separate and not used for model selection. Segment manifests: full/TRAINING_SEGMENTS.json; loss logs and full-state checkpoints retained.
+User-requested durability addition: immutable full state (both Adam optimizers, model parameters/buffers, Gaussian densification stats, RNG, camera order/stack, step), at most1000 steps or120s between save requests. Original numerical loop body unchanged; runtime AST hooks documented. No claim of bit-identical future CUDA trajectory; exact restored state is tested. See RESUME_VALIDATION.json and RESUME_PROTOCOL_ADDENDUM.json. Older preflight note describing upstream weight-only recovery is superseded by this addendum.
+Float32 render quality (not quantized quality): {'ours_50000': {'SSIM': 0.9924489855766296, 'PSNR': 39.24585723876953, 'LPIPS': 0.007618422154337168, 'MS-SSIM': 0.9974287748336792}}.
+

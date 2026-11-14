@@ -1,0 +1,13 @@
+{
+  "status": "GO",
+  "primary": "actual scene-specific standalone xyz L4->L5 bytes",
+  "scene": "hellwarrior",
+  "strongest_baseline": "Geometry4",
+  "strongest_baseline_bytes": 158900,
+  "Mean8_bytes": 156027,
+  "saving_bytes": 2873,
+  "exact_symbols": true,
+  "scope": "Fixed table8 Mean8 on one independent second scene; not whole-Grid4D compression",
+  "Count6": "Previous NO-GO unchanged; not tested here",
+  "Mean4Std2": "Previous NO-GO unchanged; not tested here"
+}

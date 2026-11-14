@@ -1,0 +1,14 @@
+{
+  "technical": "PASS",
+  "calibration_feasibility": "FEASIBLE",
+  "test_transfer": "TRANSFER_PASS",
+  "selected_level": 4,
+  "frozen_choice": "M10",
+  "B_max": 1613635,
+  "precision_constraints_unchanged": true,
+  "rate": {
+    "bytes": 1359477,
+    "saving_vs_M16_B": 209168,
+    "extra_vs_R2_B": 68569
+  }
+}

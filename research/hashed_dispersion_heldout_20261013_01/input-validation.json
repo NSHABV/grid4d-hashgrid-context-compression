@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "protected_files": 3131,
+  "seconds": 8.852345900028013,
+  "old_final_sha256": "e0f3bbaebcb22e3b07412166d5abf5a5289958ef2bc96a0664a88479d3d2ccc7",
+  "protocol_sha256": "5c762ab79cac429098a151adf7040318712ae46ec2c9fa926b6695b82189bce5"
+}

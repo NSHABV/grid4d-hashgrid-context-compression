@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "98f698713b2ab311293773971fecf08e4c9d4784de19d43a22ae5f672494f868",
+  "before_new_quantization": true,
+  "before_probability_fitting": true,
+  "no_new_results_used_to_choose_protocol": true
+}

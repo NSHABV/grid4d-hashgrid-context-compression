@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "rows": 205379,
+  "in_bounds": 195112,
+  "out_of_bounds": 10267,
+  "source_sha256": {
+    "research\\interlevel_xyz34_results\\pairs.npz": "46692e7b6d2ed539b44aae94281d010ccdaba39d4b7d7aefbc2bb65c0f0ae079",
+    "research\\interlevel_xyz34_results\\pairs.csv": "36d60ed676b09597c66b5e6ec13d6de457aa23b02796aef377ae19fcd3086883",
+    "research\\interlevel_xyz34_results\\manifest.json": "a566cb46eb5a9fd77a937d69cc4c8e60d2e7380668db04c15751a47db8bfdbcd",
+    "research\\interlevel_xyz34_results\\validation.json": "10ad611ec9825d61b4a644b76a7262469571e48e9156472531666ced78d9631c",
+    "research\\interlevel_xyz34_results\\decoder_bundle\\decoder_metadata.json": "5dc5781351a1efea49c9b4d65cec69e29e50d90e1a23b24d7b9ed6906c002bf6",
+    "research\\interlevel_xyz34_results\\decoder_bundle\\coarse_symbols.npy": "54220547ef7cc0518bfdfffa0e02ce01c1e9bda71ca06b3434f1aaa02f4d6b9c",
+    "research\\interlevel_xyz34_results\\decoder-replay.npz": "211abd2e0e6ac636a3ab088ebceaece2e765d9b226e87077484eeac65c1bd5b1",
+    "research\\interlevel_xyz34_results\\decoder-replay.audit.json": "6a22c1e19ec7802e879601f6cfe4cc8c9838ec79d0e6ffa1ceb37f4a2f1b79b9",
+    "research\\experiment_bench\\reference-study\\table-8\\manifest.json": "19eebb46ca4deae6e821ffda20eea8faad9969481969a554d821246014137ca6",
+    "research\\experiment_bench\\reference-study\\table-8\\xyz_encoding.u8.bin": "b6f2676efa4c33d0cf2506271bafe0db0b133d05baeabaeb07eca8e47e939de8"
+  },
+  "coarse_context_source": "saved canonical decoder-available GPU float32; previous fresh-process replay exact",
+  "GPU_indexing": "NOT RUN in this study; previous exhaustive PASS evidence reused",
+  "raw_float32_embeddings_read": false
+}

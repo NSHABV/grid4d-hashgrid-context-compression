@@ -1,0 +1,106 @@
+{
+  "status": "FROZEN_BEFORE_EXPORT_AND_FITTING",
+  "new_scene_results_seen": false,
+  "note": "Activated with a validated independent checkpoint; directory created 20 October and preserved.",
+  "proposed_scene": "hellwarrior",
+  "scene_selection_rule": "Future candidate only: independent scene, exact existing D-NeRF config bytes, smallest range download; lexicographic tie",
+  "scene_selection_uses_entropy_results": false,
+  "checkpoint_sha256": "4526ff7fe18a8570e97139dfa8d98882ab394ce49433113a4e29c36839ca6dc6",
+  "quantized_symbol_sha256": null,
+  "models": [
+    "IID",
+    "Geometry4",
+    "Canonical8",
+    "Mean8"
+  ],
+  "pair": [
+    4,
+    5
+  ],
+  "grid": "xyz",
+  "feature_channels": 2,
+  "quantization": {
+    "scope": "table",
+    "bits": 8,
+    "min_max": "new scene full table, float64 arithmetic, nearest-even; never reuse bouncingballs numeric min/max"
+  },
+  "context": "same eligible E, x-fast canonical, mean from decoded coarse symbols only; 8 quantile bins/channel plus G0/G1; C<=10",
+  "arithmetic": "cpu-f32-separate-ufunc-corner0to7-anchor-f64-addat-xfast-popstd-v1",
+  "numpy": "1.26.4",
+  "quantile": "float64 linear; repeated edges; searchsorted right",
+  "smoothing": "existing models.frequencies Laplace1/minmass1/stable largest remainder",
+  "mass_sum": 65536,
+  "engine": "existing constriction0.4.2 indexed range, perfect=False, finite16/coder24",
+  "heldout": {
+    "split": [
+      64,
+      16,
+      20
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "unit": "slot, both channels together",
+    "fit": "train only",
+    "freeze_before_test": true,
+    "primary": "Mean8 vs Canonical8",
+    "test_no_tuning": true
+  },
+  "actual": "all-scene fitting allowed; every mass/threshold/metadata byte paid; same q4/q5 and shared coarse for all arms",
+  "transports": [
+    "dense_u32",
+    "packed_u16",
+    "sparse_default_u16"
+  ],
+  "baseline": "minimum actual standalone size among IID/Geometry4/Canonical8, each independently cheapest transport",
+  "success": "all exact fresh-process decodes pass AND Mean8 total bytes below strongest baseline",
+  "all_allocated_slots": true,
+  "training_plan": {
+    "seed": 0,
+    "iterations": 50000,
+    "warm_up": 3000,
+    "config": "arguments/dnerf/hellwarrior.py",
+    "resolution": 1,
+    "load2gpu_on_the_fly": true,
+    "duration_ceiling_seconds": 10800,
+    "recommended_total_GPU_guard_MiB": 7168,
+    "pilot_required": true,
+    "checkpoint_ready": true
+  },
+  "no_new_probability_models": true,
+  "Mean4Std2_previous_decision": "NO-GO unchanged",
+  "Count6_previous_decision": "NO-GO unchanged",
+  "allocated_classes": {
+    "IID": 1,
+    "Geometry4": 4,
+    "Canonical8": 10,
+    "Mean8": 10
+  },
+  "quantile_fit_population": "Only G2/G3 in fit split; train for held-out, all slots for actual coding; never fine target values",
+  "adapter_readiness": "V2 development isolated from unchanged V1; correctness and regression gates before measured coding.",
+  "date": "2026-10-21",
+  "run_id": "mean8_hellwarrior_validation_20261020_01",
+  "scene": "hellwarrior",
+  "new_scene_entropy_results_seen": false,
+  "checkpoint": "research\\mean8_cross_scene_20261018_02\\full\\model\\deform\\iteration_50000\\deform.pth",
+  "baseline_validation_sha256": "494231b00768f5670a70c3d9697014ba5fa1654a64c1a6d4395da528e1133290",
+  "input_freeze_policy": "Quantize whole xyz once; freeze symbols and metadata hashes before any probability fitting.",
+  "actual_runtime_protocol": "12 transports, each fresh strict decode; best per model warmup plus 3 measured byte-identical encode/decode repeats.",
+  "preservation": "All earlier files preserved; new report/run directory; exclusive creates and append-only stage continuation.",
+  "resources": {
+    "primary": "canonical CPU NumPy1.26.4",
+    "GPU": "tiny actual CUDA geometry probe only if required",
+    "context_pilot_vertices": 65536,
+    "context_estimate_limit_seconds": 1800,
+    "context_peak_limit_mib": 1024,
+    "no_training": true,
+    "no_large_downloads": true
+  },
+  "reporting": {
+    "primary": "actual standalone pair bytes with exact independent decode",
+    "secondary": "held-out CE on fixed splits, reported separately",
+    "inference_limits": "one additional scene, one quantizer scope/precision/pair; no whole-model compression or novelty claim"
+  }
+}

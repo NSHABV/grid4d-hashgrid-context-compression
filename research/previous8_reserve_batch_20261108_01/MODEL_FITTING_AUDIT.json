@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "development_regression": [
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "52d634a9b7723d37b587e06713833a490068ac520bfb3481df4d64464abaaa0e"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "e7b2201cded76c4dd7065ed16bb0f6c8c174e626800cd37237c66f4f50ce1545"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "26d8f5d95bd8afccb789c2945bd9178aa1748ad244c8e205548d79e7cbb87296"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "d0223e976358ea130d34aebe01e63502756ef92c739af638f4b8d56eb19956c8"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "56943d550530c4e26914cd37eec7e79a0a9856da6eeda262c9de448094a08f35"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "cfd4f51d17a64a10196a34a0ed1f66075b9703f0c969a25dff90fefc699fd351"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "1373f88379331fa602c60e50d35a4085213829a1313d7f506bf5c23890ce6a88"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "e71f68fc10c345027b2239f5f3073eae2014548e58f18a7d49629a4380e78b45"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "304f620bba76ef9f21ea67a53bae16726cd6d98b3880c827c1a4e1d8aa4626fb"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "7fac386624315ef32bd830f59add5de290b01cf85608f5df3846cab57bc14883"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "258161254666b6e292eac847fd61f3e224bcb73f271baa215eb71451139fdc08"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "4af65e45c00f57057d3eff704b0638a1bc968352bcdc27afeda694d73b31086a"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "4de4693ed60c4fde566d6efcb0410859816e0f7c4fbffecf77864c675ae9d58d"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "5c6ffd09009577e6757a2fbef6b36bf5259d4b5ff6cfc81bc7bfc86b7661a5cf"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "edb01028a5df9ffef2866d8fbf1f53dd5b16fb4255c00fe4ab3d5fe4d0e99075"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "b2297af1bc1e0f0dc40fc6d1a9301675bf5194270585071f706388a415924f9f"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "c289cbf638b1d8dae562e6dd4df0eed3f451fe5571aac8ded7e7529ccbfcb07c"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "4131cc3341ee3054eefd63307826142c4c7eb2bb88596b57e9946be057f19e32"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "mode": "I",
+      "status": "EXACT",
+      "envelope_sha256": "f9f084df751edc49a46bc66c4e10a53ccc2465566236caaa90d0c7b7d4892b40"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "mode": "P",
+      "status": "EXACT",
+      "envelope_sha256": "476d90f9a20b56bf2da41cc7b11ce4e14c0654a9df6f874b97c6ded69dc27adf"
+    }
+  ],
+  "unchanged_frozen_helpers": true
+}

@@ -1,0 +1,19 @@
+# Minimal imported dependencies for the single D-NeRF training/render/metrics path.
+# PyTorch is the host-required replacement for torch 1.13.1 / torchvision 0.14.1.
+torch==2.7.0+cu128
+torchvision==0.22.0+cu128
+numpy==1.21.6
+pillow==9.5.0
+imageio==2.31.2
+imageio-ffmpeg==0.4.9
+opencv-python==4.9.0.80
+plyfile==0.9
+tqdm==4.66.2
+cachetools==5.3.3
+lpips==0.1.4
+pytorch-msssim==1.0.0
+tensorboard==2.11.2
+protobuf==3.20.3
+scipy==1.7.3
+ninja==1.11.1.1
+requests-oauthlib==1.4.0

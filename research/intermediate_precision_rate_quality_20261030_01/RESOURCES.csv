@@ -1,0 +1,25 @@
+task,wall_seconds,process_tree_peak_RSS_bytes,RAM_available_min_bytes,GPU_free_before_MiB,GPU_free_after_MiB,GPU_total_MiB,guard_triggered,CPU_only,RSS_note
+bouncingballs_cpu,58.280915500999996,1540886528,6075293696,6390,6326,8151,,True,0.5s sampling; sum may double-count shared pages
+bouncingballs_R2_smoke,17.586751597999992,3340341248,4177698816,6326,6528,8151,,False,0.5s sampling; sum may double-count shared pages
+bouncingballs_M16_smoke,16.580747438000003,3279388672,4181434368,6528,6585,8151,,False,0.5s sampling; sum may double-count shared pages
+bouncingballs_M10_render,21.101396990000012,3403149312,4128395264,6585,6492,8151,,False,0.5s sampling; sum may double-count shared pages
+bouncingballs_M12_render,21.627286992999984,2981806080,4529659904,6492,6559,8151,,False,0.5s sampling; sum may double-count shared pages
+bouncingballs_metrics,19.087937475000018,1863454720,5590458368,6559,6562,8151,,False,0.5s sampling; sum may double-count shared pages
+hellwarrior_cpu,49.723533766,1592492032,5957320704,6512,6479,8151,,True,0.5s sampling; sum may double-count shared pages
+hellwarrior_R2_smoke,13.066702667000015,2483572736,5060829184,6479,6472,8151,,False,0.5s sampling; sum may double-count shared pages
+hellwarrior_M16_smoke,13.066043329999957,2721206272,4831711232,6480,6481,8151,,False,0.5s sampling; sum may double-count shared pages
+hellwarrior_M10_render,17.58386970700002,2569560064,4900962304,6481,6491,8151,,False,0.5s sampling; sum may double-count shared pages
+hellwarrior_M12_render,17.590226523000013,2588848128,4889276416,6491,6457,8151,,False,0.5s sampling; sum may double-count shared pages
+hellwarrior_metrics,18.08503604699996,1880010752,5581352960,6457,6328,8151,,False,0.5s sampling; sum may double-count shared pages
+hook_cpu,52.73336426200001,1544179712,5997797376,6328,6459,8151,,True,0.5s sampling; sum may double-count shared pages
+hook_R2_smoke,13.058149328000013,2484088832,5018062848,6459,6459,8151,,False,0.5s sampling; sum may double-count shared pages
+hook_M16_smoke,13.567092145000004,2483920896,5017624576,6459,6467,8151,,False,0.5s sampling; sum may double-count shared pages
+hook_M10_render,18.07902535599999,2566012928,4940972032,6467,6469,8151,,False,0.5s sampling; sum may double-count shared pages
+hook_M12_render,18.588739876999966,2589233152,4875718656,6469,6461,8151,,False,0.5s sampling; sum may double-count shared pages
+hook_metrics,18.09387422200001,1880141824,5546143744,6461,6420,8151,,False,0.5s sampling; sum may double-count shared pages
+jumpingjacks_cpu,53.23227343399998,1529098240,6022000640,6420,6458,8151,,True,0.5s sampling; sum may double-count shared pages
+jumpingjacks_R2_smoke,17.584766373000093,4047740928,3498188800,6459,6554,8151,,False,0.5s sampling; sum may double-count shared pages
+jumpingjacks_M16_smoke,17.58787512899994,4044894208,3485089792,6554,6554,8151,,False,0.5s sampling; sum may double-count shared pages
+jumpingjacks_M10_render,20.59885856300002,4045213696,3495006208,6554,6541,8151,,False,0.5s sampling; sum may double-count shared pages
+jumpingjacks_M12_render,21.114712472000065,4047650816,3489189888,6541,6453,8151,,False,0.5s sampling; sum may double-count shared pages
+jumpingjacks_metrics,18.081732401000068,1880264704,5470449664,6453,6550,8151,,False,0.5s sampling; sum may double-count shared pages

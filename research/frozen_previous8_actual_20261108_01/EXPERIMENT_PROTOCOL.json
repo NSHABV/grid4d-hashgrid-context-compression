@@ -1,0 +1,46 @@
+{
+  "OLD_AUDIT_GATE_STATUS": "WEAK_SIGNAL",
+  "authorization": "new user request for bounded actual prototype only",
+  "scenes": [
+    "bouncingballs",
+    "hellwarrior"
+  ],
+  "modes": [
+    "X",
+    "I",
+    "P"
+  ],
+  "replaced_levels": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "selection": "PREVIOUS8 unchanged",
+  "contract": {
+    "version": 1,
+    "coder": "constriction-0.4.2-range",
+    "categorical_perfect": true,
+    "CDF": "uint16-mass cumulative *256 at precision24",
+    "stream_order": "channel0 then channel1, each ascending slots",
+    "streams_per_range_level": 2,
+    "block_slots": 4096,
+    "context_reset": "start PMF every4096; no entropy-stream reset",
+    "thresholds": "searchsorted right; duplicates retained",
+    "envelope_order": "container channel-major overrides legacy descriptive code_order only",
+    "mode_levels": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "models": "exact frozen full_scene; IID trimmed envelopes from attribution run; no fit",
+  "engine_probe": "ENGINE_PROBE.json, perfect=True exact CDF, old perfect=False not used",
+  "repeat": "one byte-identical repeat encode per file",
+  "pilot": "synthetics +8193 rows, extrapolate5*524288*2symbols; 2x timing safety; limit1800sec and2GiB",
+  "correctness": "fresh process bin-only decode; external array equality/context oracle; canonical dequantization; exact byte budgets",
+  "stop": "any complex exact/CDF/codec error BLOCKED_NEEDS_ULTRA; no new candidates or tuning"
+}

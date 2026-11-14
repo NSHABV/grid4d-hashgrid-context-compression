@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "runtime_unchanged": true,
+  "metric_source_weights_unchanged": true,
+  "source_hashes": {
+    "<USER_HOME>/.local/share/grid4d-baseline/audit-env/lib/python3.10/zipfile.py": "7d312791956dc5439e9621153eec7fab7edb6ae2e8717c38be982cf608b12838",
+    "<PROJECT_ROOT>/research/mean8_hellwarrior_validation_20261020_01/.deps/numpy126/numpy/lib/npyio.py": "3548ed16f0263dd4e3c0943e89afb16c2afce3d33f33a36294fe481df90a6918",
+    "<PROJECT_ROOT>/research/mean8_hellwarrior_validation_20261020_01/.deps/numpy126/numpy/lib/format.py": "4fca893321b60c35638d834da54bc181f03db42a36dc84b4c3d6f2441eadc304",
+    "<PROJECT_ROOT>/research/grid4d/codec.py": "0d46b2cba14bd0b7670d5e8fe24390f90272f15be37d2ec01bcc50314f121578"
+  }
+}

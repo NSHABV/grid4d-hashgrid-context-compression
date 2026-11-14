@@ -1,0 +1,17 @@
+case,model,version,storage,total_bytes,coarse_bytes,fine_payload_bytes,model_bytes,metadata_framing_bytes,coarse_payload_bytes,coarse_model_bytes,fine_model_bytes,threshold_bytes,fine_specification_bytes,fine_model_header_bytes,fine_model_metadata_bytes,central_metadata_bytes,prefix_bytes,integrity_bytes
+bouncingballs_L5,IID,1,sparse_default_u16,265704,76130,186800,470,2304,75132,998,683,2,183,26,2,2009,50,32
+bouncingballs_L5,Geometry4,1,sparse_default_u16,240511,76130,159600,2465,2316,75132,998,2684,2,189,26,2,2015,50,32
+bouncingballs_L5,Canonical8,1,sparse_default_u16,237385,76130,152752,6053,2450,75132,998,6404,132,191,26,2,2017,50,32
+bouncingballs_L5,Mean8,1,sparse_default_u16,229233,76130,144148,6515,2440,75132,998,6861,132,186,26,2,2012,50,32
+hellwarrior_L5,IID,2,sparse_default_u16,172490,44579,125180,428,2303,43692,887,641,2,183,26,2,2008,50,32
+hellwarrior_L5,Geometry4,2,sparse_default_u16,158900,44579,109616,2390,2315,43692,887,2609,2,189,26,2,2014,50,32
+hellwarrior_L5,Canonical8,2,sparse_default_u16,159883,44579,106424,6431,2449,43692,887,6782,132,191,26,2,2016,50,32
+hellwarrior_L5,Mean8,2,sparse_default_u16,156027,44579,103424,5585,2439,43692,887,5931,132,186,26,2,2011,50,32
+bouncingballs_L6,IID,3,sparse_default_u16,449410,187483,259148,443,2336,186800,683,656,2,183,26,2,2041,50,32
+bouncingballs_L6,Geometry4,3,sparse_default_u16,441425,187483,249612,1982,2348,186800,683,2201,2,189,26,2,2047,50,32
+bouncingballs_L6,Canonical8,3,sparse_default_u16,445414,187483,251748,3701,2482,186800,683,4052,132,191,26,2,2049,50,32
+bouncingballs_L6,Mean8,3,sparse_default_u16,441800,187483,248780,3065,2472,186800,683,3411,132,186,26,2,2044,50,32
+hellwarrior_L6,IID,3,sparse_default_u16,329619,125821,201116,347,2335,125180,641,560,2,183,26,2,2040,50,32
+hellwarrior_L6,Geometry4,3,sparse_default_u16,325533,125821,195488,1877,2347,125180,641,2096,2,189,26,2,2046,50,32
+hellwarrior_L6,Canonical8,3,sparse_default_u16,328492,125821,196696,3494,2481,125180,641,3845,132,191,26,2,2048,50,32
+hellwarrior_L6,Mean8,3,sparse_default_u16,325336,125821,194468,2576,2471,125180,641,2922,132,186,26,2,2043,50,32

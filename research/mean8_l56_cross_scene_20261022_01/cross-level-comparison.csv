@@ -1,0 +1,5 @@
+scene,pair,strongest_baseline,baseline_bytes,Mean8_bytes,saving_bytes,pair_saving_percent,exact_independent_decode
+bouncingballs,L5->L6,Geometry4,441425,441800,-375,-0.0849521436257575,True
+hellwarrior,L5->L6,Geometry4,325533,325336,197,0.06051613814882055,True
+bouncingballs,L4->L5,Canonical8,237385,229233,8152,3.434083872190745,True
+hellwarrior,L4->L5,Geometry4,158900,156027,2873,1.8080553807426054,True

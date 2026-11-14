@@ -1,0 +1,9 @@
+{
+  "PREREGISTERED_PROTOCOL.json": "1aa0a2d1fe24addaea44785a7e1731b94a538491ad30b4b0c1134167fe27e3f2",
+  "dataset-manifest.json": "d15cae96801ceff0a85ba5ba9a590fdb01549d74277e56c6baeec4c2dcfcc69a",
+  "export_hook.py": "5b4e50d58f01cca4fd7208732ae017787330827a3c13c5ffd50da75b78e803ff",
+  "prepare_bundle.py": "a817a48c9de32abdee08888d8732767fa6115b0ad879692f55e01808ba89e4db",
+  "validate_results.py": "7af547910feb3d25de8c5b0da363dbc9dde489f7c6c34f5dff07a51364bb149b",
+  "pipeline.py": "849bed2f597433a77f5f36eaeb0ff81d6a44f5d05255b67d71368eca616175c4",
+  "train.sh": "491b377fd58d2bd4dc4f347ac76a198028516317dbf068b3bc472b1ec0f136e9"
+}

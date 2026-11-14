@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "protected_files": 3563,
+  "original_slices_exact": true,
+  "checkpoint_sha256": "3306dabf8057728abfa7cda87d78c723b27a357f968fd7d721ea727ebd043090",
+  "xyz_symbols_sha256": "b6f2676efa4c33d0cf2506271bafe0db0b133d05baeabaeb07eca8e47e939de8",
+  "sources": {
+    "research\\experiment_bench\\reference-study\\table-8\\manifest.json": "19eebb46ca4deae6e821ffda20eea8faad9969481969a554d821246014137ca6",
+    "research\\hashed_context_diagnostic_20261013_01\\L4_to_L5\\fine_symbols.npy": "f34ada55aa7e2225bb349692db6f07466a8ef052bda5b2388d5673e6bf88f0bc",
+    "research\\hashed_context_diagnostic_20261013_01\\L4_to_L5\\decoder_bundle\\coarse_symbols.npy": "b3e7b40e747b60b129d1353a5858d10a554aec89c757fd4a016aaa42d77672e8",
+    "research\\hashed_context_diagnostic_20261013_01\\L4_to_L5\\decoder_bundle\\decoder_metadata.json": "a0428ae887e0b61883f3a9a026a6d9a66118455d7ac64444656b6ab6d6e209b1",
+    "research\\hashed_context_diagnostic_20261013_01\\L4_to_L5\\contexts.npz": "6a611c83cbf8518772ed592602e8020fcc104492fb2288a857403b978772f21a"
+  },
+  "wall_seconds": 29.818690799998876,
+  "cpu_seconds": 6.171875,
+  "peak_rss_mib": 43.7734375
+}

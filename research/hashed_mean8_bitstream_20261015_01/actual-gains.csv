@@ -1,0 +1,4 @@
+baseline,actual_standalone_gain_bytes,standalone_gain_percent,incremental_gain_bytes,incremental_gain_percent,fine_payload_gain_bytes,extra_probability_mass_bytes,extra_metadata_framing_bytes,finite_payload_gain_bytes
+IID,36471,13.726176497154729,36471,19.238397670566638,42652,6045,136,42649.85566284231
+Geometry4,11278,4.689182615348154,11278,6.860890248873045,15452,4050,124,15451.640519767068
+Canonical8,8152,3.434083872190745,8152,5.055347121019503,8604,462,-10,8602.076030222932

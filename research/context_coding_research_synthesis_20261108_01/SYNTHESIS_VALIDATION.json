@@ -1,0 +1,59 @@
+{
+  "pooled": {
+    "context_B": 23390,
+    "full_B": 324800,
+    "iid_B": 301410,
+    "context_share_percent": 7.2013546798029555,
+    "context_pooled_percent": 0.45107147313309154,
+    "full_pooled_percent": 5.919617499395372,
+    "context_min_median_max": [
+      411,
+      6308.5,
+      10362
+    ],
+    "full_min_median_max": [
+      73342,
+      80112.0,
+      91234
+    ],
+    "positive_context": 4,
+    "positive_full": 4
+  },
+  "hypothetical_section_sums": {
+    "hook": 0,
+    "jumpingjacks": 1379,
+    "mutant": 1784,
+    "standup": 1067
+  },
+  "six_scene_attribution_exact": true,
+  "20_unique_level_rows_and_cost_identities": true,
+  "reserve_component_sums_match_saved_filesystem_sizes": true,
+  "mutant_budget_identity": true,
+  "historical_status_unchanged": "FROZEN_PREVIOUS8_VALIDATION_BATCH_CLOSED",
+  "old_gate_unchanged": "WEAK_SIGNAL unchanged",
+  "new_fit_encode_decode_benchmarks": false,
+  "new_full_project_preservation_audit": false,
+  "unresolved_source_contradictions": [],
+  "resolved_scope_differences": [
+    "Early NOT_IMPLEMENTED statement predates actual experiments; historical WEAK_SIGNAL retained.",
+    "Full-fit forecast and actual archive use different reserve/framing; historical reconciliation retained.",
+    "Container channel-major order overrides legacy descriptive envelope order; model semantics unchanged.",
+    "Mean8 pair table-wise8 results are not directly additive to GLOBAL8 full-spatial results."
+  ],
+  "historical_correctness_only": "Recorded exact decoding cited, not rerun in synthesis.",
+  "reviewed_sources_scope": "Only listed documents/tables/source files; no arrays, checkpoints, bins or PNGs hashed.",
+  "chapter_words_approx": 2802,
+  "position_words_approx": 553,
+  "local_markdown_links_exist": true,
+  "evidence_rows": 45,
+  "used_source_hashes_unchanged_count": 38,
+  "used_source_bytes_total": 822539,
+  "deliverable_sha256": {
+    "CONTEXT_CODING_CHAPTER.md": "fb9b3affd94503d3fa31fd9666e79f81e08dd9a3faf66ccfe9f82df72a92184d",
+    "RESEARCH_POSITION.md": "f381bb8146dadb1922b2dd52843e8f4912f6aff303de357686ae54e03c3ba18d",
+    "BIBLIOGRAPHY.md": "836e3e5c729de212a7a280302d54d5b50543e9167bdf29802346b6017ef51834",
+    "EVIDENCE.csv": "d576b90c89d01ce19379f7f2d2b43ac8c13199efeb3f25e6a2a2e933a4b2dbcd",
+    "SOURCE_MANIFEST.json": "d95ac049d68a055d5a1a34f805c4b752d4973c8e91a8e9d63b664f885d6efa24"
+  },
+  "status": "PREVIOUS8_RESEARCH_SYNTHESIS_COMPLETE"
+}

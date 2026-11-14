@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "label": "follow-up exploratory study on the same checkpoint and already-inspected test strata",
+  "created_before_fitting": true,
+  "pairs": [
+    "L4_to_L5",
+    "L5_to_L6"
+  ],
+  "arms": {
+    "Geometry4": 4,
+    "Count6": 6
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "classes": "G0 nominal0; G1 nominal>0 point0; K1 point1; K2 point2; K3 point3; K4plus point>=4",
+  "geometry_inputs": "fine resolution/actual scale/rows/offsets/hash; no coarse features, occupancy or targets",
+  "splits": "byte-for-byte previous NPZ slots; PCG64 seeds 0/1/2; train335545 validation83886 test104857; channels share slot split",
+  "fit": "train-only models.frequencies Laplace1 + min1 + stable largest remainder total65536; all classes transmitted",
+  "validation": "descriptive only, no tuning, no arm selection or refit",
+  "test": "once after model freeze and exact geometry-only fresh-process replay",
+  "subgroups": [
+    "all",
+    "G0",
+    "G1",
+    "G2",
+    "G3",
+    "G3_K2",
+    "G3_K3",
+    "G3_K4plus"
+  ],
+  "minimum_subgroup_slots": 100,
+  "storage_candidates": [
+    "dense_u32",
+    "packed_u16",
+    "sparse_default_u16"
+  ],
+  "storage_selection": "shortest independently for each arm; listed order ties",
+  "metadata": "same complete prior dry metadata envelope for comparability; geometry-only replay uses reduced JSON; model rule id differs",
+  "forecast": "PREDICTED gross=1048576*(CE_Geometry4-CE_Count6)/8; net=gross-(side_Count6-side_Geometry4)",
+  "GO_per_pair": "correctness PASS; strictly positive gains all/G3 for every seed/channel; every seed net>max(4096,0.2*max(delta_side,0)); independent-checkpoint validation recommended only, no novelty claim",
+  "B_independent": "A NO-GO does not cancel Mean8 bitstream experiment B",
+  "no_entropy_coding": true,
+  "no_new_quantization": true,
+  "no_training": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "1.26.4"
+}

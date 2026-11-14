@@ -1,0 +1,22 @@
+[
+  {
+    "scene": "bouncingballs",
+    "status": "NO-GO",
+    "strongest_baseline": "Geometry4",
+    "baseline_bytes": 441425,
+    "Mean8_bytes": 441800,
+    "saving_bytes": -375,
+    "pair_saving_percent": -0.0849521436257575,
+    "exact_independent_decode": true
+  },
+  {
+    "scene": "hellwarrior",
+    "status": "GO",
+    "strongest_baseline": "Geometry4",
+    "baseline_bytes": 325533,
+    "Mean8_bytes": 325336,
+    "saving_bytes": 197,
+    "pair_saving_percent": 0.06051613814882055,
+    "exact_independent_decode": true
+  }
+]

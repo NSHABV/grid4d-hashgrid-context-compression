@@ -1,0 +1,78 @@
+{
+  "status": "RESOURCE_BLOCKED",
+  "outcome": "E",
+  "scientific_replication": "NOT_COMPLETED",
+  "TECHNICAL_COMPLETE": false,
+  "technical_diagnostic_preservation": "PASS",
+  "NEW_SCENE_PROTOCOL": "PASS",
+  "FEASIBILITY": "NOT_MEASURED",
+  "CALIBRATION_GAIN": "NOT_MEASURED",
+  "TEST_TRANSFER": "NOT_MEASURED",
+  "ADDED_VALUE_VS_DOWN_ONLY": "NOT_MEASURED",
+  "MATCHED_RECIPIENT_EFFECT": "NOT_MEASURED",
+  "FINAL_KIND": null,
+  "raw_supervisor_status": "MONITOR_FAILURE",
+  "classified_reason": "available RAM below1GiB",
+  "full_attempts": 1,
+  "completed_training_bodies": 9999,
+  "latest_complete_saved_model_iteration": 5000,
+  "exact_resume_available": false,
+  "codec_core_error_observed": false,
+  "verified_existing_checks": {
+    "status": "PASS",
+    "verification_only_no_tests_repeated": true,
+    "unchanged_helpers": 7,
+    "frozen_training_sources": 13,
+    "identical_selector_core_functions": 6,
+    "preserved_passed_tests": {
+      "split": 12,
+      "selection": 24,
+      "reporting": 6,
+      "training": 25
+    },
+    "official_dataset_files": 243,
+    "train_loader_unique_views": 200,
+    "logged_train_observation_selections": 10000,
+    "completed_bodies": 9999,
+    "quality_pipeline_never_started": true
+  },
+  "not_executed": [
+    "completed50000 checkpoint",
+    "INPUT_MANIFEST",
+    "50 candidate archives",
+    "scalar quantizer/storage regression",
+    "old archive read-only regression",
+    "fresh-process exact archive decoding",
+    "validation search",
+    "SELECTION_FREEZE",
+    "test rendering/metrics",
+    "final encoding"
+  ],
+  "preservation_sha256": "d13e672256befc15409a55cec6479f10817e573de741bad1319f413aa067bfba",
+  "reports": {
+    "FINAL_REPLICATION_REPORT.md": {
+      "bytes": 8447,
+      "sha256": "42461f0900ab2c4f738254db1b0af80fa6cde983fa98d54914ca2883ba1783ac"
+    },
+    "EXCHANGE_SERIES_CONCLUSION.md": {
+      "bytes": 8935,
+      "sha256": "5723198fa065d4c6ee056237361fff6287cc027a519b121b49f55b5001754048"
+    },
+    "TRAINING_REPORT.md": {
+      "bytes": 3277,
+      "sha256": "da60c49582829f181502c496388da1345f335e1e716e126bc51cd315bde78b3c"
+    },
+    "EXCHANGE_SERIES_RESULTS.csv": {
+      "bytes": 6008,
+      "sha256": "374cd4aeef0ee366612e0186ce1cbb75a4e49502246d6dcaebc39bf8cda5255a"
+    },
+    "EXCHANGE_SERIES_SUMMARY.json": {
+      "bytes": 18884,
+      "sha256": "3bff8f46b9d248beb2d9154a9d5d5a1bf3637752d19166f88fb120bccd0f5823"
+    }
+  },
+  "diagnostic_sha256": "5757b90afcb841e0785fc77999bd06b10650da7dad0e7863fa0fecb1c17fc6d6",
+  "frozen_source_request_sha256": "3cfb574bae03ef0ac2716311a91e8f11a3ae60042142fdf55183e2841f4990c6",
+  "script_sha256": "ac0ee2e891a2e62e08073ae3705da6a941ebabf295af663804be8a1f22aea6d0",
+  "time_unix": 1794019851.4726634
+}

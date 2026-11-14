@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "streams": 12,
+  "exact_symbols_per_stream": 1459334,
+  "fine_allocated_slots": 524288,
+  "channels": 2,
+  "all_q4_q5_classes_exact": true,
+  "source_context_classes_exact": true,
+  "shared_coarse_identical": true,
+  "byte_identical_repeats": 16,
+  "forbidden_read_probes": 7,
+  "peak_encoder_parent_rss_mib": 136.7578125,
+  "GPU_used": false,
+  "VRAM_allocated_bytes": 0
+}

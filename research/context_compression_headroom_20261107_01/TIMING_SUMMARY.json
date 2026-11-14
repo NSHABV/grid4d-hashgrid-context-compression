@@ -1,0 +1,950 @@
+{
+  "analysis_components_seconds": {
+    "context_classification_seconds": 1.239530100094271,
+    "evaluation_seconds": 15.900268400015193,
+    "histogram_fitting_seconds": 1.949917899823049,
+    "serialization_seconds": 0.28717870016407687,
+    "shuffled_evaluation_seconds": 7.056040500028757,
+    "threshold_fitting_seconds": 1.2465163001179462
+  },
+  "heldout_completion_resources": [
+    {
+      "scene": "bouncingballs",
+      "level": 0,
+      "stage": "full",
+      "wall_seconds": 0.02750219999870751,
+      "cpu_seconds": 0.015625,
+      "peak_RSS_MiB": 36.6015625,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 1,
+      "stage": "full",
+      "wall_seconds": 0.006810599996242672,
+      "cpu_seconds": 0.0,
+      "peak_RSS_MiB": 37.0,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 2,
+      "stage": "full",
+      "wall_seconds": 0.011065600003348663,
+      "cpu_seconds": 0.0,
+      "peak_RSS_MiB": 38.8203125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 3,
+      "stage": "full",
+      "wall_seconds": 0.022676399996271357,
+      "cpu_seconds": 0.03125,
+      "peak_RSS_MiB": 43.109375,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 4,
+      "stage": "full",
+      "wall_seconds": 0.05520719999913126,
+      "cpu_seconds": 0.046875,
+      "peak_RSS_MiB": 52.89453125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 5,
+      "stage": "full",
+      "wall_seconds": 0.1366901000001235,
+      "cpu_seconds": 0.140625,
+      "peak_RSS_MiB": 79.2734375,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "stage": "validation",
+      "wall_seconds": 0.6015253999939887,
+      "cpu_seconds": 0.578125,
+      "peak_RSS_MiB": 52.703125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "stage": "check",
+      "wall_seconds": 0.4804934999992838,
+      "cpu_seconds": 0.46875,
+      "peak_RSS_MiB": 56.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "stage": "full",
+      "wall_seconds": 0.4802539000083925,
+      "cpu_seconds": 0.484375,
+      "peak_RSS_MiB": 98.390625,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "stage": "validation",
+      "wall_seconds": 1.3401524999935646,
+      "cpu_seconds": 1.3125,
+      "peak_RSS_MiB": 68.9453125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "stage": "check",
+      "wall_seconds": 1.786440700001549,
+      "cpu_seconds": 1.71875,
+      "peak_RSS_MiB": 77.8125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "stage": "full",
+      "wall_seconds": 1.7159058000106597,
+      "cpu_seconds": 1.671875,
+      "peak_RSS_MiB": 136.64453125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "stage": "validation",
+      "wall_seconds": 1.565237500006333,
+      "cpu_seconds": 1.53125,
+      "peak_RSS_MiB": 70.8125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "stage": "check",
+      "wall_seconds": 2.018275199996424,
+      "cpu_seconds": 1.953125,
+      "peak_RSS_MiB": 79.08203125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "stage": "full",
+      "wall_seconds": 1.945850399992196,
+      "cpu_seconds": 1.890625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "stage": "validation",
+      "wall_seconds": 0.7698294000001624,
+      "cpu_seconds": 0.71875,
+      "peak_RSS_MiB": 70.8125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "stage": "check",
+      "wall_seconds": 0.576585899994825,
+      "cpu_seconds": 0.546875,
+      "peak_RSS_MiB": 79.08203125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "stage": "full",
+      "wall_seconds": 0.5740539999969769,
+      "cpu_seconds": 0.5625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "stage": "validation",
+      "wall_seconds": 0.7118067999981577,
+      "cpu_seconds": 0.671875,
+      "peak_RSS_MiB": 70.8125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "stage": "check",
+      "wall_seconds": 0.5785700999986148,
+      "cpu_seconds": 0.5625,
+      "peak_RSS_MiB": 79.08203125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "stage": "full",
+      "wall_seconds": 0.5683888999919873,
+      "cpu_seconds": 0.578125,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 11,
+      "stage": "full",
+      "wall_seconds": 0.18559410001034848,
+      "cpu_seconds": 0.171875,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 12,
+      "stage": "full",
+      "wall_seconds": 0.16057059999729972,
+      "cpu_seconds": 0.15625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 13,
+      "stage": "full",
+      "wall_seconds": 0.15942360000917688,
+      "cpu_seconds": 0.15625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 14,
+      "stage": "full",
+      "wall_seconds": 0.16008999999030493,
+      "cpu_seconds": 0.15625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 15,
+      "stage": "full",
+      "wall_seconds": 0.16054680000524968,
+      "cpu_seconds": 0.140625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 0,
+      "stage": "full",
+      "wall_seconds": 0.007786000001942739,
+      "cpu_seconds": 0.015625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 1,
+      "stage": "full",
+      "wall_seconds": 0.008170100001734681,
+      "cpu_seconds": 0.0,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 2,
+      "stage": "full",
+      "wall_seconds": 0.013948399995570071,
+      "cpu_seconds": 0.015625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 3,
+      "stage": "full",
+      "wall_seconds": 0.0317259000003105,
+      "cpu_seconds": 0.015625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 4,
+      "stage": "full",
+      "wall_seconds": 0.06797659999574535,
+      "cpu_seconds": 0.0625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 5,
+      "stage": "full",
+      "wall_seconds": 0.16088899999158457,
+      "cpu_seconds": 0.15625,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "stage": "validation",
+      "wall_seconds": 0.7387336999963736,
+      "cpu_seconds": 0.65625,
+      "peak_RSS_MiB": 70.8125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "stage": "check",
+      "wall_seconds": 0.5865760000015143,
+      "cpu_seconds": 0.59375,
+      "peak_RSS_MiB": 79.08203125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "stage": "full",
+      "wall_seconds": 0.5820472000050358,
+      "cpu_seconds": 0.578125,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "stage": "validation",
+      "wall_seconds": 1.6580603000038536,
+      "cpu_seconds": 1.609375,
+      "peak_RSS_MiB": 70.8125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "stage": "check",
+      "wall_seconds": 2.2241760000033537,
+      "cpu_seconds": 2.171875,
+      "peak_RSS_MiB": 79.21875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "stage": "full",
+      "wall_seconds": 2.064389499995741,
+      "cpu_seconds": 2.046875,
+      "peak_RSS_MiB": 137.828125,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "stage": "validation",
+      "wall_seconds": 1.649748299998464,
+      "cpu_seconds": 1.59375,
+      "peak_RSS_MiB": 71.1640625,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "stage": "check",
+      "wall_seconds": 2.028802699991502,
+      "cpu_seconds": 1.96875,
+      "peak_RSS_MiB": 80.25390625,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "stage": "full",
+      "wall_seconds": 2.0181203999964055,
+      "cpu_seconds": 1.96875,
+      "peak_RSS_MiB": 138.046875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "stage": "validation",
+      "wall_seconds": 0.781080299988389,
+      "cpu_seconds": 0.765625,
+      "peak_RSS_MiB": 71.1640625,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "stage": "check",
+      "wall_seconds": 0.5929958000051556,
+      "cpu_seconds": 0.578125,
+      "peak_RSS_MiB": 80.25390625,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "stage": "full",
+      "wall_seconds": 0.6035182999912649,
+      "cpu_seconds": 0.53125,
+      "peak_RSS_MiB": 138.046875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "stage": "validation",
+      "wall_seconds": 0.7235214000102133,
+      "cpu_seconds": 0.71875,
+      "peak_RSS_MiB": 71.1640625,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "stage": "check",
+      "wall_seconds": 0.5799468000041088,
+      "cpu_seconds": 0.546875,
+      "peak_RSS_MiB": 80.25390625,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "stage": "full",
+      "wall_seconds": 0.5950699999957578,
+      "cpu_seconds": 0.546875,
+      "peak_RSS_MiB": 138.046875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 11,
+      "stage": "full",
+      "wall_seconds": 0.18028710001090076,
+      "cpu_seconds": 0.15625,
+      "peak_RSS_MiB": 138.046875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 12,
+      "stage": "full",
+      "wall_seconds": 0.185688300000038,
+      "cpu_seconds": 0.1875,
+      "peak_RSS_MiB": 138.046875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 13,
+      "stage": "full",
+      "wall_seconds": 0.17398740000498947,
+      "cpu_seconds": 0.171875,
+      "peak_RSS_MiB": 138.046875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 14,
+      "stage": "full",
+      "wall_seconds": 0.17053490001126193,
+      "cpu_seconds": 0.171875,
+      "peak_RSS_MiB": 138.046875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 15,
+      "stage": "full",
+      "wall_seconds": 0.1726487999985693,
+      "cpu_seconds": 0.171875,
+      "peak_RSS_MiB": 138.046875,
+      "peak_RSS_scope": "OS process lifetime high-water mark; not stage-incremental or aggregate child memory"
+    }
+  ],
+  "heldout_stage_wall_seconds": {
+    "validation": 10.5396955999895,
+    "check": 11.45286269999633,
+    "full": 13.40741810000327
+  },
+  "heldout_stage_CPU_seconds": {
+    "validation": 10.15625,
+    "check": 11.109375,
+    "full": 13.0
+  },
+  "heldout_process_peak_RSS_MiB": 138.046875,
+  "context_replay_correctness_wall_seconds": 360.1168120000075,
+  "context_replay_parent_peak_RSS_MiB": 50.578125,
+  "context_replay_components_nested_in_correctness_wall": [
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "family": "CHANNEL8",
+      "seconds": 0.43617190000077244,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "family": "CHANNEL8",
+      "seconds": 0.3985094000090612,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "family": "CHANNEL8",
+      "seconds": 0.4271217999921646,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 6,
+      "family": "PREVIOUS8",
+      "seconds": 30.77653279999504,
+      "seeds": 3
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "family": "CHANNEL8",
+      "seconds": 0.4283031000086339,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "family": "CHANNEL8",
+      "seconds": 0.4279938000108814,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "family": "CHANNEL8",
+      "seconds": 0.4210564999957569,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "family": "PREVIOUS8",
+      "seconds": 31.035801599995466,
+      "seeds": 3
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "family": "CHANNEL8",
+      "seconds": 0.37381760000425857,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "family": "CHANNEL8",
+      "seconds": 0.354098800002248,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "family": "CHANNEL8",
+      "seconds": 0.34980799999902956,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "family": "PREVIOUS8",
+      "seconds": 28.008552500003134,
+      "seeds": 3
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "family": "CHANNEL8",
+      "seconds": 0.42318679999152664,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "family": "CHANNEL8",
+      "seconds": 0.438754799994058,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "family": "CHANNEL8",
+      "seconds": 0.42151890000968706,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 9,
+      "family": "PREVIOUS8",
+      "seconds": 32.28517109999666,
+      "seeds": 3
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "family": "CHANNEL8",
+      "seconds": 0.4372205999970902,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "family": "CHANNEL8",
+      "seconds": 0.40075030000298284,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "family": "CHANNEL8",
+      "seconds": 0.41102510000928305,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 10,
+      "family": "PREVIOUS8",
+      "seconds": 31.39552520000143,
+      "seeds": 3
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "family": "CHANNEL8",
+      "seconds": 0.4469517000106862,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "family": "CHANNEL8",
+      "seconds": 0.3901603999984218,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "family": "CHANNEL8",
+      "seconds": 0.40386900000157766,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 6,
+      "family": "PREVIOUS8",
+      "seconds": 31.347305300005246,
+      "seeds": 3
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "family": "CHANNEL8",
+      "seconds": 0.4223347999941325,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "family": "CHANNEL8",
+      "seconds": 0.3799808000039775,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "family": "CHANNEL8",
+      "seconds": 0.39785660000052303,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "family": "PREVIOUS8",
+      "seconds": 31.085711899999296,
+      "seeds": 3
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "family": "CHANNEL8",
+      "seconds": 0.4185807999892859,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "family": "CHANNEL8",
+      "seconds": 0.4153313999995589,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "family": "CHANNEL8",
+      "seconds": 0.40589200000977144,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "family": "PREVIOUS8",
+      "seconds": 31.586178900004597,
+      "seeds": 3
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "family": "CHANNEL8",
+      "seconds": 0.42116270000406075,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "family": "CHANNEL8",
+      "seconds": 0.4156901999958791,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "family": "CHANNEL8",
+      "seconds": 0.4241102999949362,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 9,
+      "family": "PREVIOUS8",
+      "seconds": 31.178240100009134,
+      "seeds": 3
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "family": "CHANNEL8",
+      "seconds": 0.41277290000289213,
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "family": "CHANNEL8",
+      "seconds": 0.4138994999957504,
+      "seeds": [
+        1
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "family": "CHANNEL8",
+      "seconds": 0.39036679999844637,
+      "seeds": [
+        2
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 10,
+      "family": "PREVIOUS8",
+      "seconds": 30.83061780000571,
+      "seeds": 3
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 7,
+      "family": "MEAN8",
+      "seconds": 2.593958699988434,
+      "peak_RSS_MiB": 131.328125,
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "scene": "bouncingballs",
+      "level": 8,
+      "family": "MEAN8",
+      "seconds": 7.713849700012361,
+      "peak_RSS_MiB": 131.0546875,
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 7,
+      "family": "MEAN8",
+      "seconds": 2.714432900000247,
+      "peak_RSS_MiB": 131.078125,
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "scene": "hellwarrior",
+      "level": 8,
+      "family": "MEAN8",
+      "seconds": 7.53886010000133,
+      "peak_RSS_MiB": 131.51171875,
+      "seeds": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "context_replay_scope": "Separate correctness cost: all channel/prefix and coarse-only replay; not model fitting or initial Mean8 construction",
+  "baseline_compression_seconds": 20.420656400063308,
+  "baseline_decoder_cold_seconds": 6.197124799989979,
+  "baseline_decoder_internal_seconds_nested_in_cold": 2.348201999993762,
+  "input_audit_wall_seconds": 0.5258747000043513,
+  "input_file_hashing_seconds_in_input_audit": 0.1146557999891229,
+  "baseline_peak_RSS_bytes": 81899520,
+  "baseline_decoder_peak_RSS_bytes": 75104256,
+  "mean_construction": [
+    {
+      "source": "mean/bouncingballs/L6_L7/computed/validation.json",
+      "wall_seconds": 2.774473100012983,
+      "cpu_seconds": 2.703125,
+      "process_peak_RSS_MiB": 131.75,
+      "nominal_vertices": 3652264,
+      "eligible_vertices": 3581577,
+      "geometry_counts": {
+        "G0": 226,
+        "G1": 64,
+        "G2": 1816,
+        "G3": 522182
+      }
+    },
+    {
+      "source": "mean/bouncingballs/L7_L8/computed/validation.json",
+      "wall_seconds": 7.6390588999929605,
+      "cpu_seconds": 7.515625,
+      "process_peak_RSS_MiB": 132.3359375,
+      "nominal_vertices": 9663597,
+      "eligible_vertices": 9528128,
+      "geometry_counts": {
+        "G0": 0,
+        "G1": 0,
+        "G2": 0,
+        "G3": 524288
+      }
+    },
+    {
+      "source": "mean/hellwarrior/L6_L7/computed/validation.json",
+      "wall_seconds": 2.502055200005998,
+      "cpu_seconds": 2.484375,
+      "process_peak_RSS_MiB": 131.53125,
+      "nominal_vertices": 3652264,
+      "eligible_vertices": 3581577,
+      "geometry_counts": {
+        "G0": 226,
+        "G1": 64,
+        "G2": 1816,
+        "G3": 522182
+      }
+    },
+    {
+      "source": "mean/hellwarrior/L7_L8/computed/validation.json",
+      "wall_seconds": 7.311257099994691,
+      "cpu_seconds": 7.28125,
+      "process_peak_RSS_MiB": 131.53125,
+      "nominal_vertices": 9663597,
+      "eligible_vertices": 9528128,
+      "geometry_counts": {
+        "G0": 0,
+        "G1": 0,
+        "G2": 0,
+        "G3": 524288
+      }
+    }
+  ],
+  "notes": "Sequential CPU; nested/cold measurements are not additive. No GPU/training/render."
+}

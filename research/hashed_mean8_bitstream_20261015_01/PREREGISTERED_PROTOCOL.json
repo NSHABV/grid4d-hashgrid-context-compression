@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-15",
+  "scope": "actual scene-specific coding, xyz L4+L5 only",
+  "arms": [
+    "IID",
+    "Geometry4",
+    "Canonical8",
+    "Mean8"
+  ],
+  "transports": [
+    "dense_u32",
+    "packed_u16",
+    "sparse_default_u16"
+  ],
+  "selection": "minimum actual full file size independently for each arm",
+  "fitting": "all symbols; all fitted masses and float64 thresholds transmitted and paid",
+  "quantization": "unchanged existing table-wise8; no quantize or training",
+  "order": "ch0 ascending all fine slots, then ch1 ascending all fine slots",
+  "arithmetic": "cpu-f32-separate-ufunc-corner0to7-anchor-f64-addat-xfast-popstd-v1",
+  "decoder": "one bin data input plus public code/software; pinned CPU NumPy1.26.4",
+  "Count6_excluded": "A NO-GO on L5/L6, does not cancel B",
+  "GO": "all correctness PASS and Mean8 actual standalone bytes < best IID/Geometry4/Canonical8",
+  "runtime_protocol": "12 first encode+fresh strict decode; best per arm one warmup+3 timed byte-identical repeats; IO/startup separately",
+  "canonical_payload_validation": "strict decoder reencodes decoded symbols to reject ignored trailing words; timed separately",
+  "GPU_used": false,
+  "reason": "canonical CPU contexts previously subsecond; arithmetic exactness retained",
+  "limitations": "single scene/checkpoint/quantizer/pair; no whole Grid4D rate or generalization claim"
+}

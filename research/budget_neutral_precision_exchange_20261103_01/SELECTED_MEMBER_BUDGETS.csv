@@ -1,0 +1,10 @@
+scene,state,bytes,donor,recipient,donor_member_delta_B,recipient_member_delta_B,metadata_delta_B,framing_delta_B,total_delta_B,donor_saving_B,recipient_cost_B,unused_budget_B
+mutant,G8,1290908,,,0,0,0,0,0,0,0,0
+mutant,D_10,1203884,10,,-87050,0,26,0,-87024,87050,0,87024
+mutant,E_10_4,1272451,10,4,-87050,68535,58,0,-18457,87050,68535,18457
+bouncingballs,G8,2079541,,,0,0,0,0,0,0,0,0
+bouncingballs,D_9,2008263,9,,-71307,0,29,0,-71278,71307,0,71278
+bouncingballs,E_10_4,2034756,10,4,-125929,81079,65,0,-44785,125929,81079,44785
+hellwarrior,G8,1766435,,,0,0,0,0,0,0,0,0
+hook,G8,1488707,,,0,0,0,0,0,0,0,0
+jumpingjacks,G8,1917524,,,0,0,0,0,0,0,0,0

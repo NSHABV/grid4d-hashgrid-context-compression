@@ -1,0 +1,17 @@
+task,wall_seconds,process_tree_peak_RSS_bytes,RAM_available_min_bytes,GPU_free_before_MiB,GPU_free_after_MiB,GPU_total_MiB,guard_triggered,CPU_only,RSS_note
+bouncingballs_cpu,37.172037712000005,1394020352,6177497088,6588,6598,8151,,True,0.5s sampling; sum may double-count shared pages
+bouncingballs_R2_smoke,18.591999887,2924023808,4698255360,6598,6737,8151,,False,0.5s sampling; sum may double-count shared pages
+bouncingballs_M16_smoke,18.092378936000003,3401449472,4135337984,6737,6701,8151,,False,0.5s sampling; sum may double-count shared pages
+bouncingballs_RESTORE_smoke,16.096383284999987,3283062784,4279459840,6701,6730,8151,,False,0.5s sampling; sum may double-count shared pages
+hellwarrior_cpu,33.15075956499999,1390592000,6204514304,6583,6584,8151,,True,0.5s sampling; sum may double-count shared pages
+hellwarrior_R2_smoke,12.561754097000005,2483310592,5036290048,6584,6584,8151,,False,0.5s sampling; sum may double-count shared pages
+hellwarrior_M16_smoke,12.57847456799999,2678370304,4871598080,6584,6563,8151,,False,0.5s sampling; sum may double-count shared pages
+hellwarrior_RESTORE_smoke,12.568252236000006,2475483136,5088514048,6563,6611,8151,,False,0.5s sampling; sum may double-count shared pages
+hook_cpu,34.650709702,1449287680,6093512704,6611,6577,8151,,True,0.5s sampling; sum may double-count shared pages
+hook_R2_smoke,13.586436069000001,2483781632,5045841920,6577,6604,8151,,False,0.5s sampling; sum may double-count shared pages
+hook_M16_smoke,13.58231525200003,2483793920,5086494720,6604,6604,8151,,False,0.5s sampling; sum may double-count shared pages
+hook_RESTORE_smoke,14.084613104000027,2483974144,5063786496,6604,6467,8151,,False,0.5s sampling; sum may double-count shared pages
+jumpingjacks_cpu,34.65090265399999,1379733504,6144471040,6467,6490,8151,,True,0.5s sampling; sum may double-count shared pages
+jumpingjacks_R2_smoke,16.592687327999954,4023345152,3429335040,6490,6740,8151,,False,0.5s sampling; sum may double-count shared pages
+jumpingjacks_M16_smoke,17.102078333999998,4080861184,3430535168,6740,6707,8151,,False,0.5s sampling; sum may double-count shared pages
+jumpingjacks_RESTORE_smoke,17.10086583900005,4045037568,3493167104,6707,6699,8151,,False,0.5s sampling; sum may double-count shared pages

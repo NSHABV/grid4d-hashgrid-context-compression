@@ -1,0 +1,3 @@
+scene,old_predicted_P_vs_XZ_B,actual_P_vs_X_B,difference_B,removed_old_reserve_B,removed_old_5_section_descriptors_B,new_frame_X_minus_P_B,range_P_minus_ideal_B,range_I_minus_ideal_B,old_predicted_P_vs_IID_B,actual_P_vs_I_B,new_frame_I_minus_P_B,X_new_vs_old_wrapper_B
+bouncingballs,48138.12961699022,52166,4027.87038300978,4416,240,-46,102.12961699011794,103.75449197887792,34286.37512501143,34283,-5,2349
+hellwarrior,85438.86921254732,89467,4028.130787452683,4416,240,-46,101.86921254712797,101.87992841616506,6774.98928413121,6771,-4,2343

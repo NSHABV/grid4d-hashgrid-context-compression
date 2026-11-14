@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "pairs": [
+    {
+      "pair": "L4_to_L5",
+      "status": "PASS",
+      "all_slots": 524288,
+      "no_gaps_duplicates": true,
+      "nominal_vertices": 531441,
+      "point_vertices": 512000,
+      "nominal_collision_slots": 141122,
+      "point_collision_slots": 133424,
+      "geometry_counts": {
+        "G0": 183592,
+        "G1": 7144,
+        "G2": 200128,
+        "G3": 133424
+      },
+      "exact_geometry_audit_match": true,
+      "empty_fallback": true,
+      "singleton_std_exact_zero": true,
+      "arrays_sha256": "d53f8f9a3f431703ee6af61eb2be534b786720ee4e5b9812325e2b9b645559e4",
+      "parent_wall_seconds": 0.48622329998761415,
+      "parent_cpu_seconds": 0.5,
+      "csv_seconds": 5.507024299993645,
+      "parent_peak_rss_mib": 120.5390625,
+      "chunk4096_65536_bitwise_equal": true,
+      "targets_joined_after_context_and_replay": true,
+      "fine_symbols_sha256": "f34ada55aa7e2225bb349692db6f07466a8ef052bda5b2388d5673e6bf88f0bc"
+    },
+    {
+      "pair": "L5_to_L6",
+      "status": "PASS",
+      "all_slots": 524288,
+      "no_gaps_duplicates": true,
+      "nominal_vertices": 1404928,
+      "point_vertices": 1367631,
+      "nominal_collision_slots": 409904,
+      "point_collision_slots": 402329,
+      "geometry_counts": {
+        "G0": 27888,
+        "G1": 3057,
+        "G2": 91014,
+        "G3": 402329
+      },
+      "exact_geometry_audit_match": true,
+      "empty_fallback": true,
+      "singleton_std_exact_zero": true,
+      "arrays_sha256": "3b75ba795b9448556b00797376b6f77ea60810063ebfdfd85b10b821f235eb38",
+      "parent_wall_seconds": 0.8731364999548532,
+      "parent_cpu_seconds": 0.84375,
+      "csv_seconds": 6.249816299998201,
+      "parent_peak_rss_mib": 132.234375,
+      "chunk4096_65536_bitwise_equal": true,
+      "targets_joined_after_context_and_replay": true,
+      "fine_symbols_sha256": "5c13acda5f45aa6564a57f0f4a211e6ad9a6bd5b32a51c3ee4d980403b59496d"
+    }
+  ],
+  "probability_fitting": "NOT RUN",
+  "entropy_coding": "NOT RUN",
+  "training": "NOT RUN"
+}

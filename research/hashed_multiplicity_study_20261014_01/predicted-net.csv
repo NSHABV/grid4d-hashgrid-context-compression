@@ -1,0 +1,7 @@
+pair,seed,label,delta_CE,gross_bytes,delta_side_bytes,net_bytes,margin_bytes,margin_pass,baseline_model_bytes,candidate_model_bytes,baseline_side_bytes,candidate_side_bytes,baseline_storage,candidate_storage,delta_metadata_bytes,actual_entropy_bytes
+L4_to_L5,0,PREDICTED,-0.0007545884989796337,-98.90542373825855,1330,-1428.9054237382586,4096,False,2735,4068,4891,6221,sparse_default_u16,sparse_default_u16,-3,
+L4_to_L5,1,PREDICTED,-0.0009498701500544639,-124.50138030793869,1681,-1805.5013803079387,4096,False,2696,4380,4852,6533,sparse_default_u16,sparse_default_u16,-3,
+L4_to_L5,2,PREDICTED,-0.0009095151453217047,-119.21196912760648,1501,-1620.2119691276064,4096,False,2678,4182,4834,6335,sparse_default_u16,sparse_default_u16,-3,
+L5_to_L6,0,PREDICTED,0.005526447497579773,724.362526402776,760,-35.637473597224016,4096,False,1772,2535,3945,4705,sparse_default_u16,sparse_default_u16,-3,
+L5_to_L6,1,PREDICTED,0.005927909941668535,776.9830118743782,754,22.983011874378235,4096,False,1541,2298,3714,4468,sparse_default_u16,sparse_default_u16,-3,
+L5_to_L6,2,PREDICTED,0.005107150842864632,669.404475275953,718,-48.59552472404698,4096,False,2009,2730,4182,4900,sparse_default_u16,sparse_default_u16,-3,

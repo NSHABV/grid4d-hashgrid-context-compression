@@ -1,0 +1,38 @@
+[
+  {
+    "pair": "L4_to_L5",
+    "allocated": 524288,
+    "Count6_histogram": [
+      183592,
+      7144,
+      200128,
+      96960,
+      29280,
+      7184
+    ],
+    "nominal_count_sum": 531441,
+    "point_count_sum": 512000,
+    "classes_sha256": {
+      "Count6": "fbfab491c13477f34663850a2d8468cb7a52b6aea5553d42faaaf7b236030890",
+      "Geometry4": "d9fa121b59b63bf2703b08b02cb3ad5263e69c05c28104b1c820a2fd7b6e3a31"
+    }
+  },
+  {
+    "pair": "L5_to_L6",
+    "allocated": 524288,
+    "Count6_histogram": [
+      27888,
+      3057,
+      91014,
+      137401,
+      132496,
+      132432
+    ],
+    "nominal_count_sum": 1404928,
+    "point_count_sum": 1367631,
+    "classes_sha256": {
+      "Count6": "5e559760166ac80f8a69ce485520770b2ebf398ec0fadc6799f0aa724d00908a",
+      "Geometry4": "5490df0fc7469a96fadac8fcbd5ade38b67f15c76062b9018265cc83831a3052"
+    }
+  }
+]

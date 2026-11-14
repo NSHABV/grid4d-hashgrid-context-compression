@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "cases": 4,
+  "streams": 16,
+  "no_fitting": true,
+  "no_encoding": true,
+  "all_category_channel_partitions_pass": true,
+  "original_streams_unchanged": true,
+  "wall_seconds": 36.87293309997767,
+  "cpu_parent_seconds": 10.171875,
+  "peak_parent_rss_mib": 140.99609375,
+  "GPU_used": false
+}

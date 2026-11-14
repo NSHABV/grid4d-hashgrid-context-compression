@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "path": "research/h4_independent_validation_20261029_02/H4_THIRD_SCENE_RESULTS.md",
+      "source_sha256": "2c7b33e380e6998d91377fab4a2f7a709f3ee19d56044cbf25bbdc808e5f6d1e",
+      "public_sha256": "3452a9b845e8305dd320a54d0bdf22a848b6546d3c32830242778a51dd19c9d5",
+      "transformed": true
+    },
+    {
+      "path": "research/h4_independent_validation_20261029_02/CROSS_SCENE_COMPARISON.md",
+      "source_sha256": "acdc29f0d9b190ebfe92440544e3173e4071c6f21cc865dd68849f2d950e4412",
+      "public_sha256": "aa7529df790f0f31127e8e5c079a0ff3a891d82e19176e820c3af637c2b0c848",
+      "transformed": true
+    },
+    {
+      "path": "research/h4_independent_validation_20261029_02/INDEPENDENT_DECODER_VALIDATION.md",
+      "source_sha256": "be3bec760eb2abb9c5965e85063e312d9a996c91495a5700583432f0cd87f1bc",
+      "public_sha256": "1aca8a31f2a8ab89d144194e14bc9b0e24a0b65342792157bbb7ac98ab09464a",
+      "transformed": true
+    },
+    {
+      "path": "research/h4_fourth_scene_validation_20261029_01/H4_FOURTH_SCENE_RESULTS.md",
+      "source_sha256": "85d081fb668618b614703c9a7ddd797a92f60d8a9f6ed8f86e3144ba11a9ce60",
+      "public_sha256": "bb4b329bc905110e77b8ff3bf65d6f159e0fb3dddfeeabc3e07264aea1af89ef",
+      "transformed": true
+    },
+    {
+      "path": "research/h4_fourth_scene_validation_20261029_01/FOUR_SCENE_COMPARISON.md",
+      "source_sha256": "fa6cc6789f80cc9118e796c22a7feee776fbd0fad422dbe103181b3776868bdb",
+      "public_sha256": "54e916e459288fac2aa61f6f722cc3af6507d360a1aae6422aa7b962993017f6",
+      "transformed": true
+    },
+    {
+      "path": "research/h4_fourth_scene_validation_20261029_01/INDEPENDENT_DECODE_VALIDATION.md",
+      "source_sha256": "800b14ab9bd55897f832477eaeb7528df17aeac2367fd81469c4421d14165985",
+      "public_sha256": "6a4e41a5b2c987c6bf9b816393f6464862be2328b9588282c594550a3e9fe609",
+      "transformed": true
+    }
+  ],
+  "excluded_links": []
+}

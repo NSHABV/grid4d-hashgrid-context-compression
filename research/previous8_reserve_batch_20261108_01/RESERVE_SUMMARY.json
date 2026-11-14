@@ -1,0 +1,101 @@
+{
+  "TECHNICAL_COMPLETE": true,
+  "CONTEXT_TRANSFER_SUMMARY": "ALL_FOUR_POSITIVE",
+  "statistics": {
+    "I_to_P_B": {
+      "positive": 4,
+      "zero": 0,
+      "negative": 0,
+      "minimum_bytes": 411,
+      "median_bytes": 6308.5,
+      "maximum_bytes": 10362,
+      "minimum_percent": 0.040959508884526076,
+      "median_percent": 0.4728152534871439,
+      "maximum_percent": 0.7298324104190936,
+      "pooled_percent": 0.45107147313309154
+    },
+    "X_to_P_B": {
+      "positive": 4,
+      "zero": 0,
+      "negative": 0,
+      "minimum_bytes": 73342,
+      "median_bytes": 80112.0,
+      "maximum_bytes": 91234,
+      "minimum_percent": 4.985560504961403,
+      "median_percent": 5.9377472013817165,
+      "maximum_percent": 7.258138337168995,
+      "pooled_percent": 5.919617499395372
+    }
+  },
+  "negative_level_contributions": [
+    {
+      "scene": "jumpingjacks",
+      "level": 7,
+      "X_payload_B": 264824,
+      "I_payload_B": 243164,
+      "I_model_B": 786,
+      "P_payload_B": 241736,
+      "P_model_B": 3121,
+      "I_to_P_before_common_framing_B": -907,
+      "X_to_P_before_common_framing_B": 19967
+    },
+    {
+      "scene": "jumpingjacks",
+      "level": 8,
+      "X_payload_B": 271708,
+      "I_payload_B": 247836,
+      "I_model_B": 750,
+      "P_payload_B": 246084,
+      "P_model_B": 2974,
+      "I_to_P_before_common_framing_B": -472,
+      "X_to_P_before_common_framing_B": 22650
+    },
+    {
+      "scene": "mutant",
+      "level": 7,
+      "X_payload_B": 200536,
+      "I_payload_B": 180768,
+      "I_model_B": 759,
+      "P_payload_B": 179108,
+      "P_model_B": 3121,
+      "I_to_P_before_common_framing_B": -702,
+      "X_to_P_before_common_framing_B": 18307
+    },
+    {
+      "scene": "mutant",
+      "level": 8,
+      "X_payload_B": 194996,
+      "I_payload_B": 172800,
+      "I_model_B": 732,
+      "P_payload_B": 172096,
+      "P_model_B": 2518,
+      "I_to_P_before_common_framing_B": -1082,
+      "X_to_P_before_common_framing_B": 20382
+    },
+    {
+      "scene": "standup",
+      "level": 7,
+      "X_payload_B": 275864,
+      "I_payload_B": 251252,
+      "I_model_B": 777,
+      "P_payload_B": 249632,
+      "P_model_B": 2899,
+      "I_to_P_before_common_framing_B": -502,
+      "X_to_P_before_common_framing_B": 23333
+    },
+    {
+      "scene": "standup",
+      "level": 8,
+      "X_payload_B": 279844,
+      "I_payload_B": 252884,
+      "I_model_B": 759,
+      "P_payload_B": 251420,
+      "P_model_B": 2788,
+      "I_to_P_before_common_framing_B": -565,
+      "X_to_P_before_common_framing_B": 25636
+    }
+  ],
+  "OLD_AUDIT_GATE_STATUS": "WEAK_SIGNAL unchanged",
+  "NOVELTY": "NOT_ESTABLISHED",
+  "close": "FROZEN_PREVIOUS8_VALIDATION_BATCH_CLOSED"
+}

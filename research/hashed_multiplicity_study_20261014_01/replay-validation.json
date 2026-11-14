@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "pair": "L4_to_L5",
+      "exact_classes": true,
+      "exact_counts": true,
+      "rows": 524288,
+      "channels": 2,
+      "cold_wall_seconds": 0.9024200000000064,
+      "status": "PASS",
+      "pid": 17524,
+      "data_reads": [
+        "<PROJECT_ROOT>\\research\\hashed_multiplicity_study_20261014_01\\L4_to_L5\\geometry-metadata.json"
+      ],
+      "blocked_reads": [],
+      "public_code_reads": [
+        "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__pycache__\\__init__.cpython-312.pyc",
+        "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\__init__.cpython-312.pyc",
+        "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\glob.cpython-312.pyc"
+      ],
+      "coarse_values_read": false,
+      "fine_targets_read": false,
+      "checkpoint_read": false,
+      "wall_seconds": 0.6689049999999952,
+      "cpu_seconds": 0.65625,
+      "peak_rss_mib": 54.53125,
+      "chunk": 4096,
+      "scope": "Python open audit, not OS sandbox"
+    },
+    {
+      "pair": "L5_to_L6",
+      "exact_classes": true,
+      "exact_counts": true,
+      "rows": 524288,
+      "channels": 2,
+      "cold_wall_seconds": 1.5289622000000236,
+      "status": "PASS",
+      "pid": 26084,
+      "data_reads": [
+        "<PROJECT_ROOT>\\research\\hashed_multiplicity_study_20261014_01\\L5_to_L6\\geometry-metadata.json"
+      ],
+      "blocked_reads": [],
+      "public_code_reads": [
+        "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__pycache__\\__init__.cpython-312.pyc",
+        "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\__init__.cpython-312.pyc",
+        "<USER_HOME>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\_path\\__pycache__\\glob.cpython-312.pyc"
+      ],
+      "coarse_values_read": false,
+      "fine_targets_read": false,
+      "checkpoint_read": false,
+      "wall_seconds": 1.258310100000017,
+      "cpu_seconds": 1.234375,
+      "peak_rss_mib": 54.609375,
+      "chunk": 4096,
+      "scope": "Python open audit, not OS sandbox"
+    }
+  ],
+  "negative_probes_per_pair": 6
+}

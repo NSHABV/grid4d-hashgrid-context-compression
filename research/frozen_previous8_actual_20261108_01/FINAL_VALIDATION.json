@@ -1,0 +1,39 @@
+{
+  "status": "PASS_COMPLETED",
+  "TECHNICAL": "PASS",
+  "OLD_AUDIT_GATE_STATUS": "WEAK_SIGNAL unchanged",
+  "GENERALIZATION": "NOT_TESTED",
+  "NOVELTY": "NOT_ESTABLISHED",
+  "actual": [
+    {
+      "scene": "bouncingballs",
+      "X_B": "1752624",
+      "I_B": "1734741",
+      "P_B": "1700458",
+      "X_to_I_B": "17883",
+      "I_to_P_B": "34283",
+      "X_to_P_B": "52166",
+      "I_to_P_percent_of_full_I": "1.9762604331136464",
+      "X_to_P_percent_of_full_X": "2.9764513095792364",
+      "ACTUAL_3PCT_REFERENCE": "False",
+      "OLD_AUDIT_GATE_STATUS": "WEAK_SIGNAL"
+    },
+    {
+      "scene": "hellwarrior",
+      "X_B": "1507177",
+      "I_B": "1424481",
+      "P_B": "1417710",
+      "X_to_I_B": "82696",
+      "I_to_P_B": "6771",
+      "X_to_P_B": "89467",
+      "I_to_P_percent_of_full_I": "0.47533101529609734",
+      "X_to_P_percent_of_full_X": "5.936064576356991",
+      "ACTUAL_3PCT_REFERENCE": "True",
+      "OLD_AUDIT_GATE_STATUS": "WEAK_SIGNAL"
+    }
+  ],
+  "exact_archives": 6,
+  "protected_files": 42841,
+  "report_sha256": "c0de0b900bdb33bb0d85dd9ba5bb0fdbc43101b9a9977abca46012f91b0336d3",
+  "next": "STOP; no automatic follow-up"
+}

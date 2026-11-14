@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "ablations": 56,
+  "controls": 8,
+  "views": 1280,
+  "exact_slice_checks": 1024,
+  "cameras_GT_time_exact": true,
+  "no_other_tensor_changes": true,
+  "all_R0_R2_within_preregistered_tolerances": true,
+  "all_baseline_PNG_exact": true,
+  "protected_file_final_check": "pending finalizer"
+}

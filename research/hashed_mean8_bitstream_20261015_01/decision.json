@@ -1,0 +1,10 @@
+{
+  "decision": "GO",
+  "scope": "actual scene-specific standalone xyz L4+L5, table8",
+  "best_baseline": "Canonical8",
+  "gain_bytes": 8152,
+  "gain_percent": 3.434083872190745,
+  "all_correctness_checks": "PASS",
+  "full_grid_rate_measured": false,
+  "independent_checkpoint_generalization_tested": false
+}

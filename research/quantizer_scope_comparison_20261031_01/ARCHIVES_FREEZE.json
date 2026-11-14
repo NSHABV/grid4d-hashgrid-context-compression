@@ -1,0 +1,37 @@
+{
+  "archives": {
+    "mutant/archives/GLOBAL8.zip": "3c1b84f58b654acfa00f38797159318e652b0e392f96e83ece2ade42798ffbaa",
+    "mutant/archives/LEVEL8.zip": "3859da332a84846fbb9c46ea0c96a9987a55b6e36ccb7aae8eabb4a13ca6002c",
+    "mutant/archives/M10.zip": "591f66ec004228657ed293255cc4080ed6e6199d10480f5c38c591345416f6d4",
+    "bouncingballs/archives/GLOBAL8.zip": "435fae98f64dfc8e6ae2680414cdff782e63a44516fa7e6706997207e22870c9",
+    "bouncingballs/archives/LEVEL8.zip": "26cf276d5e5b5b0e5f203fcc0919c55e339ed990efebfd8f8fb56c1c92158242",
+    "hellwarrior/archives/GLOBAL8.zip": "c273c331d2e529263b51cdaab1c67b6b4417870d078caabe86a370f27e8bd904",
+    "hellwarrior/archives/LEVEL8.zip": "ec4a1d928f5ecf1df518108d746007513c777f2198919a9c80a85213491d34f7",
+    "hook/archives/GLOBAL8.zip": "fe4f56fddaae9587d6f20124d5bdeee951b82b34a227d31f3b1ac4fb0ac96f8c",
+    "hook/archives/LEVEL8.zip": "c517a4ef9565f207dde46df83203e67f0cd19441ee41af43ec5786de2a71dc65",
+    "jumpingjacks/archives/GLOBAL8.zip": "fdfc5ecce1980595963636bf732017edf809d097decdca200ad60e258532ae04",
+    "jumpingjacks/archives/LEVEL8.zip": "63bcdd2ce643544b2661bb5fed7eec0e95769824f4bf880693b1879241c3faef"
+  },
+  "sources": {
+    "common.py": "38c7c64ebdbaf8cbb73678f2d9ca7451a67acf9390dc189b0968bbfa078729ba",
+    "cpu_scene.py": "c653194b5a0a4a8efe4a13cd31f0b56be114cbc236b8ff5df41604308a03d796",
+    "create_adapter.py": "cc319ef1129bbc594ad000ef97f865e0fc1965c9def3ea2f33472dd6e5f87407",
+    "decode_archive.py": "71d14e293b7030deaf446e3cb9fe2e14c752244e22d5927d4b2b9da9fbef6444",
+    "evaluate.py": "326b2066c6a3a9ad7859f1ec2aff39e0e917e15792db05db471ebb92312a1641",
+    "finalize.py": "8ef670af86f17aa5577c4db498ac91ad966a8731e09e6edac645ac35cfb45ba4",
+    "fix_paths.py": "cd6453083c6eab90b95b61ed4d34f9d831c2832bf5c7ca7a4488fc22f8c17418",
+    "prepare.py": "5cdb97b715b7a1a2dd1b8ce9b504f7493aa325d26e099b95846b874c5bd5f29c",
+    "profile_quantization.py": "0b4db45f0dd43b27ab24778da419ca9ab154aea355e34916babab9746ea08d1b",
+    "quantizer.py": "e8f0f12752d35aa70f58310a50f003a79c53f91f8bb111157b3fac5a12ceacca",
+    "report.py": "6de7a7565adecfc06ce843459bef36a8c2ac647e09d644d18d86c550cfab7f24",
+    "run.py": "a1b48506147e41a9ca9d9ab9349f324edc164939406a08b7975b9617f8b02130",
+    "storage.py": "ac717682df79c5c40d871c642d2d11dd48ea3479a73e7f053c5d539f7e58f378",
+    "storage_v2.py": "1ef4e669a21ec806afae263cb4b02daa281679dda7a44c839ee9e2161daa932a",
+    "test_quantizer.py": "27eecc16db841fb0e65f0f6bce3bb191e6c835383170324e51340d3851c79b3a",
+    "test_scope.py": "2bf9d78a589a3a4430df58d4ab3eb1accd83975b4cc3310018054f02afe3e5e0"
+  },
+  "protocol_sha256": "ee6cd919451b6e475343c8593332669ceb7d563861c854d6da56b261a4b23118",
+  "split_sha256": "e96f554511559e898963b99d2c1625c308e258d9e8e292eeb597b83b58373f69",
+  "time_unix": 1793405072.288312,
+  "quality_accessed_in_this_run": false
+}
